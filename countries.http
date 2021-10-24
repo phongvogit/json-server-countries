@@ -1,4 +1,4 @@
-@baseUrl=http://localhost:3000
+@baseUrl=http://localhost:3000/api
 
 @resourceName=countries
 
@@ -16,7 +16,7 @@ GET  {{baseUrl}}/{{resourceName}}?name_like=Afghan
 ###
 
 # @name pagination
-GET  {{baseUrl}}/{{resourceName}}?_page=1&_limit=15
+GET  {{baseUrl}}/{{resourceName}}?_page=1&_limit=1
 
 ###
 
