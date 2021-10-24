@@ -1,0 +1,24 @@
+@baseUrl=http://localhost:3000
+
+@resourceName=countries
+
+
+# Countries
+
+# @name getAll
+GET  {{baseUrl}}/{{resourceName}}
+
+###
+
+# @name filterCountries
+GET  {{baseUrl}}/{{resourceName}}?name_like=Afghan
+
+###
+
+# @name pagination
+GET  {{baseUrl}}/{{resourceName}}?_page=1&_limit=15
+
+###
+
+# @name sort
+GET  {{baseUrl}}/{{resourceName}}?_sort=population&_order=asc
