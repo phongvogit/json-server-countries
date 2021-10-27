@@ -25,7 +25,26 @@
 			"currencies": [
 				{ "code": "AFN", "name": "Afghan afghani", "symbol": "؋" }
 			],
-			"languages": "Pashto,Uzbek,Turkmen",
+			"languages": [
+				{
+					"iso639_1": "ps",
+					"iso639_2": "pus",
+					"name": "Pashto",
+					"nativeName": "پښتو"
+				},
+				{
+					"iso639_1": "uz",
+					"iso639_2": "uzb",
+					"name": "Uzbek",
+					"nativeName": "Oʻzbek"
+				},
+				{
+					"iso639_1": "tk",
+					"iso639_2": "tuk",
+					"name": "Turkmen",
+					"nativeName": "Türkmen"
+				}
+			],
 			"translations": {
 				"br": "Afeganistão",
 				"pt": "Afeganistão",
@@ -47,7 +66,8 @@
 				}
 			],
 			"cioc": "AFG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Åland Islands",
@@ -71,7 +91,14 @@
 				"png": "https://flagcdn.com/w320/ax.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Swedish",
+			"languages": [
+				{
+					"iso639_1": "sv",
+					"iso639_2": "swe",
+					"name": "Swedish",
+					"nativeName": "svenska"
+				}
+			],
 			"translations": {
 				"br": "Ilhas de Aland",
 				"pt": "Ilhas de Aland",
@@ -87,7 +114,8 @@
 			},
 			"flag": "https://flagcdn.com/ax.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Albania",
@@ -113,7 +141,14 @@
 				"png": "https://flagcdn.com/w320/al.png"
 			},
 			"currencies": [{ "code": "ALL", "name": "Albanian lek", "symbol": "L" }],
-			"languages": "Albanian",
+			"languages": [
+				{
+					"iso639_1": "sq",
+					"iso639_2": "sqi",
+					"name": "Albanian",
+					"nativeName": "Shqip"
+				}
+			],
 			"translations": {
 				"br": "Albânia",
 				"pt": "Albânia",
@@ -132,7 +167,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "ALB",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Algeria",
@@ -160,7 +196,14 @@
 			"currencies": [
 				{ "code": "DZD", "name": "Algerian dinar", "symbol": "د.ج" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Argélia",
 				"pt": "Argélia",
@@ -198,7 +241,8 @@
 				}
 			],
 			"cioc": "ALG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "American Samoa",
@@ -224,7 +268,20 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States Dollar", "symbol": "$" }
 			],
-			"languages": "English,Samoan",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "sm",
+					"iso639_2": "smo",
+					"name": "Samoan",
+					"nativeName": "gagana fa'a Samoa"
+				}
+			],
 			"translations": {
 				"br": "Samoa Americana",
 				"pt": "Samoa Americana",
@@ -240,7 +297,8 @@
 			},
 			"flag": "https://flagcdn.com/as.svg",
 			"cioc": "ASA",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Andorra",
@@ -265,7 +323,14 @@
 				"png": "https://flagcdn.com/w320/ad.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Catalan",
+			"languages": [
+				{
+					"iso639_1": "ca",
+					"iso639_2": "cat",
+					"name": "Catalan",
+					"nativeName": "català"
+				}
+			],
 			"translations": {
 				"br": "Andorra",
 				"pt": "Andorra",
@@ -281,7 +346,8 @@
 			},
 			"flag": "https://flagcdn.com/ad.svg",
 			"cioc": "AND",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Angola",
@@ -309,7 +375,14 @@
 			"currencies": [
 				{ "code": "AOA", "name": "Angolan kwanza", "symbol": "Kz" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Angola",
 				"pt": "Angola",
@@ -338,7 +411,8 @@
 				}
 			],
 			"cioc": "ANG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Anguilla",
@@ -364,7 +438,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Anguila",
 				"pt": "Anguila",
@@ -379,7 +460,8 @@
 				"hu": "Anguilla"
 			},
 			"flag": "https://flagcdn.com/ai.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Antarctica",
@@ -409,7 +491,20 @@
 				"svg": "https://flagcdn.com/aq.svg",
 				"png": "https://flagcdn.com/w320/aq.png"
 			},
-			"languages": "English,Russian",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Antártida",
 				"pt": "Antárctida",
@@ -424,7 +519,8 @@
 				"hu": "Antarktisz"
 			},
 			"flag": "https://flagcdn.com/aq.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Antigua and Barbuda",
@@ -450,7 +546,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Antígua e Barbuda",
 				"pt": "Antígua e Barbuda",
@@ -477,7 +580,8 @@
 				}
 			],
 			"cioc": "ANT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Argentina",
@@ -505,7 +609,20 @@
 			"currencies": [
 				{ "code": "ARS", "name": "Argentine peso", "symbol": "$" }
 			],
-			"languages": "Spanish,Guaraní",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				},
+				{
+					"iso639_1": "gn",
+					"iso639_2": "grn",
+					"name": "Guaraní",
+					"nativeName": "Avañe'ẽ"
+				}
+			],
 			"translations": {
 				"br": "Argentina",
 				"pt": "Argentina",
@@ -534,7 +651,8 @@
 				}
 			],
 			"cioc": "ARG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Armenia",
@@ -565,7 +683,14 @@
 				"png": "https://flagcdn.com/w320/am.png"
 			},
 			"currencies": [{ "code": "AMD", "name": "Armenian dram", "symbol": "֏" }],
-			"languages": "Armenian",
+			"languages": [
+				{
+					"iso639_1": "hy",
+					"iso639_2": "hye",
+					"name": "Armenian",
+					"nativeName": "Հայերեն"
+				}
+			],
 			"translations": {
 				"br": "Armênia",
 				"pt": "Arménia",
@@ -588,7 +713,8 @@
 				}
 			],
 			"cioc": "ARM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Aruba",
@@ -612,7 +738,20 @@
 				"png": "https://flagcdn.com/w320/aw.png"
 			},
 			"currencies": [{ "code": "AWG", "name": "Aruban florin", "symbol": "ƒ" }],
-			"languages": "Dutch,(Eastern) Punjabi",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				},
+				{
+					"iso639_1": "pa",
+					"iso639_2": "pan",
+					"name": "(Eastern) Punjabi",
+					"nativeName": "ਪੰਜਾਬੀ"
+				}
+			],
 			"translations": {
 				"br": "Aruba",
 				"pt": "Aruba",
@@ -628,7 +767,8 @@
 			},
 			"flag": "https://flagcdn.com/aw.svg",
 			"cioc": "ARU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Australia",
@@ -664,7 +804,14 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Austrália",
 				"pt": "Austrália",
@@ -680,7 +827,8 @@
 			},
 			"flag": "https://flagcdn.com/au.svg",
 			"cioc": "AUS",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Austria",
@@ -706,7 +854,14 @@
 				"png": "https://flagcdn.com/w320/at.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "German",
+			"languages": [
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				}
+			],
 			"translations": {
 				"br": "Áustria",
 				"pt": "Áustria",
@@ -723,7 +878,8 @@
 			"flag": "https://flagcdn.com/at.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "AUT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Azerbaijan",
@@ -755,7 +911,14 @@
 			"currencies": [
 				{ "code": "AZN", "name": "Azerbaijani manat", "symbol": "₼" }
 			],
-			"languages": "Azerbaijani",
+			"languages": [
+				{
+					"iso639_1": "az",
+					"iso639_2": "aze",
+					"name": "Azerbaijani",
+					"nativeName": "azərbaycan dili"
+				}
+			],
 			"translations": {
 				"br": "Azerbaijão",
 				"pt": "Azerbaijão",
@@ -771,7 +934,8 @@
 			},
 			"flag": "https://flagcdn.com/az.svg",
 			"cioc": "AZE",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Bahamas",
@@ -797,7 +961,14 @@
 			"currencies": [
 				{ "code": "BSD", "name": "Bahamian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Bahamas",
 				"pt": "Baamas",
@@ -824,7 +995,8 @@
 				}
 			],
 			"cioc": "BAH",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bahrain",
@@ -850,7 +1022,14 @@
 			"currencies": [
 				{ "code": "BHD", "name": "Bahraini dinar", "symbol": ".د.ب" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Bahrein",
 				"pt": "Barém",
@@ -877,7 +1056,8 @@
 				}
 			],
 			"cioc": "BRN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bangladesh",
@@ -909,7 +1089,14 @@
 			"currencies": [
 				{ "code": "BDT", "name": "Bangladeshi taka", "symbol": "৳" }
 			],
-			"languages": "Bengali",
+			"languages": [
+				{
+					"iso639_1": "bn",
+					"iso639_2": "ben",
+					"name": "Bengali",
+					"nativeName": "বাংলা"
+				}
+			],
 			"translations": {
 				"br": "Bangladesh",
 				"pt": "Bangladeche",
@@ -931,7 +1118,8 @@
 				}
 			],
 			"cioc": "BAN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Barbados",
@@ -957,7 +1145,14 @@
 			"currencies": [
 				{ "code": "BBD", "name": "Barbadian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Barbados",
 				"pt": "Barbados",
@@ -984,7 +1179,8 @@
 				}
 			],
 			"cioc": "BAR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Belarus",
@@ -1021,7 +1217,20 @@
 				{ "code": "BYN", "name": "New Belarusian ruble", "symbol": "Br" },
 				{ "code": "BYR", "name": "Old Belarusian ruble", "symbol": "Br" }
 			],
-			"languages": "Belarusian,Russian",
+			"languages": [
+				{
+					"iso639_1": "be",
+					"iso639_2": "bel",
+					"name": "Belarusian",
+					"nativeName": "беларуская мова"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Bielorrússia",
 				"pt": "Bielorrússia",
@@ -1044,7 +1253,8 @@
 				}
 			],
 			"cioc": "BLR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Belgium",
@@ -1080,7 +1290,26 @@
 				"png": "https://flagcdn.com/w320/be.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Dutch,French,German",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				}
+			],
 			"translations": {
 				"br": "Bélgica",
 				"pt": "Bélgica",
@@ -1097,7 +1326,8 @@
 			"flag": "https://flagcdn.com/be.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "BEL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Belize",
@@ -1123,7 +1353,20 @@
 				"png": "https://flagcdn.com/w320/bz.png"
 			},
 			"currencies": [{ "code": "BZD", "name": "Belize dollar", "symbol": "$" }],
-			"languages": "English,Spanish",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Belize",
 				"pt": "Belize",
@@ -1156,7 +1399,8 @@
 				}
 			],
 			"cioc": "BIZ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Benin",
@@ -1184,7 +1428,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Benin",
 				"pt": "Benim",
@@ -1213,7 +1464,8 @@
 				}
 			],
 			"cioc": "BEN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bermuda",
@@ -1244,7 +1496,14 @@
 			"currencies": [
 				{ "code": "BMD", "name": "Bermudian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Bermudas",
 				"pt": "Bermudas",
@@ -1260,7 +1519,8 @@
 			},
 			"flag": "https://flagcdn.com/bm.svg",
 			"cioc": "BER",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Bhutan",
@@ -1289,7 +1549,14 @@
 				{ "code": "BTN", "name": "Bhutanese ngultrum", "symbol": "Nu." },
 				{ "code": "INR", "name": "Indian rupee", "symbol": "₹" }
 			],
-			"languages": "Dzongkha",
+			"languages": [
+				{
+					"iso639_1": "dz",
+					"iso639_2": "dzo",
+					"name": "Dzongkha",
+					"nativeName": "རྫོང་ཁ"
+				}
+			],
 			"translations": {
 				"br": "Butão",
 				"pt": "Butão",
@@ -1311,7 +1578,8 @@
 				}
 			],
 			"cioc": "BHU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bolivia (Plurinational State of)",
@@ -1348,7 +1616,26 @@
 			"currencies": [
 				{ "code": "BOB", "name": "Bolivian boliviano", "symbol": "Bs." }
 			],
-			"languages": "Spanish,Aymara,Quechua",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				},
+				{
+					"iso639_1": "ay",
+					"iso639_2": "aym",
+					"name": "Aymara",
+					"nativeName": "aymar aru"
+				},
+				{
+					"iso639_1": "qu",
+					"iso639_2": "que",
+					"name": "Quechua",
+					"nativeName": "Runa Simi"
+				}
+			],
 			"translations": {
 				"br": "Bolívia",
 				"pt": "Bolívia",
@@ -1377,7 +1664,8 @@
 				}
 			],
 			"cioc": "BOL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bonaire, Sint Eustatius and Saba",
@@ -1403,7 +1691,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Dutch",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				}
+			],
 			"translations": {
 				"br": "Bonaire",
 				"pt": "Bonaire",
@@ -1418,7 +1713,8 @@
 				"hu": "Bonaire"
 			},
 			"flag": "https://flagcdn.com/bq.svg",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bosnia and Herzegovina",
@@ -1450,7 +1746,26 @@
 					"symbol": "KM"
 				}
 			],
-			"languages": "Bosnian,Croatian,Serbian",
+			"languages": [
+				{
+					"iso639_1": "bs",
+					"iso639_2": "bos",
+					"name": "Bosnian",
+					"nativeName": "bosanski jezik"
+				},
+				{
+					"iso639_1": "hr",
+					"iso639_2": "hrv",
+					"name": "Croatian",
+					"nativeName": "hrvatski jezik"
+				},
+				{
+					"iso639_1": "sr",
+					"iso639_2": "srp",
+					"name": "Serbian",
+					"nativeName": "српски језик"
+				}
+			],
 			"translations": {
 				"br": "Bósnia e Herzegovina",
 				"pt": "Bósnia e Herzegovina",
@@ -1469,7 +1784,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "BIH",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Botswana",
@@ -1495,7 +1811,20 @@
 				"png": "https://flagcdn.com/w320/bw.png"
 			},
 			"currencies": [{ "code": "BWP", "name": "Botswana pula", "symbol": "P" }],
-			"languages": "English,Tswana",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "tn",
+					"iso639_2": "tsn",
+					"name": "Tswana",
+					"nativeName": "Setswana"
+				}
+			],
 			"translations": {
 				"br": "Botsuana",
 				"pt": "Botsuana",
@@ -1524,7 +1853,8 @@
 				}
 			],
 			"cioc": "BOT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bouvet Island",
@@ -1549,7 +1879,26 @@
 			"currencies": [
 				{ "code": "NOK", "name": "Norwegian krone", "symbol": "kr" }
 			],
-			"languages": "Norwegian,Norwegian Bokmål,Norwegian Nynorsk",
+			"languages": [
+				{
+					"iso639_1": "no",
+					"iso639_2": "nor",
+					"name": "Norwegian",
+					"nativeName": "Norsk"
+				},
+				{
+					"iso639_1": "nb",
+					"iso639_2": "nob",
+					"name": "Norwegian Bokmål",
+					"nativeName": "Norsk bokmål"
+				},
+				{
+					"iso639_1": "nn",
+					"iso639_2": "nno",
+					"name": "Norwegian Nynorsk",
+					"nativeName": "Norsk nynorsk"
+				}
+			],
 			"translations": {
 				"br": "Ilha Bouvet",
 				"pt": "Ilha Bouvet",
@@ -1564,7 +1913,8 @@
 				"hu": "Bouvet-sziget"
 			},
 			"flag": "https://flagcdn.com/bv.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Brazil",
@@ -1609,7 +1959,14 @@
 			"currencies": [
 				{ "code": "BRL", "name": "Brazilian real", "symbol": "R$" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Brasil",
 				"pt": "Brasil",
@@ -1638,7 +1995,8 @@
 				}
 			],
 			"cioc": "BRA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "British Indian Ocean Territory",
@@ -1664,7 +2022,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Território Britânico do Oceano íÍdico",
 				"pt": "Território Britânico do Oceano Índico",
@@ -1692,7 +2057,8 @@
 					]
 				}
 			],
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "United States Minor Outlying Islands",
@@ -1713,7 +2079,14 @@
 				"png": "https://flagcdn.com/w320/um.png"
 			},
 			"currencies": [{ "code": "GBP", "name": "British pound", "symbol": "£" }],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Menores Distantes dos Estados Unidos",
 				"pt": "Ilhas Menores Distantes dos Estados Unidos",
@@ -1728,7 +2101,8 @@
 				"hu": "Amerikai Egyesült Államok lakatlan külbirtokai"
 			},
 			"flag": "https://flagcdn.com/um.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Virgin Islands (British)",
@@ -1754,7 +2128,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Virgens Britânicas",
 				"pt": "Ilhas Virgens Britânicas",
@@ -1770,7 +2151,8 @@
 			},
 			"flag": "https://flagcdn.com/vg.svg",
 			"cioc": "IVB",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Virgin Islands (U.S.)",
@@ -1801,7 +2183,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Virgens Americanas",
 				"pt": "Ilhas Virgens Americanas",
@@ -1817,7 +2206,8 @@
 			},
 			"flag": "https://flagcdn.com/vi.svg",
 			"cioc": "ISV",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Brunei Darussalam",
@@ -1845,7 +2235,14 @@
 				{ "code": "BND", "name": "Brunei dollar", "symbol": "$" },
 				{ "code": "SGD", "name": "Singapore dollar", "symbol": "$" }
 			],
-			"languages": "Malay",
+			"languages": [
+				{
+					"iso639_1": "ms",
+					"iso639_2": "msa",
+					"name": "Malay",
+					"nativeName": "bahasa Melayu"
+				}
+			],
 			"translations": {
 				"br": "Brunei",
 				"pt": "Brunei",
@@ -1864,7 +2261,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "BRU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Bulgaria",
@@ -1892,7 +2290,14 @@
 			"currencies": [
 				{ "code": "BGN", "name": "Bulgarian lev", "symbol": "лв" }
 			],
-			"languages": "Bulgarian",
+			"languages": [
+				{
+					"iso639_1": "bg",
+					"iso639_2": "bul",
+					"name": "Bulgarian",
+					"nativeName": "български език"
+				}
+			],
 			"translations": {
 				"br": "Bulgária",
 				"pt": "Bulgária",
@@ -1909,7 +2314,8 @@
 			"flag": "https://flagcdn.com/bg.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "BUL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Burkina Faso",
@@ -1937,7 +2343,20 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French,Fula",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ff",
+					"iso639_2": "ful",
+					"name": "Fula",
+					"nativeName": "Fulfulde"
+				}
+			],
 			"translations": {
 				"br": "Burkina Faso",
 				"pt": "Burquina Faso",
@@ -1966,7 +2385,8 @@
 				}
 			],
 			"cioc": "BUR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Burundi",
@@ -1999,7 +2419,20 @@
 			"currencies": [
 				{ "code": "BIF", "name": "Burundian franc", "symbol": "Fr" }
 			],
-			"languages": "French,Kirundi",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "rn",
+					"iso639_2": "run",
+					"name": "Kirundi",
+					"nativeName": "Ikirundi"
+				}
+			],
 			"translations": {
 				"br": "Burundi",
 				"pt": "Burúndi",
@@ -2028,7 +2461,8 @@
 				}
 			],
 			"cioc": "BDI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cambodia",
@@ -2056,7 +2490,14 @@
 				{ "code": "KHR", "name": "Cambodian riel", "symbol": "៛" },
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Khmer",
+			"languages": [
+				{
+					"iso639_1": "km",
+					"iso639_2": "khm",
+					"name": "Khmer",
+					"nativeName": "ខ្មែរ"
+				}
+			],
 			"translations": {
 				"br": "Camboja",
 				"pt": "Camboja",
@@ -2075,7 +2516,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "CAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cameroon",
@@ -2103,7 +2545,20 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "English,French",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Camarões",
 				"pt": "Camarões",
@@ -2132,7 +2587,8 @@
 				}
 			],
 			"cioc": "CMR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Canada",
@@ -2167,7 +2623,20 @@
 			"currencies": [
 				{ "code": "CAD", "name": "Canadian dollar", "symbol": "$" }
 			],
-			"languages": "English,French",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Canadá",
 				"pt": "Canadá",
@@ -2193,7 +2662,8 @@
 				}
 			],
 			"cioc": "CAN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cabo Verde",
@@ -2224,7 +2694,14 @@
 			"currencies": [
 				{ "code": "CVE", "name": "Cape Verdean escudo", "symbol": "Esc" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Cabo Verde",
 				"pt": "Cabo Verde",
@@ -2253,7 +2730,8 @@
 				}
 			],
 			"cioc": "CPV",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cayman Islands",
@@ -2279,7 +2757,14 @@
 			"currencies": [
 				{ "code": "KYD", "name": "Cayman Islands dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Cayman",
 				"pt": "Ilhas Caimão",
@@ -2295,7 +2780,8 @@
 			},
 			"flag": "https://flagcdn.com/ky.svg",
 			"cioc": "CAY",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Central African Republic",
@@ -2327,7 +2813,20 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French,Sango",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "sg",
+					"iso639_2": "sag",
+					"name": "Sango",
+					"nativeName": "yângâ tî sängö"
+				}
+			],
 			"translations": {
 				"br": "República Centro-Africana",
 				"pt": "República Centro-Africana",
@@ -2356,7 +2855,8 @@
 				}
 			],
 			"cioc": "CAF",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Chad",
@@ -2389,7 +2889,20 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French,Arabic",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Chade",
 				"pt": "Chade",
@@ -2418,7 +2931,8 @@
 				}
 			],
 			"cioc": "CHA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Chile",
@@ -2444,7 +2958,14 @@
 				"png": "https://flagcdn.com/w320/cl.png"
 			},
 			"currencies": [{ "code": "CLP", "name": "Chilean peso", "symbol": "$" }],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Chile",
 				"pt": "Chile",
@@ -2478,7 +2999,8 @@
 				}
 			],
 			"cioc": "CHI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "China",
@@ -2529,7 +3051,14 @@
 				"png": "https://flagcdn.com/w320/cn.png"
 			},
 			"currencies": [{ "code": "CNY", "name": "Chinese yuan", "symbol": "¥" }],
-			"languages": "Chinese",
+			"languages": [
+				{
+					"iso639_1": "zh",
+					"iso639_2": "zho",
+					"name": "Chinese",
+					"nativeName": "中文 (Zhōngwén)"
+				}
+			],
 			"translations": {
 				"br": "China",
 				"pt": "China",
@@ -2545,7 +3074,8 @@
 			},
 			"flag": "https://flagcdn.com/cn.svg",
 			"cioc": "CHN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Christmas Island",
@@ -2571,7 +3101,14 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilha Christmas",
 				"pt": "Ilha do Natal",
@@ -2586,7 +3123,8 @@
 				"hu": "Karácsony-sziget"
 			},
 			"flag": "https://flagcdn.com/cx.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Cocos (Keeling) Islands",
@@ -2616,7 +3154,14 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Cocos",
 				"pt": "Ilhas dos Cocos",
@@ -2631,7 +3176,8 @@
 				"hu": "Kókusz-szigetek"
 			},
 			"flag": "https://flagcdn.com/cc.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Colombia",
@@ -2659,7 +3205,14 @@
 			"currencies": [
 				{ "code": "COP", "name": "Colombian peso", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Colômbia",
 				"pt": "Colômbia",
@@ -2693,7 +3246,8 @@
 				}
 			],
 			"cioc": "COL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Comoros",
@@ -2726,7 +3280,20 @@
 			"currencies": [
 				{ "code": "KMF", "name": "Comorian franc", "symbol": "Fr" }
 			],
-			"languages": "Arabic,French",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Comores",
 				"pt": "Comores",
@@ -2764,7 +3331,8 @@
 				}
 			],
 			"cioc": "COM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Congo",
@@ -2792,7 +3360,20 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French,Lingala",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ln",
+					"iso639_2": "lin",
+					"name": "Lingala",
+					"nativeName": "Lingála"
+				}
+			],
 			"translations": {
 				"br": "Congo",
 				"pt": "Congo",
@@ -2821,7 +3402,8 @@
 				}
 			],
 			"cioc": "CGO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Congo (Democratic Republic of the)",
@@ -2859,7 +3441,38 @@
 			"currencies": [
 				{ "code": "CDF", "name": "Congolese franc", "symbol": "Fr" }
 			],
-			"languages": "French,Lingala,Kongo,Swahili,Luba-Katanga",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ln",
+					"iso639_2": "lin",
+					"name": "Lingala",
+					"nativeName": "Lingála"
+				},
+				{
+					"iso639_1": "kg",
+					"iso639_2": "kon",
+					"name": "Kongo",
+					"nativeName": "Kikongo"
+				},
+				{
+					"iso639_1": "sw",
+					"iso639_2": "swa",
+					"name": "Swahili",
+					"nativeName": "Kiswahili"
+				},
+				{
+					"iso639_1": "lu",
+					"iso639_2": "lub",
+					"name": "Luba-Katanga",
+					"nativeName": "Tshiluba"
+				}
+			],
 			"translations": {
 				"br": "RD Congo",
 				"pt": "RD Congo",
@@ -2888,7 +3501,8 @@
 				}
 			],
 			"cioc": "COD",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cook Islands",
@@ -2915,7 +3529,19 @@
 				{ "code": "NZD", "name": "New Zealand dollar", "symbol": "$" },
 				{ "code": "CKD", "name": "Cook Islands dollar", "symbol": "$" }
 			],
-			"languages": "English,Cook Islands Māori",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_2": "rar",
+					"name": "Cook Islands Māori",
+					"nativeName": "Māori"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Cook",
 				"pt": "Ilhas Cook",
@@ -2931,7 +3557,8 @@
 			},
 			"flag": "https://flagcdn.com/ck.svg",
 			"cioc": "COK",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Costa Rica",
@@ -2963,7 +3590,14 @@
 			"currencies": [
 				{ "code": "CRC", "name": "Costa Rican colón", "symbol": "₡" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Costa Rica",
 				"pt": "Costa Rica",
@@ -2987,7 +3621,8 @@
 				}
 			],
 			"cioc": "CRC",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Croatia",
@@ -3020,7 +3655,14 @@
 			"currencies": [
 				{ "code": "HRK", "name": "Croatian kuna", "symbol": "kn" }
 			],
-			"languages": "Croatian",
+			"languages": [
+				{
+					"iso639_1": "hr",
+					"iso639_2": "hrv",
+					"name": "Croatian",
+					"nativeName": "hrvatski jezik"
+				}
+			],
 			"translations": {
 				"br": "Croácia",
 				"pt": "Croácia",
@@ -3037,7 +3679,8 @@
 			"flag": "https://flagcdn.com/hr.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "CRO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Cuba",
@@ -3064,7 +3707,14 @@
 				{ "code": "CUC", "name": "Cuban convertible peso", "symbol": "$" },
 				{ "code": "CUP", "name": "Cuban peso", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Cuba",
 				"pt": "Cuba",
@@ -3080,7 +3730,8 @@
 			},
 			"flag": "https://flagcdn.com/cu.svg",
 			"cioc": "CUB",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Curaçao",
@@ -3117,7 +3768,26 @@
 					"symbol": "ƒ"
 				}
 			],
-			"languages": "Dutch,(Eastern) Punjabi,English",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				},
+				{
+					"iso639_1": "pa",
+					"iso639_2": "pan",
+					"name": "(Eastern) Punjabi",
+					"nativeName": "ਪੰਜਾਬੀ"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Curaçao",
 				"pt": "Curaçao",
@@ -3132,7 +3802,8 @@
 				"hu": "Cura~ao"
 			},
 			"flag": "https://flagcdn.com/cw.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Cyprus",
@@ -3165,7 +3836,26 @@
 				"png": "https://flagcdn.com/w320/cy.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Greek (modern),Turkish,Armenian",
+			"languages": [
+				{
+					"iso639_1": "el",
+					"iso639_2": "ell",
+					"name": "Greek (modern)",
+					"nativeName": "ελληνικά"
+				},
+				{
+					"iso639_1": "tr",
+					"iso639_2": "tur",
+					"name": "Turkish",
+					"nativeName": "Türkçe"
+				},
+				{
+					"iso639_1": "hy",
+					"iso639_2": "hye",
+					"name": "Armenian",
+					"nativeName": "Հայերեն"
+				}
+			],
 			"translations": {
 				"br": "Chipre",
 				"pt": "Chipre",
@@ -3182,7 +3872,8 @@
 			"flag": "https://flagcdn.com/cy.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "CYP",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Czech Republic",
@@ -3207,7 +3898,20 @@
 				"png": "https://flagcdn.com/w320/cz.png"
 			},
 			"currencies": [{ "code": "CZK", "name": "Czech koruna", "symbol": "Kč" }],
-			"languages": "Czech,Slovak",
+			"languages": [
+				{
+					"iso639_1": "cs",
+					"iso639_2": "ces",
+					"name": "Czech",
+					"nativeName": "čeština"
+				},
+				{
+					"iso639_1": "sk",
+					"iso639_2": "slk",
+					"name": "Slovak",
+					"nativeName": "slovenčina"
+				}
+			],
 			"translations": {
 				"br": "República Tcheca",
 				"pt": "República Checa",
@@ -3224,7 +3928,8 @@
 			"flag": "https://flagcdn.com/cz.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "CZE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Denmark",
@@ -3255,7 +3960,14 @@
 				"png": "https://flagcdn.com/w320/dk.png"
 			},
 			"currencies": [{ "code": "DKK", "name": "Danish krone", "symbol": "kr" }],
-			"languages": "Danish",
+			"languages": [
+				{
+					"iso639_1": "da",
+					"iso639_2": "dan",
+					"name": "Danish",
+					"nativeName": "dansk"
+				}
+			],
 			"translations": {
 				"br": "Dinamarca",
 				"pt": "Dinamarca",
@@ -3272,7 +3984,8 @@
 			"flag": "https://flagcdn.com/dk.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "DEN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Djibouti",
@@ -3308,7 +4021,20 @@
 			"currencies": [
 				{ "code": "DJF", "name": "Djiboutian franc", "symbol": "Fr" }
 			],
-			"languages": "French,Arabic",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Djibuti",
 				"pt": "Djibuti",
@@ -3346,7 +4072,8 @@
 				}
 			],
 			"cioc": "DJI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Dominica",
@@ -3377,7 +4104,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Dominica",
 				"pt": "Dominica",
@@ -3393,7 +4127,8 @@
 			},
 			"flag": "https://flagcdn.com/dm.svg",
 			"cioc": "DMA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Dominican Republic",
@@ -3421,7 +4156,14 @@
 			"currencies": [
 				{ "code": "DOP", "name": "Dominican peso", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "República Dominicana",
 				"pt": "República Dominicana",
@@ -3454,7 +4196,8 @@
 				}
 			],
 			"cioc": "DOM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ecuador",
@@ -3482,7 +4225,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Equador",
 				"pt": "Equador",
@@ -3511,7 +4261,8 @@
 				}
 			],
 			"cioc": "ECU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Egypt",
@@ -3539,7 +4290,14 @@
 			"currencies": [
 				{ "code": "EGP", "name": "Egyptian pound", "symbol": "£" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Egito",
 				"pt": "Egipto",
@@ -3577,7 +4335,8 @@
 				}
 			],
 			"cioc": "EGY",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "El Salvador",
@@ -3609,7 +4368,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "El Salvador",
 				"pt": "El Salvador",
@@ -3633,7 +4399,8 @@
 				}
 			],
 			"cioc": "ESA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Equatorial Guinea",
@@ -3666,7 +4433,27 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "Spanish,French,Portuguese,Fang",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				},
+				{ "iso639_2": "fan", "name": "Fang", "nativeName": "Fang" }
+			],
 			"translations": {
 				"br": "Guiné Equatorial",
 				"pt": "Guiné Equatorial",
@@ -3695,7 +4482,8 @@
 				}
 			],
 			"cioc": "GEQ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Eritrea",
@@ -3730,7 +4518,37 @@
 			"currencies": [
 				{ "code": "ERN", "name": "Eritrean nakfa", "symbol": "Nfk" }
 			],
-			"languages": "Tigrinya,Arabic,English,Tigre,Kunama,Saho,Bilen,Nara,Afar",
+			"languages": [
+				{
+					"iso639_1": "ti",
+					"iso639_2": "tir",
+					"name": "Tigrinya",
+					"nativeName": "ትግርኛ"
+				},
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{ "iso639_2": "tig", "name": "Tigre", "nativeName": "ትግረ" },
+				{ "iso639_2": "kun", "name": "Kunama", "nativeName": "Kunama" },
+				{ "iso639_2": "ssy", "name": "Saho", "nativeName": "Saho" },
+				{ "iso639_2": "byn", "name": "Bilen", "nativeName": "ብሊና" },
+				{ "iso639_2": "nrb", "name": "Nara", "nativeName": "Nara" },
+				{
+					"iso639_1": "aa",
+					"iso639_2": "aar",
+					"name": "Afar",
+					"nativeName": "Afar"
+				}
+			],
 			"translations": {
 				"br": "Eritreia",
 				"pt": "Eritreia",
@@ -3759,7 +4577,8 @@
 				}
 			],
 			"cioc": "ERI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Estonia",
@@ -3785,7 +4604,14 @@
 				"png": "https://flagcdn.com/w320/ee.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Estonian",
+			"languages": [
+				{
+					"iso639_1": "et",
+					"iso639_2": "est",
+					"name": "Estonian",
+					"nativeName": "eesti"
+				}
+			],
 			"translations": {
 				"br": "Estônia",
 				"pt": "Estónia",
@@ -3802,7 +4628,8 @@
 			"flag": "https://flagcdn.com/ee.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "EST",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ethiopia",
@@ -3835,7 +4662,14 @@
 			"currencies": [
 				{ "code": "ETB", "name": "Ethiopian birr", "symbol": "Br" }
 			],
-			"languages": "Amharic",
+			"languages": [
+				{
+					"iso639_1": "am",
+					"iso639_2": "amh",
+					"name": "Amharic",
+					"nativeName": "አማርኛ"
+				}
+			],
 			"translations": {
 				"br": "Etiópia",
 				"pt": "Etiópia",
@@ -3864,7 +4698,8 @@
 				}
 			],
 			"cioc": "ETH",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Falkland Islands (Malvinas)",
@@ -3890,7 +4725,14 @@
 			"currencies": [
 				{ "code": "FKP", "name": "Falkland Islands pound", "symbol": "£" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Malvinas",
 				"pt": "Ilhas Falkland",
@@ -3918,7 +4760,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Faroe Islands",
@@ -3945,7 +4788,14 @@
 				{ "code": "DKK", "name": "Danish krone", "symbol": "kr" },
 				{ "code": "FOK", "name": "Faroese króna", "symbol": "kr" }
 			],
-			"languages": "Faroese",
+			"languages": [
+				{
+					"iso639_1": "fo",
+					"iso639_2": "fao",
+					"name": "Faroese",
+					"nativeName": "føroyskt"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Faroé",
 				"pt": "Ilhas Faroé",
@@ -3960,7 +4810,8 @@
 				"hu": "Feröer"
 			},
 			"flag": "https://flagcdn.com/fo.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Fiji",
@@ -3991,7 +4842,22 @@
 				"png": "https://flagcdn.com/w320/fj.png"
 			},
 			"currencies": [{ "code": "FJD", "name": "Fijian dollar", "symbol": "$" }],
-			"languages": "English,Fijian,Fiji Hindi,Rotuman",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fj",
+					"iso639_2": "fij",
+					"name": "Fijian",
+					"nativeName": "vosa Vakaviti"
+				},
+				{ "iso639_2": "hif", "name": "Fiji Hindi", "nativeName": "फ़िजी बात" },
+				{ "iso639_2": "rtm", "name": "Rotuman", "nativeName": "Fäeag Rotuma" }
+			],
 			"translations": {
 				"br": "Fiji",
 				"pt": "Fiji",
@@ -4007,7 +4873,8 @@
 			},
 			"flag": "https://flagcdn.com/fj.svg",
 			"cioc": "FIJ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Finland",
@@ -4039,7 +4906,20 @@
 				"png": "https://flagcdn.com/w320/fi.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Finnish,Swedish",
+			"languages": [
+				{
+					"iso639_1": "fi",
+					"iso639_2": "fin",
+					"name": "Finnish",
+					"nativeName": "suomi"
+				},
+				{
+					"iso639_1": "sv",
+					"iso639_2": "swe",
+					"name": "Swedish",
+					"nativeName": "svenska"
+				}
+			],
 			"translations": {
 				"br": "Finlândia",
 				"pt": "Finlândia",
@@ -4056,7 +4936,8 @@
 			"flag": "https://flagcdn.com/fi.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "FIN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "France",
@@ -4097,7 +4978,14 @@
 				"png": "https://flagcdn.com/w320/fr.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "França",
 				"pt": "França",
@@ -4114,7 +5002,8 @@
 			"flag": "https://flagcdn.com/fr.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "FRA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "French Guiana",
@@ -4138,7 +5027,14 @@
 				"png": "https://flagcdn.com/w320/gf.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Guiana Francesa",
 				"pt": "Guiana Francesa",
@@ -4167,7 +5063,8 @@
 				},
 				{ "acronym": "EU", "name": "European Union" }
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "French Polynesia",
@@ -4196,7 +5093,14 @@
 				"png": "https://flagcdn.com/w320/pf.png"
 			},
 			"currencies": [{ "code": "XPF", "name": "CFP franc", "symbol": "Fr" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Polinésia Francesa",
 				"pt": "Polinésia Francesa",
@@ -4211,7 +5115,8 @@
 				"hu": "Francia Polinézia"
 			},
 			"flag": "https://flagcdn.com/pf.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "French Southern Territories",
@@ -4235,7 +5140,14 @@
 				"png": "https://flagcdn.com/w320/tf.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Terras Austrais e Antárticas Francesas",
 				"pt": "Terras Austrais e Antárticas Francesas",
@@ -4263,7 +5175,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Gabon",
@@ -4291,7 +5204,14 @@
 			"currencies": [
 				{ "code": "XAF", "name": "Central African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Gabão",
 				"pt": "Gabão",
@@ -4320,7 +5240,8 @@
 				}
 			],
 			"cioc": "GAB",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Gambia",
@@ -4348,7 +5269,14 @@
 			"currencies": [
 				{ "code": "GMD", "name": "Gambian dalasi", "symbol": "D" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Gâmbia",
 				"pt": "Gâmbia",
@@ -4377,7 +5305,8 @@
 				}
 			],
 			"cioc": "GAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Georgia",
@@ -4403,7 +5332,14 @@
 				"png": "https://flagcdn.com/w320/ge.png"
 			},
 			"currencies": [{ "code": "GEL", "name": "Georgian Lari", "symbol": "ლ" }],
-			"languages": "Georgian",
+			"languages": [
+				{
+					"iso639_1": "ka",
+					"iso639_2": "kat",
+					"name": "Georgian",
+					"nativeName": "ქართული"
+				}
+			],
 			"translations": {
 				"br": "Geórgia",
 				"pt": "Geórgia",
@@ -4419,7 +5355,8 @@
 			},
 			"flag": "https://flagcdn.com/ge.svg",
 			"cioc": "GEO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Germany",
@@ -4459,7 +5396,14 @@
 				"png": "https://flagcdn.com/w320/de.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "German",
+			"languages": [
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				}
+			],
 			"translations": {
 				"br": "Alemanha",
 				"pt": "Alemanha",
@@ -4476,7 +5420,8 @@
 			"flag": "https://flagcdn.com/de.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "GER",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ghana",
@@ -4502,7 +5447,14 @@
 				"png": "https://flagcdn.com/w320/gh.png"
 			},
 			"currencies": [{ "code": "GHS", "name": "Ghanaian cedi", "symbol": "₵" }],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Gana",
 				"pt": "Gana",
@@ -4531,7 +5483,8 @@
 				}
 			],
 			"cioc": "GHA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Gibraltar",
@@ -4558,7 +5511,14 @@
 			"currencies": [
 				{ "code": "GIP", "name": "Gibraltar pound", "symbol": "£" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Gibraltar",
 				"pt": "Gibraltar",
@@ -4574,7 +5534,8 @@
 			},
 			"flag": "https://flagcdn.com/gi.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Greece",
@@ -4605,7 +5566,14 @@
 				"png": "https://flagcdn.com/w320/gr.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Greek (modern)",
+			"languages": [
+				{
+					"iso639_1": "el",
+					"iso639_2": "ell",
+					"name": "Greek (modern)",
+					"nativeName": "ελληνικά"
+				}
+			],
 			"translations": {
 				"br": "Grécia",
 				"pt": "Grécia",
@@ -4622,7 +5590,8 @@
 			"flag": "https://flagcdn.com/gr.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "GRE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Greenland",
@@ -4646,7 +5615,14 @@
 				"png": "https://flagcdn.com/w320/gl.png"
 			},
 			"currencies": [{ "code": "DKK", "name": "Danish krone", "symbol": "kr" }],
-			"languages": "Kalaallisut",
+			"languages": [
+				{
+					"iso639_1": "kl",
+					"iso639_2": "kal",
+					"name": "Kalaallisut",
+					"nativeName": "kalaallisut"
+				}
+			],
 			"translations": {
 				"br": "Groelândia",
 				"pt": "Gronelândia",
@@ -4661,7 +5637,8 @@
 				"hu": "Grönland"
 			},
 			"flag": "https://flagcdn.com/gl.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Grenada",
@@ -4687,7 +5664,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Granada",
 				"pt": "Granada",
@@ -4714,7 +5698,8 @@
 				}
 			],
 			"cioc": "GRN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Guadeloupe",
@@ -4737,7 +5722,14 @@
 				"png": "https://flagcdn.com/w320/gp.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Guadalupe",
 				"pt": "Guadalupe",
@@ -4752,7 +5744,8 @@
 				"hu": "Guadeloupe"
 			},
 			"flag": "https://flagcdn.com/gp.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Guam",
@@ -4778,7 +5771,26 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English,Chamorro,Spanish",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ch",
+					"iso639_2": "cha",
+					"name": "Chamorro",
+					"nativeName": "Chamoru"
+				},
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Guam",
 				"pt": "Guame",
@@ -4794,7 +5806,8 @@
 			},
 			"flag": "https://flagcdn.com/gu.svg",
 			"cioc": "GUM",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Guatemala",
@@ -4822,7 +5835,14 @@
 			"currencies": [
 				{ "code": "GTQ", "name": "Guatemalan quetzal", "symbol": "Q" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Guatemala",
 				"pt": "Guatemala",
@@ -4846,7 +5866,8 @@
 				}
 			],
 			"cioc": "GUA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Guernsey",
@@ -4873,7 +5894,20 @@
 				{ "code": "GBP", "name": "British pound", "symbol": "£" },
 				{ "code": "GGP", "name": "Guernsey pound", "symbol": "£" }
 			],
-			"languages": "English,French",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Guernsey",
 				"pt": "Guernsey",
@@ -4888,7 +5922,8 @@
 				"hu": "Guernsey"
 			},
 			"flag": "https://flagcdn.com/gg.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Guinea",
@@ -4916,7 +5951,20 @@
 			"currencies": [
 				{ "code": "GNF", "name": "Guinean franc", "symbol": "Fr" }
 			],
-			"languages": "French,Fula",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ff",
+					"iso639_2": "ful",
+					"name": "Fula",
+					"nativeName": "Fulfulde"
+				}
+			],
 			"translations": {
 				"br": "Guiné",
 				"pt": "Guiné",
@@ -4945,7 +5993,8 @@
 				}
 			],
 			"cioc": "GUI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Guinea-Bissau",
@@ -4977,7 +6026,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Guiné-Bissau",
 				"pt": "Guiné-Bissau",
@@ -5006,7 +6062,8 @@
 				}
 			],
 			"cioc": "GBS",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Guyana",
@@ -5034,7 +6091,14 @@
 			"currencies": [
 				{ "code": "GYD", "name": "Guyanese dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Guiana",
 				"pt": "Guiana",
@@ -5072,7 +6136,8 @@
 				}
 			],
 			"cioc": "GUY",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Haiti",
@@ -5105,7 +6170,20 @@
 			"currencies": [
 				{ "code": "HTG", "name": "Haitian gourde", "symbol": "G" }
 			],
-			"languages": "French,Haitian",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "ht",
+					"iso639_2": "hat",
+					"name": "Haitian",
+					"nativeName": "Kreyòl ayisyen"
+				}
+			],
 			"translations": {
 				"br": "Haiti",
 				"pt": "Haiti",
@@ -5132,7 +6210,8 @@
 				}
 			],
 			"cioc": "HAI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Heard Island and McDonald Islands",
@@ -5157,7 +6236,14 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilha Heard e Ilhas McDonald",
 				"pt": "Ilha Heard e Ilhas McDonald",
@@ -5172,7 +6258,8 @@
 				"hu": "Heard-sziget és McDonald-szigetek"
 			},
 			"flag": "https://flagcdn.com/hm.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Vatican City",
@@ -5197,7 +6284,32 @@
 				"png": "https://flagcdn.com/w320/va.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Latin,Italian,French,German",
+			"languages": [
+				{
+					"iso639_1": "la",
+					"iso639_2": "lat",
+					"name": "Latin",
+					"nativeName": "latine"
+				},
+				{
+					"iso639_1": "it",
+					"iso639_2": "ita",
+					"name": "Italian",
+					"nativeName": "Italiano"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "Français"
+				},
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				}
+			],
 			"translations": {
 				"br": "Vaticano",
 				"pt": "Vaticano",
@@ -5212,7 +6324,8 @@
 				"hu": "Vatikán"
 			},
 			"flag": "https://flagcdn.com/va.svg",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Honduras",
@@ -5240,7 +6353,14 @@
 			"currencies": [
 				{ "code": "HNL", "name": "Honduran lempira", "symbol": "L" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Honduras",
 				"pt": "Honduras",
@@ -5264,7 +6384,8 @@
 				}
 			],
 			"cioc": "HON",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Hungary",
@@ -5292,7 +6413,14 @@
 			"currencies": [
 				{ "code": "HUF", "name": "Hungarian forint", "symbol": "Ft" }
 			],
-			"languages": "Hungarian",
+			"languages": [
+				{
+					"iso639_1": "hu",
+					"iso639_2": "hun",
+					"name": "Hungarian",
+					"nativeName": "magyar"
+				}
+			],
 			"translations": {
 				"br": "Hungria",
 				"pt": "Hungria",
@@ -5309,7 +6437,8 @@
 			"flag": "https://flagcdn.com/hu.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "HUN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Hong Kong",
@@ -5336,7 +6465,20 @@
 			"currencies": [
 				{ "code": "HKD", "name": "Hong Kong dollar", "symbol": "$" }
 			],
-			"languages": "English,Chinese",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "zh",
+					"iso639_2": "zho",
+					"name": "Chinese",
+					"nativeName": "中文 (Zhōngwén)"
+				}
+			],
 			"translations": {
 				"br": "Hong Kong",
 				"pt": "Hong Kong",
@@ -5352,7 +6494,8 @@
 			},
 			"flag": "https://flagcdn.com/hk.svg",
 			"cioc": "HKG",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Iceland",
@@ -5384,7 +6527,14 @@
 			"currencies": [
 				{ "code": "ISK", "name": "Icelandic króna", "symbol": "kr" }
 			],
-			"languages": "Icelandic",
+			"languages": [
+				{
+					"iso639_1": "is",
+					"iso639_2": "isl",
+					"name": "Icelandic",
+					"nativeName": "Íslenska"
+				}
+			],
 			"translations": {
 				"br": "Islândia",
 				"pt": "Islândia",
@@ -5403,7 +6553,8 @@
 				{ "acronym": "EFTA", "name": "European Free Trade Association" }
 			],
 			"cioc": "ISL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "India",
@@ -5429,7 +6580,20 @@
 				"png": "https://flagcdn.com/w320/in.png"
 			},
 			"currencies": [{ "code": "INR", "name": "Indian rupee", "symbol": "₹" }],
-			"languages": "Hindi,English",
+			"languages": [
+				{
+					"iso639_1": "hi",
+					"iso639_2": "hin",
+					"name": "Hindi",
+					"nativeName": "हिन्दी"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Índia",
 				"pt": "Índia",
@@ -5451,7 +6615,8 @@
 				}
 			],
 			"cioc": "IND",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Indonesia",
@@ -5479,7 +6644,14 @@
 			"currencies": [
 				{ "code": "IDR", "name": "Indonesian rupiah", "symbol": "Rp" }
 			],
-			"languages": "Indonesian",
+			"languages": [
+				{
+					"iso639_1": "id",
+					"iso639_2": "ind",
+					"name": "Indonesian",
+					"nativeName": "Bahasa Indonesia"
+				}
+			],
 			"translations": {
 				"br": "Indonésia",
 				"pt": "Indonésia",
@@ -5498,7 +6670,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "INA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ivory Coast",
@@ -5531,7 +6704,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Costa do Marfim",
 				"pt": "Costa do Marfim",
@@ -5560,7 +6740,8 @@
 				}
 			],
 			"cioc": "CIV",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Iran (Islamic Republic of)",
@@ -5590,7 +6771,14 @@
 				"png": "https://flagcdn.com/w320/ir.png"
 			},
 			"currencies": [{ "code": "IRR", "name": "Iranian rial", "symbol": "﷼" }],
-			"languages": "Persian (Farsi)",
+			"languages": [
+				{
+					"iso639_1": "fa",
+					"iso639_2": "fas",
+					"name": "Persian (Farsi)",
+					"nativeName": "فارسی"
+				}
+			],
 			"translations": {
 				"br": "Irã",
 				"pt": "Irão",
@@ -5606,7 +6794,8 @@
 			},
 			"flag": "https://flagcdn.com/ir.svg",
 			"cioc": "IRI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Iraq",
@@ -5632,7 +6821,20 @@
 				"png": "https://flagcdn.com/w320/iq.png"
 			},
 			"currencies": [{ "code": "IQD", "name": "Iraqi dinar", "symbol": "ع.د" }],
-			"languages": "Arabic,Kurdish",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				},
+				{
+					"iso639_1": "ku",
+					"iso639_2": "kur",
+					"name": "Kurdish",
+					"nativeName": "Kurdî"
+				}
+			],
 			"translations": {
 				"br": "Iraque",
 				"pt": "Iraque",
@@ -5659,7 +6861,8 @@
 				}
 			],
 			"cioc": "IRQ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ireland",
@@ -5690,7 +6893,20 @@
 				"png": "https://flagcdn.com/w320/ie.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Irish,English",
+			"languages": [
+				{
+					"iso639_1": "ga",
+					"iso639_2": "gle",
+					"name": "Irish",
+					"nativeName": "Gaeilge"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Irlanda",
 				"pt": "Irlanda",
@@ -5707,7 +6923,8 @@
 			"flag": "https://flagcdn.com/ie.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "IRL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Isle of Man",
@@ -5734,7 +6951,20 @@
 				{ "code": "GBP", "name": "British pound", "symbol": "£" },
 				{ "code": "IMP[G]", "name": "Manx pound", "symbol": "£" }
 			],
-			"languages": "English,Manx",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "gv",
+					"iso639_2": "glv",
+					"name": "Manx",
+					"nativeName": "Gaelg"
+				}
+			],
 			"translations": {
 				"br": "Ilha de Man",
 				"pt": "Ilha de Man",
@@ -5750,7 +6980,8 @@
 			},
 			"flag": "https://flagcdn.com/im.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Israel",
@@ -5778,7 +7009,20 @@
 			"currencies": [
 				{ "code": "ILS", "name": "Israeli new shekel", "symbol": "₪" }
 			],
-			"languages": "Hebrew (modern),Arabic",
+			"languages": [
+				{
+					"iso639_1": "he",
+					"iso639_2": "heb",
+					"name": "Hebrew (modern)",
+					"nativeName": "עברית"
+				},
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Israel",
 				"pt": "Israel",
@@ -5794,7 +7038,8 @@
 			},
 			"flag": "https://flagcdn.com/il.svg",
 			"cioc": "ISR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Italy",
@@ -5820,7 +7065,14 @@
 				"png": "https://flagcdn.com/w320/it.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Italian",
+			"languages": [
+				{
+					"iso639_1": "it",
+					"iso639_2": "ita",
+					"name": "Italian",
+					"nativeName": "Italiano"
+				}
+			],
 			"translations": {
 				"br": "Itália",
 				"pt": "Itália",
@@ -5837,7 +7089,8 @@
 			"flag": "https://flagcdn.com/it.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "ITA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Jamaica",
@@ -5864,7 +7117,14 @@
 			"currencies": [
 				{ "code": "JMD", "name": "Jamaican dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Jamaica",
 				"pt": "Jamaica",
@@ -5891,7 +7151,8 @@
 				}
 			],
 			"cioc": "JAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Japan",
@@ -5916,7 +7177,14 @@
 				"png": "https://flagcdn.com/w320/jp.png"
 			},
 			"currencies": [{ "code": "JPY", "name": "Japanese yen", "symbol": "¥" }],
-			"languages": "Japanese",
+			"languages": [
+				{
+					"iso639_1": "ja",
+					"iso639_2": "jpn",
+					"name": "Japanese",
+					"nativeName": "日本語 (にほんご)"
+				}
+			],
 			"translations": {
 				"br": "Japão",
 				"pt": "Japão",
@@ -5932,7 +7200,8 @@
 			},
 			"flag": "https://flagcdn.com/jp.svg",
 			"cioc": "JPN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Jersey",
@@ -5964,7 +7233,20 @@
 				{ "code": "GBP", "name": "British pound", "symbol": "£" },
 				{ "code": "JEP[G]", "name": "Jersey pound", "symbol": "£" }
 			],
-			"languages": "English,French",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Jersey",
 				"pt": "Jersey",
@@ -5979,7 +7261,8 @@
 				"hu": "Jersey"
 			},
 			"flag": "https://flagcdn.com/je.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Jordan",
@@ -6011,7 +7294,14 @@
 			"currencies": [
 				{ "code": "JOD", "name": "Jordanian dinar", "symbol": "د.ا" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Jordânia",
 				"pt": "Jordânia",
@@ -6038,7 +7328,8 @@
 				}
 			],
 			"cioc": "JOR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Kazakhstan",
@@ -6075,7 +7366,20 @@
 			"currencies": [
 				{ "code": "KZT", "name": "Kazakhstani tenge", "symbol": "₸" }
 			],
-			"languages": "Kazakh,Russian",
+			"languages": [
+				{
+					"iso639_1": "kk",
+					"iso639_2": "kaz",
+					"name": "Kazakh",
+					"nativeName": "қазақ тілі"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Cazaquistão",
 				"pt": "Cazaquistão",
@@ -6098,7 +7402,8 @@
 				}
 			],
 			"cioc": "KAZ",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Kenya",
@@ -6126,7 +7431,20 @@
 			"currencies": [
 				{ "code": "KES", "name": "Kenyan shilling", "symbol": "Sh" }
 			],
-			"languages": "English,Swahili",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "sw",
+					"iso639_2": "swa",
+					"name": "Swahili",
+					"nativeName": "Kiswahili"
+				}
+			],
 			"translations": {
 				"br": "Quênia",
 				"pt": "Quénia",
@@ -6155,7 +7473,8 @@
 				}
 			],
 			"cioc": "KEN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Kiribati",
@@ -6183,7 +7502,14 @@
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" },
 				{ "code": "KID", "name": "Kiribati dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Kiribati",
 				"pt": "Quiribáti",
@@ -6199,7 +7525,8 @@
 			},
 			"flag": "https://flagcdn.com/ki.svg",
 			"cioc": "KIR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Kuwait",
@@ -6226,7 +7553,14 @@
 			"currencies": [
 				{ "code": "KWD", "name": "Kuwaiti dinar", "symbol": "د.ك" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Kuwait",
 				"pt": "Kuwait",
@@ -6253,7 +7587,8 @@
 				}
 			],
 			"cioc": "KUW",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Kyrgyzstan",
@@ -6287,7 +7622,20 @@
 			"currencies": [
 				{ "code": "KGS", "name": "Kyrgyzstani som", "symbol": "с" }
 			],
-			"languages": "Kyrgyz,Russian",
+			"languages": [
+				{
+					"iso639_1": "ky",
+					"iso639_2": "kir",
+					"name": "Kyrgyz",
+					"nativeName": "Кыргызча"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Quirguistão",
 				"pt": "Quirguizistão",
@@ -6310,7 +7658,8 @@
 				}
 			],
 			"cioc": "KGZ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Lao People's Democratic Republic",
@@ -6342,7 +7691,14 @@
 				"png": "https://flagcdn.com/w320/la.png"
 			},
 			"currencies": [{ "code": "LAK", "name": "Lao kip", "symbol": "₭" }],
-			"languages": "Lao",
+			"languages": [
+				{
+					"iso639_1": "lo",
+					"iso639_2": "lao",
+					"name": "Lao",
+					"nativeName": "ພາສາລາວ"
+				}
+			],
 			"translations": {
 				"br": "Laos",
 				"pt": "Laos",
@@ -6361,7 +7717,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "LAO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Latvia",
@@ -6387,7 +7744,14 @@
 				"png": "https://flagcdn.com/w320/lv.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Latvian",
+			"languages": [
+				{
+					"iso639_1": "lv",
+					"iso639_2": "lav",
+					"name": "Latvian",
+					"nativeName": "latviešu valoda"
+				}
+			],
 			"translations": {
 				"br": "Letônia",
 				"pt": "Letónia",
@@ -6404,7 +7768,8 @@
 			"flag": "https://flagcdn.com/lv.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "LAT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Lebanon",
@@ -6436,7 +7801,20 @@
 			"currencies": [
 				{ "code": "LBP", "name": "Lebanese pound", "symbol": "ل.ل" }
 			],
-			"languages": "Arabic,French",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Líbano",
 				"pt": "Líbano",
@@ -6463,7 +7841,8 @@
 				}
 			],
 			"cioc": "LIB",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Lesotho",
@@ -6492,7 +7871,20 @@
 				{ "code": "LSL", "name": "Lesotho loti", "symbol": "L" },
 				{ "code": "ZAR", "name": "South African rand", "symbol": "R" }
 			],
-			"languages": "English,Southern Sotho",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "st",
+					"iso639_2": "sot",
+					"name": "Southern Sotho",
+					"nativeName": "Sesotho"
+				}
+			],
 			"translations": {
 				"br": "Lesoto",
 				"pt": "Lesoto",
@@ -6521,7 +7913,8 @@
 				}
 			],
 			"cioc": "LES",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Liberia",
@@ -6549,7 +7942,14 @@
 			"currencies": [
 				{ "code": "LRD", "name": "Liberian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Libéria",
 				"pt": "Libéria",
@@ -6578,7 +7978,8 @@
 				}
 			],
 			"cioc": "LBR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Libya",
@@ -6605,7 +8006,14 @@
 			"currencies": [
 				{ "code": "LYD", "name": "Libyan dinar", "symbol": "ل.د" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Líbia",
 				"pt": "Líbia",
@@ -6643,7 +8051,8 @@
 				}
 			],
 			"cioc": "LBA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Liechtenstein",
@@ -6672,7 +8081,14 @@
 				"png": "https://flagcdn.com/w320/li.png"
 			},
 			"currencies": [{ "code": "CHF", "name": "Swiss franc", "symbol": "Fr" }],
-			"languages": "German",
+			"languages": [
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				}
+			],
 			"translations": {
 				"br": "Liechtenstein",
 				"pt": "Listenstaine",
@@ -6691,7 +8107,8 @@
 				{ "acronym": "EFTA", "name": "European Free Trade Association" }
 			],
 			"cioc": "LIE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Lithuania",
@@ -6717,7 +8134,14 @@
 				"png": "https://flagcdn.com/w320/lt.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Lithuanian",
+			"languages": [
+				{
+					"iso639_1": "lt",
+					"iso639_2": "lit",
+					"name": "Lithuanian",
+					"nativeName": "lietuvių kalba"
+				}
+			],
 			"translations": {
 				"br": "Lituânia",
 				"pt": "Lituânia",
@@ -6734,7 +8158,8 @@
 			"flag": "https://flagcdn.com/lt.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "LTU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Luxembourg",
@@ -6766,7 +8191,26 @@
 				"png": "https://flagcdn.com/w320/lu.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French,German,Luxembourgish",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				},
+				{
+					"iso639_1": "lb",
+					"iso639_2": "ltz",
+					"name": "Luxembourgish",
+					"nativeName": "Lëtzebuergesch"
+				}
+			],
 			"translations": {
 				"br": "Luxemburgo",
 				"pt": "Luxemburgo",
@@ -6783,7 +8227,8 @@
 			"flag": "https://flagcdn.com/lu.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "LUX",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Macao",
@@ -6815,7 +8260,20 @@
 			"currencies": [
 				{ "code": "MOP", "name": "Macanese pataca", "symbol": "P" }
 			],
-			"languages": "Chinese,Portuguese",
+			"languages": [
+				{
+					"iso639_1": "zh",
+					"iso639_2": "zho",
+					"name": "Chinese",
+					"nativeName": "中文 (Zhōngwén)"
+				},
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Macau",
 				"pt": "Macau",
@@ -6830,7 +8288,8 @@
 				"hu": "Makaó"
 			},
 			"flag": "https://flagcdn.com/mo.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "North Macedonia",
@@ -6858,7 +8317,14 @@
 			"currencies": [
 				{ "code": "MKD", "name": "Macedonian denar", "symbol": "ден" }
 			],
-			"languages": "Macedonian",
+			"languages": [
+				{
+					"iso639_1": "mk",
+					"iso639_2": "mkd",
+					"name": "Macedonian",
+					"nativeName": "македонски јазик"
+				}
+			],
 			"translations": {
 				"br": "Macedônia",
 				"pt": "Macedónia",
@@ -6876,7 +8342,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "MKD",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Madagascar",
@@ -6908,7 +8375,20 @@
 			"currencies": [
 				{ "code": "MGA", "name": "Malagasy ariary", "symbol": "Ar" }
 			],
-			"languages": "French,Malagasy",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "mg",
+					"iso639_2": "mlg",
+					"name": "Malagasy",
+					"nativeName": "fiteny malagasy"
+				}
+			],
 			"translations": {
 				"br": "Madagascar",
 				"pt": "Madagáscar",
@@ -6937,7 +8417,8 @@
 				}
 			],
 			"cioc": "MAD",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Malawi",
@@ -6965,7 +8446,20 @@
 			"currencies": [
 				{ "code": "MWK", "name": "Malawian kwacha", "symbol": "MK" }
 			],
-			"languages": "English,Chichewa",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ny",
+					"iso639_2": "nya",
+					"name": "Chichewa",
+					"nativeName": "chiCheŵa"
+				}
+			],
 			"translations": {
 				"br": "Malawi",
 				"pt": "Malávi",
@@ -6994,7 +8488,8 @@
 				}
 			],
 			"cioc": "MAW",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Malaysia",
@@ -7022,7 +8517,14 @@
 			"currencies": [
 				{ "code": "MYR", "name": "Malaysian ringgit", "symbol": "RM" }
 			],
-			"languages": "Malaysian",
+			"languages": [
+				{
+					"iso639_1": "ms",
+					"iso639_2": "zsm",
+					"name": "Malaysian",
+					"nativeName": "بهاس مليسيا"
+				}
+			],
 			"translations": {
 				"br": "Malásia",
 				"pt": "Malásia",
@@ -7041,7 +8543,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "MAS",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Maldives",
@@ -7073,7 +8576,14 @@
 			"currencies": [
 				{ "code": "MVR", "name": "Maldivian rufiyaa", "symbol": ".ރ" }
 			],
-			"languages": "Divehi",
+			"languages": [
+				{
+					"iso639_1": "dv",
+					"iso639_2": "div",
+					"name": "Divehi",
+					"nativeName": "ދިވެހި"
+				}
+			],
 			"translations": {
 				"br": "Maldivas",
 				"pt": "Maldivas",
@@ -7095,7 +8605,8 @@
 				}
 			],
 			"cioc": "MDV",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Mali",
@@ -7123,7 +8634,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Mali",
 				"pt": "Mali",
@@ -7152,7 +8670,8 @@
 				}
 			],
 			"cioc": "MLI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Malta",
@@ -7177,7 +8696,20 @@
 				"png": "https://flagcdn.com/w320/mt.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Maltese,English",
+			"languages": [
+				{
+					"iso639_1": "mt",
+					"iso639_2": "mlt",
+					"name": "Maltese",
+					"nativeName": "Malti"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Malta",
 				"pt": "Malta",
@@ -7194,7 +8726,8 @@
 			"flag": "https://flagcdn.com/mt.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "MLT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Marshall Islands",
@@ -7224,7 +8757,20 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English,Marshallese",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "mh",
+					"iso639_2": "mah",
+					"name": "Marshallese",
+					"nativeName": "Kajin M̧ajeļ"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Marshall",
 				"pt": "Ilhas Marshall",
@@ -7240,7 +8786,8 @@
 			},
 			"flag": "https://flagcdn.com/mh.svg",
 			"cioc": "MHL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Martinique",
@@ -7263,7 +8810,14 @@
 				"png": "https://flagcdn.com/w320/mq.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Martinica",
 				"pt": "Martinica",
@@ -7278,7 +8832,8 @@
 				"hu": "Martinique"
 			},
 			"flag": "https://flagcdn.com/mq.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Mauritania",
@@ -7310,7 +8865,14 @@
 			"currencies": [
 				{ "code": "MRO", "name": "Mauritanian ouguiya", "symbol": "UM" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Mauritânia",
 				"pt": "Mauritânia",
@@ -7348,7 +8910,8 @@
 				}
 			],
 			"cioc": "MTN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Mauritius",
@@ -7375,7 +8938,14 @@
 			"currencies": [
 				{ "code": "MUR", "name": "Mauritian rupee", "symbol": "₨" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Maurício",
 				"pt": "Maurícia",
@@ -7404,7 +8974,8 @@
 				}
 			],
 			"cioc": "MRI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Mayotte",
@@ -7427,7 +8998,14 @@
 				"png": "https://flagcdn.com/w320/yt.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Mayotte",
 				"pt": "Mayotte",
@@ -7455,7 +9033,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Mexico",
@@ -7486,7 +9065,14 @@
 				"png": "https://flagcdn.com/w320/mx.png"
 			},
 			"currencies": [{ "code": "MXN", "name": "Mexican peso", "symbol": "$" }],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "México",
 				"pt": "México",
@@ -7517,7 +9103,8 @@
 				}
 			],
 			"cioc": "MEX",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Micronesia (Federated States of)",
@@ -7544,7 +9131,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Micronésia",
 				"pt": "Micronésia",
@@ -7560,7 +9154,8 @@
 			},
 			"flag": "https://flagcdn.com/fm.svg",
 			"cioc": "FSM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Moldova (Republic of)",
@@ -7586,7 +9181,14 @@
 				"png": "https://flagcdn.com/w320/md.png"
 			},
 			"currencies": [{ "code": "MDL", "name": "Moldovan leu", "symbol": "L" }],
-			"languages": "Romanian",
+			"languages": [
+				{
+					"iso639_1": "ro",
+					"iso639_2": "ron",
+					"name": "Romanian",
+					"nativeName": "Română"
+				}
+			],
 			"translations": {
 				"br": "Moldávia",
 				"pt": "Moldávia",
@@ -7605,7 +9207,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "MDA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Monaco",
@@ -7630,7 +9233,14 @@
 				"png": "https://flagcdn.com/w320/mc.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Mônaco",
 				"pt": "Mónaco",
@@ -7646,7 +9256,8 @@
 			},
 			"flag": "https://flagcdn.com/mc.svg",
 			"cioc": "MON",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Mongolia",
@@ -7674,7 +9285,14 @@
 			"currencies": [
 				{ "code": "MNT", "name": "Mongolian tögrög", "symbol": "₮" }
 			],
-			"languages": "Mongolian",
+			"languages": [
+				{
+					"iso639_1": "mn",
+					"iso639_2": "mon",
+					"name": "Mongolian",
+					"nativeName": "Монгол хэл"
+				}
+			],
 			"translations": {
 				"br": "Mongólia",
 				"pt": "Mongólia",
@@ -7690,7 +9308,8 @@
 			},
 			"flag": "https://flagcdn.com/mn.svg",
 			"cioc": "MGL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Montenegro",
@@ -7716,7 +9335,32 @@
 				"png": "https://flagcdn.com/w320/me.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Serbian,Bosnian,Albanian,Croatian",
+			"languages": [
+				{
+					"iso639_1": "sr",
+					"iso639_2": "srp",
+					"name": "Serbian",
+					"nativeName": "српски језик"
+				},
+				{
+					"iso639_1": "bs",
+					"iso639_2": "bos",
+					"name": "Bosnian",
+					"nativeName": "bosanski jezik"
+				},
+				{
+					"iso639_1": "sq",
+					"iso639_2": "sqi",
+					"name": "Albanian",
+					"nativeName": "Shqip"
+				},
+				{
+					"iso639_1": "hr",
+					"iso639_2": "hrv",
+					"name": "Croatian",
+					"nativeName": "hrvatski jezik"
+				}
+			],
 			"translations": {
 				"br": "Montenegro",
 				"pt": "Montenegro",
@@ -7735,7 +9379,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "MNE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Montserrat",
@@ -7761,7 +9406,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Montserrat",
 				"pt": "Monserrate",
@@ -7787,7 +9439,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Morocco",
@@ -7815,7 +9468,14 @@
 			"currencies": [
 				{ "code": "MAD", "name": "Moroccan dirham", "symbol": "د.م." }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Marrocos",
 				"pt": "Marrocos",
@@ -7853,7 +9513,8 @@
 				}
 			],
 			"cioc": "MAR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Mozambique",
@@ -7885,7 +9546,14 @@
 			"currencies": [
 				{ "code": "MZN", "name": "Mozambican metical", "symbol": "MT" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Moçambique",
 				"pt": "Moçambique",
@@ -7914,7 +9582,8 @@
 				}
 			],
 			"cioc": "MOZ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Myanmar",
@@ -7945,7 +9614,14 @@
 				"png": "https://flagcdn.com/w320/mm.png"
 			},
 			"currencies": [{ "code": "MMK", "name": "Burmese kyat", "symbol": "Ks" }],
-			"languages": "Burmese",
+			"languages": [
+				{
+					"iso639_1": "my",
+					"iso639_2": "mya",
+					"name": "Burmese",
+					"nativeName": "ဗမာစာ"
+				}
+			],
 			"translations": {
 				"br": "Myanmar",
 				"pt": "Myanmar",
@@ -7964,7 +9640,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "MYA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Namibia",
@@ -7993,7 +9670,20 @@
 				{ "code": "NAD", "name": "Namibian dollar", "symbol": "$" },
 				{ "code": "ZAR", "name": "South African rand", "symbol": "R" }
 			],
-			"languages": "English,Afrikaans",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "af",
+					"iso639_2": "afr",
+					"name": "Afrikaans",
+					"nativeName": "Afrikaans"
+				}
+			],
 			"translations": {
 				"br": "Namíbia",
 				"pt": "Namíbia",
@@ -8022,7 +9712,8 @@
 				}
 			],
 			"cioc": "NAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Nauru",
@@ -8055,7 +9746,20 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English,Nauruan",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "na",
+					"iso639_2": "nau",
+					"name": "Nauruan",
+					"nativeName": "Dorerin Naoero"
+				}
+			],
 			"translations": {
 				"br": "Nauru",
 				"pt": "Nauru",
@@ -8071,7 +9775,8 @@
 			},
 			"flag": "https://flagcdn.com/nr.svg",
 			"cioc": "NRU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Nepal",
@@ -8103,7 +9808,14 @@
 			"currencies": [
 				{ "code": "NPR", "name": "Nepalese rupee", "symbol": "₨" }
 			],
-			"languages": "Nepali",
+			"languages": [
+				{
+					"iso639_1": "ne",
+					"iso639_2": "nep",
+					"name": "Nepali",
+					"nativeName": "नेपाली"
+				}
+			],
 			"translations": {
 				"br": "Nepal",
 				"pt": "Nepal",
@@ -8125,7 +9837,8 @@
 				}
 			],
 			"cioc": "NEP",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Netherlands",
@@ -8151,7 +9864,14 @@
 				"png": "https://flagcdn.com/w320/nl.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Dutch",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				}
+			],
 			"translations": {
 				"br": "Holanda",
 				"pt": "Países Baixos",
@@ -8168,7 +9888,8 @@
 			"flag": "https://flagcdn.com/nl.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "NED",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "New Caledonia",
@@ -8192,7 +9913,14 @@
 				"png": "https://flagcdn.com/w320/nc.png"
 			},
 			"currencies": [{ "code": "XPF", "name": "CFP franc", "symbol": "Fr" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Nova Caledônia",
 				"pt": "Nova Caledónia",
@@ -8207,7 +9935,8 @@
 				"hu": "Új-Kaledónia"
 			},
 			"flag": "https://flagcdn.com/nc.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "New Zealand",
@@ -8239,7 +9968,20 @@
 			"currencies": [
 				{ "code": "NZD", "name": "New Zealand dollar", "symbol": "$" }
 			],
-			"languages": "English,Māori",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "mi",
+					"iso639_2": "mri",
+					"name": "Māori",
+					"nativeName": "te reo Māori"
+				}
+			],
 			"translations": {
 				"br": "Nova Zelândia",
 				"pt": "Nova Zelândia",
@@ -8255,7 +9997,8 @@
 			},
 			"flag": "https://flagcdn.com/nz.svg",
 			"cioc": "NZL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Nicaragua",
@@ -8283,7 +10026,14 @@
 			"currencies": [
 				{ "code": "NIO", "name": "Nicaraguan córdoba", "symbol": "C$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Nicarágua",
 				"pt": "Nicarágua",
@@ -8307,7 +10057,8 @@
 				}
 			],
 			"cioc": "NCA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Niger",
@@ -8340,7 +10091,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Níger",
 				"pt": "Níger",
@@ -8369,7 +10127,8 @@
 				}
 			],
 			"cioc": "NIG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Nigeria",
@@ -8402,7 +10161,14 @@
 			"currencies": [
 				{ "code": "NGN", "name": "Nigerian naira", "symbol": "₦" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Nigéria",
 				"pt": "Nigéria",
@@ -8431,7 +10197,8 @@
 				}
 			],
 			"cioc": "NGR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Niue",
@@ -8458,7 +10225,14 @@
 				{ "code": "NZD", "name": "New Zealand dollar", "symbol": "$" },
 				{ "code": "NZD", "name": "Niue dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Niue",
 				"pt": "Niue",
@@ -8473,7 +10247,8 @@
 				"hu": "Niue"
 			},
 			"flag": "https://flagcdn.com/nu.svg",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Norfolk Island",
@@ -8503,7 +10278,14 @@
 			"currencies": [
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilha Norfolk",
 				"pt": "Ilha Norfolk",
@@ -8518,7 +10300,8 @@
 				"hu": "Norfolk-sziget"
 			},
 			"flag": "https://flagcdn.com/nf.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Korea (Democratic People's Republic of)",
@@ -8550,7 +10333,14 @@
 			"currencies": [
 				{ "code": "KPW", "name": "North Korean won", "symbol": "₩" }
 			],
-			"languages": "Korean",
+			"languages": [
+				{
+					"iso639_1": "ko",
+					"iso639_2": "kor",
+					"name": "Korean",
+					"nativeName": "한국어"
+				}
+			],
 			"translations": {
 				"br": "Coreia do Norte",
 				"pt": "Coreia do Norte",
@@ -8566,7 +10356,8 @@
 			},
 			"flag": "https://flagcdn.com/kp.svg",
 			"cioc": "PRK",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Northern Mariana Islands",
@@ -8596,7 +10387,20 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English,Chamorro",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ch",
+					"iso639_2": "cha",
+					"name": "Chamorro",
+					"nativeName": "Chamoru"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Marianas",
 				"pt": "Ilhas Marianas",
@@ -8611,7 +10415,8 @@
 				"hu": "Északi-Mariana-szigetek"
 			},
 			"flag": "https://flagcdn.com/mp.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Norway",
@@ -8646,7 +10451,26 @@
 			"currencies": [
 				{ "code": "NOK", "name": "Norwegian krone", "symbol": "kr" }
 			],
-			"languages": "Norwegian,Norwegian Bokmål,Norwegian Nynorsk",
+			"languages": [
+				{
+					"iso639_1": "no",
+					"iso639_2": "nor",
+					"name": "Norwegian",
+					"nativeName": "Norsk"
+				},
+				{
+					"iso639_1": "nb",
+					"iso639_2": "nob",
+					"name": "Norwegian Bokmål",
+					"nativeName": "Norsk bokmål"
+				},
+				{
+					"iso639_1": "nn",
+					"iso639_2": "nno",
+					"name": "Norwegian Nynorsk",
+					"nativeName": "Norsk nynorsk"
+				}
+			],
 			"translations": {
 				"br": "Noruega",
 				"pt": "Noruega",
@@ -8665,7 +10489,8 @@
 				{ "acronym": "EFTA", "name": "European Free Trade Association" }
 			],
 			"cioc": "NOR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Oman",
@@ -8690,7 +10515,14 @@
 				"png": "https://flagcdn.com/w320/om.png"
 			},
 			"currencies": [{ "code": "OMR", "name": "Omani rial", "symbol": "ر.ع." }],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Omã",
 				"pt": "Omã",
@@ -8717,7 +10549,8 @@
 				}
 			],
 			"cioc": "OMA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Pakistan",
@@ -8750,7 +10583,20 @@
 			"currencies": [
 				{ "code": "PKR", "name": "Pakistani rupee", "symbol": "₨" }
 			],
-			"languages": "Urdu,English",
+			"languages": [
+				{
+					"iso639_1": "ur",
+					"iso639_2": "urd",
+					"name": "Urdu",
+					"nativeName": "اردو"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Paquistão",
 				"pt": "Paquistão",
@@ -8772,7 +10618,8 @@
 				}
 			],
 			"cioc": "PAK",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Palau",
@@ -8798,7 +10645,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Palau",
 				"pt": "Palau",
@@ -8814,7 +10668,8 @@
 			},
 			"flag": "https://flagcdn.com/pw.svg",
 			"cioc": "PLW",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Palestine, State of",
@@ -8843,7 +10698,14 @@
 				{ "code": "ILS", "name": "Israeli new shekel", "symbol": "₪" },
 				{ "code": "JOD", "name": "Jordanian dinar", "symbol": "د.أ" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Palestina",
 				"pt": "Palestina",
@@ -8870,7 +10732,8 @@
 				}
 			],
 			"cioc": "PLE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Panama",
@@ -8899,7 +10762,14 @@
 				{ "code": "PAB", "name": "Panamanian balboa", "symbol": "B/." },
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Panamá",
 				"pt": "Panamá",
@@ -8923,7 +10793,8 @@
 				}
 			],
 			"cioc": "PAN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Papua New Guinea",
@@ -8955,7 +10826,14 @@
 			"currencies": [
 				{ "code": "PGK", "name": "Papua New Guinean kina", "symbol": "K" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Papua Nova Guiné",
 				"pt": "Papua Nova Guiné",
@@ -8971,7 +10849,8 @@
 			},
 			"flag": "https://flagcdn.com/pg.svg",
 			"cioc": "PNG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Paraguay",
@@ -9004,7 +10883,20 @@
 			"currencies": [
 				{ "code": "PYG", "name": "Paraguayan guaraní", "symbol": "₲" }
 			],
-			"languages": "Spanish,Guaraní",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				},
+				{
+					"iso639_1": "gn",
+					"iso639_2": "grn",
+					"name": "Guaraní",
+					"nativeName": "Avañe'ẽ"
+				}
+			],
 			"translations": {
 				"br": "Paraguai",
 				"pt": "Paraguai",
@@ -9033,7 +10925,8 @@
 				}
 			],
 			"cioc": "PAR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Peru",
@@ -9061,7 +10954,14 @@
 			"currencies": [
 				{ "code": "PEN", "name": "Peruvian sol", "symbol": "S/." }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Peru",
 				"pt": "Peru",
@@ -9095,7 +10995,8 @@
 				}
 			],
 			"cioc": "PER",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Philippines",
@@ -9126,7 +11027,14 @@
 			"currencies": [
 				{ "code": "PHP", "name": "Philippine peso", "symbol": "₱" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Filipinas",
 				"pt": "Filipinas",
@@ -9145,7 +11053,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "PHI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Pitcairn",
@@ -9172,7 +11081,14 @@
 				{ "code": "NZD", "name": "New Zealand dollar", "symbol": "$" },
 				{ "code": "PND", "name": "Pitcairn Islands dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Pitcairn",
 				"pt": "Ilhas Picárnia",
@@ -9187,7 +11103,8 @@
 				"hu": "Pitcairn-szigetek"
 			},
 			"flag": "https://flagcdn.com/pn.svg",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Poland",
@@ -9213,7 +11130,14 @@
 				"png": "https://flagcdn.com/w320/pl.png"
 			},
 			"currencies": [{ "code": "PLN", "name": "Polish złoty", "symbol": "zł" }],
-			"languages": "Polish",
+			"languages": [
+				{
+					"iso639_1": "pl",
+					"iso639_2": "pol",
+					"name": "Polish",
+					"nativeName": "język polski"
+				}
+			],
 			"translations": {
 				"br": "Polônia",
 				"pt": "Polónia",
@@ -9230,7 +11154,8 @@
 			"flag": "https://flagcdn.com/pl.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "POL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Portugal",
@@ -9261,7 +11186,14 @@
 				"png": "https://flagcdn.com/w320/pt.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Portugal",
 				"pt": "Portugal",
@@ -9278,7 +11210,8 @@
 			"flag": "https://flagcdn.com/pt.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "POR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Puerto Rico",
@@ -9308,7 +11241,20 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "Spanish,English",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Porto Rico",
 				"pt": "Porto Rico",
@@ -9324,7 +11270,8 @@
 			},
 			"flag": "https://flagcdn.com/pr.svg",
 			"cioc": "PUR",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Qatar",
@@ -9351,7 +11298,14 @@
 			"currencies": [
 				{ "code": "QAR", "name": "Qatari riyal", "symbol": "ر.ق" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Catar",
 				"pt": "Catar",
@@ -9378,7 +11332,8 @@
 				}
 			],
 			"cioc": "QAT",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Republic of Kosovo",
@@ -9404,7 +11359,20 @@
 				"png": "https://flagcdn.com/w320/xk.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Albanian,Serbian",
+			"languages": [
+				{
+					"iso639_1": "sq",
+					"iso639_2": "sqi",
+					"name": "Albanian",
+					"nativeName": "Shqip"
+				},
+				{
+					"iso639_1": "sr",
+					"iso639_2": "srp",
+					"name": "Serbian",
+					"nativeName": "српски језик"
+				}
+			],
 			"translations": {
 				"br": "Kosovo",
 				"pt": "Kosovo",
@@ -9422,7 +11390,8 @@
 			"regionalBlocs": [
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Réunion",
@@ -9445,7 +11414,14 @@
 				"png": "https://flagcdn.com/w320/re.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Reunião",
 				"pt": "Reunião",
@@ -9473,7 +11449,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Romania",
@@ -9501,7 +11478,14 @@
 			"currencies": [
 				{ "code": "RON", "name": "Romanian leu", "symbol": "lei" }
 			],
-			"languages": "Romanian",
+			"languages": [
+				{
+					"iso639_1": "ro",
+					"iso639_2": "ron",
+					"name": "Romanian",
+					"nativeName": "Română"
+				}
+			],
 			"translations": {
 				"br": "Romênia",
 				"pt": "Roménia",
@@ -9518,7 +11502,8 @@
 			"flag": "https://flagcdn.com/ro.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "ROU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Russian Federation",
@@ -9575,7 +11560,14 @@
 				"png": "https://flagcdn.com/w320/ru.png"
 			},
 			"currencies": [{ "code": "RUB", "name": "Russian ruble", "symbol": "₽" }],
-			"languages": "Russian",
+			"languages": [
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Rússia",
 				"pt": "Rússia",
@@ -9598,7 +11590,8 @@
 				}
 			],
 			"cioc": "RUS",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Rwanda",
@@ -9631,7 +11624,26 @@
 			"currencies": [
 				{ "code": "RWF", "name": "Rwandan franc", "symbol": "Fr" }
 			],
-			"languages": "Kinyarwanda,English,French",
+			"languages": [
+				{
+					"iso639_1": "rw",
+					"iso639_2": "kin",
+					"name": "Kinyarwanda",
+					"nativeName": "Ikinyarwanda"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Ruanda",
 				"pt": "Ruanda",
@@ -9660,7 +11672,8 @@
 				}
 			],
 			"cioc": "RWA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Barthélemy",
@@ -9689,7 +11702,14 @@
 				"png": "https://flagcdn.com/w320/bl.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "São Bartolomeu",
 				"pt": "São Bartolomeu",
@@ -9704,7 +11724,8 @@
 				"hu": "Saint-Barthélemy"
 			},
 			"flag": "https://flagcdn.com/bl.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -9729,7 +11750,14 @@
 			"currencies": [
 				{ "code": "SHP", "name": "Saint Helena pound", "symbol": "£" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Santa Helena",
 				"pt": "Santa Helena",
@@ -9757,7 +11785,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Kitts and Nevis",
@@ -9783,7 +11812,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "São Cristóvão e Neves",
 				"pt": "São Cristóvão e Neves",
@@ -9810,7 +11846,8 @@
 				}
 			],
 			"cioc": "SKN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Lucia",
@@ -9837,7 +11874,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Santa Lúcia",
 				"pt": "Santa Lúcia",
@@ -9864,7 +11908,8 @@
 				}
 			],
 			"cioc": "LCA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Martin (French part)",
@@ -9893,7 +11938,26 @@
 				"png": "https://flagcdn.com/w320/mf.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "English,French,Dutch",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				}
+			],
 			"translations": {
 				"br": "Saint Martin",
 				"pt": "Ilha São Martinho",
@@ -9908,7 +11972,8 @@
 				"hu": "Saint-Martin"
 			},
 			"flag": "https://flagcdn.com/mf.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Pierre and Miquelon",
@@ -9935,7 +12000,14 @@
 				"png": "https://flagcdn.com/w320/pm.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Saint-Pierre e Miquelon",
 				"pt": "São Pedro e Miquelon",
@@ -9950,7 +12022,8 @@
 				"hu": "Saint-Pierre és Miquelon"
 			},
 			"flag": "https://flagcdn.com/pm.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Saint Vincent and the Grenadines",
@@ -9976,7 +12049,14 @@
 			"currencies": [
 				{ "code": "XCD", "name": "East Caribbean dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "São Vicente e Granadinas",
 				"pt": "São Vicente e Granadinas",
@@ -10003,7 +12083,8 @@
 				}
 			],
 			"cioc": "VIN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Samoa",
@@ -10032,7 +12113,20 @@
 				"png": "https://flagcdn.com/w320/ws.png"
 			},
 			"currencies": [{ "code": "WST", "name": "Samoan tālā", "symbol": "T" }],
-			"languages": "Samoan,English",
+			"languages": [
+				{
+					"iso639_1": "sm",
+					"iso639_2": "smo",
+					"name": "Samoan",
+					"nativeName": "gagana fa'a Samoa"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Samoa",
 				"pt": "Samoa",
@@ -10048,7 +12142,8 @@
 			},
 			"flag": "https://flagcdn.com/ws.svg",
 			"cioc": "SAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "San Marino",
@@ -10077,7 +12172,14 @@
 				"png": "https://flagcdn.com/w320/sm.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Italian",
+			"languages": [
+				{
+					"iso639_1": "it",
+					"iso639_2": "ita",
+					"name": "Italian",
+					"nativeName": "Italiano"
+				}
+			],
 			"translations": {
 				"br": "San Marino",
 				"pt": "São Marinho",
@@ -10093,7 +12195,8 @@
 			},
 			"flag": "https://flagcdn.com/sm.svg",
 			"cioc": "SMR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sao Tome and Principe",
@@ -10124,7 +12227,14 @@
 			"currencies": [
 				{ "code": "STD", "name": "São Tomé and Príncipe dobra", "symbol": "Db" }
 			],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "São Tomé e Príncipe",
 				"pt": "São Tomé e Príncipe",
@@ -10153,7 +12263,8 @@
 				}
 			],
 			"cioc": "STP",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Saudi Arabia",
@@ -10182,7 +12293,14 @@
 				"png": "https://flagcdn.com/w320/sa.png"
 			},
 			"currencies": [{ "code": "SAR", "name": "Saudi riyal", "symbol": "ر.س" }],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Arábia Saudita",
 				"pt": "Arábia Saudita",
@@ -10209,7 +12327,8 @@
 				}
 			],
 			"cioc": "KSA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Senegal",
@@ -10237,7 +12356,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Senegal",
 				"pt": "Senegal",
@@ -10266,7 +12392,8 @@
 				}
 			],
 			"cioc": "SEN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Serbia",
@@ -10300,7 +12427,14 @@
 			"currencies": [
 				{ "code": "RSD", "name": "Serbian dinar", "symbol": "дин." }
 			],
-			"languages": "Serbian",
+			"languages": [
+				{
+					"iso639_1": "sr",
+					"iso639_2": "srp",
+					"name": "Serbian",
+					"nativeName": "српски језик"
+				}
+			],
 			"translations": {
 				"br": "Sérvia",
 				"pt": "Sérvia",
@@ -10319,7 +12453,8 @@
 				{ "acronym": "CEFTA", "name": "Central European Free Trade Agreement" }
 			],
 			"cioc": "SRB",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Seychelles",
@@ -10351,7 +12486,20 @@
 			"currencies": [
 				{ "code": "SCR", "name": "Seychellois rupee", "symbol": "₨" }
 			],
-			"languages": "French,English",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Seicheles",
 				"pt": "Seicheles",
@@ -10380,7 +12528,8 @@
 				}
 			],
 			"cioc": "SEY",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sierra Leone",
@@ -10408,7 +12557,14 @@
 			"currencies": [
 				{ "code": "SLL", "name": "Sierra Leonean leone", "symbol": "Le" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Serra Leoa",
 				"pt": "Serra Leoa",
@@ -10437,7 +12593,8 @@
 				}
 			],
 			"cioc": "SLE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Singapore",
@@ -10464,7 +12621,32 @@
 				{ "code": "BND", "name": "Brunei dollar", "symbol": "$" },
 				{ "code": "SGD", "name": "Singapore dollar", "symbol": "$" }
 			],
-			"languages": "English,Malay,Tamil,Chinese",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ms",
+					"iso639_2": "msa",
+					"name": "Malay",
+					"nativeName": "bahasa Melayu"
+				},
+				{
+					"iso639_1": "ta",
+					"iso639_2": "tam",
+					"name": "Tamil",
+					"nativeName": "தமிழ்"
+				},
+				{
+					"iso639_1": "zh",
+					"iso639_2": "zho",
+					"name": "Chinese",
+					"nativeName": "中文 (Zhōngwén)"
+				}
+			],
 			"translations": {
 				"br": "Singapura",
 				"pt": "Singapura",
@@ -10483,7 +12665,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "SIN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sint Maarten (Dutch part)",
@@ -10514,7 +12697,20 @@
 					"symbol": "ƒ"
 				}
 			],
-			"languages": "Dutch,English",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Sint Maarten",
 				"pt": "São Martinho",
@@ -10529,7 +12725,8 @@
 				"hu": "Sint Maarten"
 			},
 			"flag": "https://flagcdn.com/sx.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Slovakia",
@@ -10555,7 +12752,14 @@
 				"png": "https://flagcdn.com/w320/sk.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Slovak",
+			"languages": [
+				{
+					"iso639_1": "sk",
+					"iso639_2": "slk",
+					"name": "Slovak",
+					"nativeName": "slovenčina"
+				}
+			],
 			"translations": {
 				"br": "Eslováquia",
 				"pt": "Eslováquia",
@@ -10572,7 +12776,8 @@
 			"flag": "https://flagcdn.com/sk.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "SVK",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Slovenia",
@@ -10598,7 +12803,14 @@
 				"png": "https://flagcdn.com/w320/si.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Slovene",
+			"languages": [
+				{
+					"iso639_1": "sl",
+					"iso639_2": "slv",
+					"name": "Slovene",
+					"nativeName": "slovenski jezik"
+				}
+			],
 			"translations": {
 				"br": "Eslovênia",
 				"pt": "Eslovénia",
@@ -10615,7 +12827,8 @@
 			"flag": "https://flagcdn.com/si.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "SLO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Solomon Islands",
@@ -10642,7 +12855,14 @@
 			"currencies": [
 				{ "code": "SBD", "name": "Solomon Islands dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Salomão",
 				"pt": "Ilhas Salomão",
@@ -10658,7 +12878,8 @@
 			},
 			"flag": "https://flagcdn.com/sb.svg",
 			"cioc": "SOL",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Somalia",
@@ -10692,7 +12913,20 @@
 			"currencies": [
 				{ "code": "SOS", "name": "Somali shilling", "symbol": "Sh" }
 			],
-			"languages": "Somali,Arabic",
+			"languages": [
+				{
+					"iso639_1": "so",
+					"iso639_2": "som",
+					"name": "Somali",
+					"nativeName": "Soomaaliga"
+				},
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Somália",
 				"pt": "Somália",
@@ -10730,7 +12964,8 @@
 				}
 			],
 			"cioc": "SOM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "South Africa",
@@ -10758,7 +12993,68 @@
 			"currencies": [
 				{ "code": "ZAR", "name": "South African rand", "symbol": "R" }
 			],
-			"languages": "Afrikaans,English,Southern Ndebele,Southern Sotho,Swati,Tswana,Tsonga,Venda,Xhosa,Zulu",
+			"languages": [
+				{
+					"iso639_1": "af",
+					"iso639_2": "afr",
+					"name": "Afrikaans",
+					"nativeName": "Afrikaans"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "nr",
+					"iso639_2": "nbl",
+					"name": "Southern Ndebele",
+					"nativeName": "isiNdebele"
+				},
+				{
+					"iso639_1": "st",
+					"iso639_2": "sot",
+					"name": "Southern Sotho",
+					"nativeName": "Sesotho"
+				},
+				{
+					"iso639_1": "ss",
+					"iso639_2": "ssw",
+					"name": "Swati",
+					"nativeName": "SiSwati"
+				},
+				{
+					"iso639_1": "tn",
+					"iso639_2": "tsn",
+					"name": "Tswana",
+					"nativeName": "Setswana"
+				},
+				{
+					"iso639_1": "ts",
+					"iso639_2": "tso",
+					"name": "Tsonga",
+					"nativeName": "Xitsonga"
+				},
+				{
+					"iso639_1": "ve",
+					"iso639_2": "ven",
+					"name": "Venda",
+					"nativeName": "Tshivenḓa"
+				},
+				{
+					"iso639_1": "xh",
+					"iso639_2": "xho",
+					"name": "Xhosa",
+					"nativeName": "isiXhosa"
+				},
+				{
+					"iso639_1": "zu",
+					"iso639_2": "zul",
+					"name": "Zulu",
+					"nativeName": "isiZulu"
+				}
+			],
 			"translations": {
 				"br": "República Sul-Africana",
 				"pt": "República Sul-Africana",
@@ -10787,7 +13083,8 @@
 				}
 			],
 			"cioc": "RSA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "South Georgia and the South Sandwich Islands",
@@ -10812,7 +13109,14 @@
 			"currencies": [
 				{ "code": "FKP", "name": "Falkland Islands Pound", "symbol": "£" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Geórgias do Sul e Sandwich do Sul",
 				"pt": "Ilhas Geórgia do Sul e Sanduíche do Sul",
@@ -10840,7 +13144,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Korea (Republic of)",
@@ -10868,7 +13173,14 @@
 			"currencies": [
 				{ "code": "KRW", "name": "South Korean won", "symbol": "₩" }
 			],
-			"languages": "Korean",
+			"languages": [
+				{
+					"iso639_1": "ko",
+					"iso639_2": "kor",
+					"name": "Korean",
+					"nativeName": "한국어"
+				}
+			],
 			"translations": {
 				"br": "Coreia do Sul",
 				"pt": "Coreia do Sul",
@@ -10884,7 +13196,8 @@
 			},
 			"flag": "https://flagcdn.com/kr.svg",
 			"cioc": "KOR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Spain",
@@ -10910,7 +13223,14 @@
 				"png": "https://flagcdn.com/w320/es.png"
 			},
 			"currencies": [{ "code": "EUR", "name": "Euro", "symbol": "€" }],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Espanha",
 				"pt": "Espanha",
@@ -10927,7 +13247,8 @@
 			"flag": "https://flagcdn.com/es.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "ESP",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sri Lanka",
@@ -10959,7 +13280,20 @@
 			"currencies": [
 				{ "code": "LKR", "name": "Sri Lankan rupee", "symbol": "Rs" }
 			],
-			"languages": "Sinhalese,Tamil",
+			"languages": [
+				{
+					"iso639_1": "si",
+					"iso639_2": "sin",
+					"name": "Sinhalese",
+					"nativeName": "සිංහල"
+				},
+				{
+					"iso639_1": "ta",
+					"iso639_2": "tam",
+					"name": "Tamil",
+					"nativeName": "தமிழ்"
+				}
+			],
 			"translations": {
 				"br": "Sri Lanka",
 				"pt": "Sri Lanka",
@@ -10981,7 +13315,8 @@
 				}
 			],
 			"cioc": "SRI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sudan",
@@ -11009,7 +13344,20 @@
 			"currencies": [
 				{ "code": "SDG", "name": "Sudanese pound", "symbol": "ج.س." }
 			],
-			"languages": "Arabic,English",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Sudão",
 				"pt": "Sudão",
@@ -11047,7 +13395,8 @@
 				}
 			],
 			"cioc": "SUD",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "South Sudan",
@@ -11075,7 +13424,14 @@
 			"currencies": [
 				{ "code": "SSP", "name": "South Sudanese pound", "symbol": "£" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Sudão do Sul",
 				"pt": "Sudão do Sul",
@@ -11104,7 +13460,8 @@
 				}
 			],
 			"cioc": "SSD",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Suriname",
@@ -11138,7 +13495,14 @@
 			"currencies": [
 				{ "code": "SRD", "name": "Surinamese dollar", "symbol": "$" }
 			],
-			"languages": "Dutch",
+			"languages": [
+				{
+					"iso639_1": "nl",
+					"iso639_2": "nld",
+					"name": "Dutch",
+					"nativeName": "Nederlands"
+				}
+			],
 			"translations": {
 				"br": "Suriname",
 				"pt": "Suriname",
@@ -11176,7 +13540,8 @@
 				}
 			],
 			"cioc": "SUR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Svalbard and Jan Mayen",
@@ -11201,7 +13566,14 @@
 			"currencies": [
 				{ "code": "NOK", "name": "Norwegian krone", "symbol": "kr" }
 			],
-			"languages": "Norwegian",
+			"languages": [
+				{
+					"iso639_1": "no",
+					"iso639_2": "nor",
+					"name": "Norwegian",
+					"nativeName": "Norsk"
+				}
+			],
 			"translations": {
 				"br": "Svalbard",
 				"pt": "Svalbard",
@@ -11216,7 +13588,8 @@
 				"hu": "Spitzbergák ís Jan Mayen-szigetek"
 			},
 			"flag": "https://flagcdn.com/sj.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Swaziland",
@@ -11251,7 +13624,20 @@
 			"currencies": [
 				{ "code": "SZL", "name": "Swazi lilangeni", "symbol": "L" }
 			],
-			"languages": "English,Swati",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "ss",
+					"iso639_2": "ssw",
+					"name": "Swati",
+					"nativeName": "SiSwati"
+				}
+			],
 			"translations": {
 				"br": "Suazilândia",
 				"pt": "Suazilândia",
@@ -11280,7 +13666,8 @@
 				}
 			],
 			"cioc": "SWZ",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Sweden",
@@ -11308,7 +13695,14 @@
 			"currencies": [
 				{ "code": "SEK", "name": "Swedish krona", "symbol": "kr" }
 			],
-			"languages": "Swedish",
+			"languages": [
+				{
+					"iso639_1": "sv",
+					"iso639_2": "swe",
+					"name": "Swedish",
+					"nativeName": "svenska"
+				}
+			],
 			"translations": {
 				"br": "Suécia",
 				"pt": "Suécia",
@@ -11325,7 +13719,8 @@
 			"flag": "https://flagcdn.com/se.svg",
 			"regionalBlocs": [{ "acronym": "EU", "name": "European Union" }],
 			"cioc": "SWE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Switzerland",
@@ -11358,7 +13753,27 @@
 				"png": "https://flagcdn.com/w320/ch.png"
 			},
 			"currencies": [{ "code": "CHF", "name": "Swiss franc", "symbol": "Fr" }],
-			"languages": "German,French,Italian,Romansh",
+			"languages": [
+				{
+					"iso639_1": "de",
+					"iso639_2": "deu",
+					"name": "German",
+					"nativeName": "Deutsch"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				},
+				{
+					"iso639_1": "it",
+					"iso639_2": "ita",
+					"name": "Italian",
+					"nativeName": "Italiano"
+				},
+				{ "iso639_2": "roh", "name": "Romansh" }
+			],
 			"translations": {
 				"br": "Suíça",
 				"pt": "Suíça",
@@ -11377,7 +13792,8 @@
 				{ "acronym": "EFTA", "name": "European Free Trade Association" }
 			],
 			"cioc": "SUI",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Syrian Arab Republic",
@@ -11407,7 +13823,14 @@
 				"png": "https://flagcdn.com/w320/sy.png"
 			},
 			"currencies": [{ "code": "SYP", "name": "Syrian pound", "symbol": "£" }],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Síria",
 				"pt": "Síria",
@@ -11434,7 +13857,8 @@
 				}
 			],
 			"cioc": "SYR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Taiwan",
@@ -11466,7 +13890,14 @@
 			"currencies": [
 				{ "code": "TWD", "name": "New Taiwan dollar", "symbol": "$" }
 			],
-			"languages": "Chinese",
+			"languages": [
+				{
+					"iso639_1": "zh",
+					"iso639_2": "zho",
+					"name": "Chinese",
+					"nativeName": "中文 (Zhōngwén)"
+				}
+			],
 			"translations": {
 				"br": "Taiwan",
 				"pt": "Taiwan",
@@ -11482,7 +13913,8 @@
 			},
 			"flag": "https://flagcdn.com/tw.svg",
 			"cioc": "TPE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Tajikistan",
@@ -11516,7 +13948,20 @@
 			"currencies": [
 				{ "code": "TJS", "name": "Tajikistani somoni", "symbol": "ЅМ" }
 			],
-			"languages": "Tajik,Russian",
+			"languages": [
+				{
+					"iso639_1": "tg",
+					"iso639_2": "tgk",
+					"name": "Tajik",
+					"nativeName": "тоҷикӣ"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Tajiquistão",
 				"pt": "Tajiquistão",
@@ -11532,7 +13977,8 @@
 			},
 			"flag": "https://flagcdn.com/tj.svg",
 			"cioc": "TJK",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Tanzania, United Republic of",
@@ -11564,7 +14010,20 @@
 			"currencies": [
 				{ "code": "TZS", "name": "Tanzanian shilling", "symbol": "Sh" }
 			],
-			"languages": "Swahili,English",
+			"languages": [
+				{
+					"iso639_1": "sw",
+					"iso639_2": "swa",
+					"name": "Swahili",
+					"nativeName": "Kiswahili"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Tanzânia",
 				"pt": "Tanzânia",
@@ -11593,7 +14052,8 @@
 				}
 			],
 			"cioc": "TAN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Thailand",
@@ -11626,7 +14086,14 @@
 				"png": "https://flagcdn.com/w320/th.png"
 			},
 			"currencies": [{ "code": "THB", "name": "Thai baht", "symbol": "฿" }],
-			"languages": "Thai",
+			"languages": [
+				{
+					"iso639_1": "th",
+					"iso639_2": "tha",
+					"name": "Thai",
+					"nativeName": "ไทย"
+				}
+			],
 			"translations": {
 				"br": "Tailândia",
 				"pt": "Tailândia",
@@ -11645,7 +14112,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "THA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Timor-Leste",
@@ -11677,7 +14145,14 @@
 				"png": "https://flagcdn.com/w320/tl.png"
 			},
 			"currencies": [{ "code": "THB", "name": "Thai baht", "symbol": "฿" }],
-			"languages": "Portuguese",
+			"languages": [
+				{
+					"iso639_1": "pt",
+					"iso639_2": "por",
+					"name": "Portuguese",
+					"nativeName": "Português"
+				}
+			],
 			"translations": {
 				"br": "Timor Leste",
 				"pt": "Timor Leste",
@@ -11693,7 +14168,8 @@
 			},
 			"flag": "https://flagcdn.com/tl.svg",
 			"cioc": "TLS",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Togo",
@@ -11726,7 +14202,14 @@
 			"currencies": [
 				{ "code": "XOF", "name": "West African CFA franc", "symbol": "Fr" }
 			],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Togo",
 				"pt": "Togo",
@@ -11755,7 +14238,8 @@
 				}
 			],
 			"cioc": "TOG",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Tokelau",
@@ -11781,7 +14265,14 @@
 			"currencies": [
 				{ "code": "NZD", "name": "New Zealand dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Tokelau",
 				"pt": "Toquelau",
@@ -11796,7 +14287,8 @@
 				"hu": "Tokelau-szigetek"
 			},
 			"flag": "https://flagcdn.com/tk.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Tonga",
@@ -11823,7 +14315,20 @@
 			"currencies": [
 				{ "code": "TOP", "name": "Tongan paʻanga", "symbol": "T$" }
 			],
-			"languages": "English,Tonga (Tonga Islands)",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "to",
+					"iso639_2": "ton",
+					"name": "Tonga (Tonga Islands)",
+					"nativeName": "faka Tonga"
+				}
+			],
 			"translations": {
 				"br": "Tonga",
 				"pt": "Tonga",
@@ -11839,7 +14344,8 @@
 			},
 			"flag": "https://flagcdn.com/to.svg",
 			"cioc": "TGA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Trinidad and Tobago",
@@ -11866,7 +14372,14 @@
 			"currencies": [
 				{ "code": "TTD", "name": "Trinidad and Tobago dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Trinidad e Tobago",
 				"pt": "Trindade e Tobago",
@@ -11893,7 +14406,8 @@
 				}
 			],
 			"cioc": "TTO",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Tunisia",
@@ -11925,7 +14439,14 @@
 			"currencies": [
 				{ "code": "TND", "name": "Tunisian dinar", "symbol": "د.ت" }
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Tunísia",
 				"pt": "Tunísia",
@@ -11963,7 +14484,8 @@
 				}
 			],
 			"cioc": "TUN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Turkey",
@@ -11994,7 +14516,14 @@
 				"png": "https://flagcdn.com/w320/tr.png"
 			},
 			"currencies": [{ "code": "TRY", "name": "Turkish lira", "symbol": "֏" }],
-			"languages": "Turkish",
+			"languages": [
+				{
+					"iso639_1": "tr",
+					"iso639_2": "tur",
+					"name": "Turkish",
+					"nativeName": "Türkçe"
+				}
+			],
 			"translations": {
 				"br": "Turquia",
 				"pt": "Turquia",
@@ -12010,7 +14539,8 @@
 			},
 			"flag": "https://flagcdn.com/tr.svg",
 			"cioc": "TUR",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Turkmenistan",
@@ -12038,7 +14568,20 @@
 			"currencies": [
 				{ "code": "TMT", "name": "Turkmenistan manat", "symbol": "m" }
 			],
-			"languages": "Turkmen,Russian",
+			"languages": [
+				{
+					"iso639_1": "tk",
+					"iso639_2": "tuk",
+					"name": "Turkmen",
+					"nativeName": "Türkmen"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Turcomenistão",
 				"pt": "Turquemenistão",
@@ -12054,7 +14597,8 @@
 			},
 			"flag": "https://flagcdn.com/tm.svg",
 			"cioc": "TKM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Turks and Caicos Islands",
@@ -12080,7 +14624,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Ilhas Turcas e Caicos",
 				"pt": "Ilhas Turcas e Caicos",
@@ -12095,7 +14646,8 @@
 				"hu": "Turks- ís Caicos-szigetek"
 			},
 			"flag": "https://flagcdn.com/tc.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Tuvalu",
@@ -12123,7 +14675,14 @@
 				{ "code": "AUD", "name": "Australian dollar", "symbol": "$" },
 				{ "code": "TVD[G]", "name": "Tuvaluan dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Tuvalu",
 				"pt": "Tuvalu",
@@ -12139,7 +14698,8 @@
 			},
 			"flag": "https://flagcdn.com/tv.svg",
 			"cioc": "TUV",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Uganda",
@@ -12167,7 +14727,20 @@
 			"currencies": [
 				{ "code": "UGX", "name": "Ugandan shilling", "symbol": "Sh" }
 			],
-			"languages": "English,Swahili",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "sw",
+					"iso639_2": "swa",
+					"name": "Swahili",
+					"nativeName": "Kiswahili"
+				}
+			],
 			"translations": {
 				"br": "Uganda",
 				"pt": "Uganda",
@@ -12196,7 +14769,8 @@
 				}
 			],
 			"cioc": "UGA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Ukraine",
@@ -12224,7 +14798,14 @@
 			"currencies": [
 				{ "code": "UAH", "name": "Ukrainian hryvnia", "symbol": "₴" }
 			],
-			"languages": "Ukrainian",
+			"languages": [
+				{
+					"iso639_1": "uk",
+					"iso639_2": "ukr",
+					"name": "Ukrainian",
+					"nativeName": "Українська"
+				}
+			],
 			"translations": {
 				"br": "Ucrânia",
 				"pt": "Ucrânia",
@@ -12240,7 +14821,8 @@
 			},
 			"flag": "https://flagcdn.com/ua.svg",
 			"cioc": "UKR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "United Arab Emirates",
@@ -12272,7 +14854,14 @@
 					"symbol": "د.إ"
 				}
 			],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Emirados árabes Unidos",
 				"pt": "Emirados árabes Unidos",
@@ -12299,7 +14888,8 @@
 				}
 			],
 			"cioc": "UAE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "United Kingdom of Great Britain and Northern Ireland",
@@ -12335,7 +14925,14 @@
 				"png": "https://flagcdn.com/w320/gb.png"
 			},
 			"currencies": [{ "code": "GBP", "name": "British pound", "symbol": "£" }],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Reino Unido",
 				"pt": "Reino Unido",
@@ -12351,7 +14948,8 @@
 			},
 			"flag": "https://flagcdn.com/gb.svg",
 			"cioc": "GBR",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "United States of America",
@@ -12391,7 +14989,14 @@
 			"currencies": [
 				{ "code": "USD", "name": "United States dollar", "symbol": "$" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Estados Unidos",
 				"pt": "Estados Unidos",
@@ -12417,7 +15022,8 @@
 				}
 			],
 			"cioc": "USA",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Uruguay",
@@ -12449,7 +15055,14 @@
 			"currencies": [
 				{ "code": "UYU", "name": "Uruguayan peso", "symbol": "$" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Uruguai",
 				"pt": "Uruguai",
@@ -12478,7 +15091,8 @@
 				}
 			],
 			"cioc": "URU",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Uzbekistan",
@@ -12511,7 +15125,20 @@
 			"currencies": [
 				{ "code": "UZS", "name": "Uzbekistani so'm", "symbol": "so'm" }
 			],
-			"languages": "Uzbek,Russian",
+			"languages": [
+				{
+					"iso639_1": "uz",
+					"iso639_2": "uzb",
+					"name": "Uzbek",
+					"nativeName": "Oʻzbek"
+				},
+				{
+					"iso639_1": "ru",
+					"iso639_2": "rus",
+					"name": "Russian",
+					"nativeName": "Русский"
+				}
+			],
 			"translations": {
 				"br": "Uzbequistão",
 				"pt": "Usbequistão",
@@ -12527,7 +15154,8 @@
 			},
 			"flag": "https://flagcdn.com/uz.svg",
 			"cioc": "UZB",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Vanuatu",
@@ -12557,7 +15185,26 @@
 				"png": "https://flagcdn.com/w320/vu.png"
 			},
 			"currencies": [{ "code": "VUV", "name": "Vanuatu vatu", "symbol": "Vt" }],
-			"languages": "Bislama,English,French",
+			"languages": [
+				{
+					"iso639_1": "bi",
+					"iso639_2": "bis",
+					"name": "Bislama",
+					"nativeName": "Bislama"
+				},
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Vanuatu",
 				"pt": "Vanuatu",
@@ -12573,7 +15220,8 @@
 			},
 			"flag": "https://flagcdn.com/vu.svg",
 			"cioc": "VAN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Venezuela (Bolivarian Republic of)",
@@ -12605,7 +15253,14 @@
 			"currencies": [
 				{ "code": "VEF", "name": "Venezuelan bolívar", "symbol": "Bs S" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Venezuela",
 				"pt": "Venezuela",
@@ -12634,7 +15289,8 @@
 				}
 			],
 			"cioc": "VEN",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Vietnam",
@@ -12666,7 +15322,14 @@
 			"currencies": [
 				{ "code": "VND", "name": "Vietnamese đồng", "symbol": "₫" }
 			],
-			"languages": "Vietnamese",
+			"languages": [
+				{
+					"iso639_1": "vi",
+					"iso639_2": "vie",
+					"name": "Vietnamese",
+					"nativeName": "Tiếng Việt"
+				}
+			],
 			"translations": {
 				"br": "Vietnã",
 				"pt": "Vietname",
@@ -12685,7 +15348,8 @@
 				{ "acronym": "ASEAN", "name": "Association of Southeast Asian Nations" }
 			],
 			"cioc": "VIE",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Wallis and Futuna",
@@ -12713,7 +15377,14 @@
 				"png": "https://flagcdn.com/w320/wf.png"
 			},
 			"currencies": [{ "code": "XPF", "name": "CFP franc", "symbol": "Fr" }],
-			"languages": "French",
+			"languages": [
+				{
+					"iso639_1": "fr",
+					"iso639_2": "fra",
+					"name": "French",
+					"nativeName": "français"
+				}
+			],
 			"translations": {
 				"br": "Wallis e Futuna",
 				"pt": "Wallis e Futuna",
@@ -12728,7 +15399,8 @@
 				"hu": "Wallis és Futuna"
 			},
 			"flag": "https://flagcdn.com/wf.svg",
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Western Sahara",
@@ -12756,7 +15428,14 @@
 				{ "code": "MAD", "name": "Moroccan dirham", "symbol": "د.م." },
 				{ "code": "DZD", "name": "Algerian dinar", "symbol": "د.ج" }
 			],
-			"languages": "Spanish",
+			"languages": [
+				{
+					"iso639_1": "es",
+					"iso639_2": "spa",
+					"name": "Spanish",
+					"nativeName": "Español"
+				}
+			],
 			"translations": {
 				"br": "Saara Ocidental",
 				"pt": "Saara Ocidental",
@@ -12784,7 +15463,8 @@
 					]
 				}
 			],
-			"independent": false
+			"independent": false,
+			"isFavorite": false
 		},
 		{
 			"name": "Yemen",
@@ -12810,7 +15490,14 @@
 				"png": "https://flagcdn.com/w320/ye.png"
 			},
 			"currencies": [{ "code": "YER", "name": "Yemeni rial", "symbol": "﷼" }],
-			"languages": "Arabic",
+			"languages": [
+				{
+					"iso639_1": "ar",
+					"iso639_2": "ara",
+					"name": "Arabic",
+					"nativeName": "العربية"
+				}
+			],
 			"translations": {
 				"br": "Iêmen",
 				"pt": "Iémen",
@@ -12837,7 +15524,8 @@
 				}
 			],
 			"cioc": "YEM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Zambia",
@@ -12865,7 +15553,14 @@
 			"currencies": [
 				{ "code": "ZMW", "name": "Zambian kwacha", "symbol": "ZK" }
 			],
-			"languages": "English",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				}
+			],
 			"translations": {
 				"br": "Zâmbia",
 				"pt": "Zâmbia",
@@ -12894,7 +15589,8 @@
 				}
 			],
 			"cioc": "ZAM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		},
 		{
 			"name": "Zimbabwe",
@@ -12922,7 +15618,26 @@
 			"currencies": [
 				{ "code": "ZMW", "name": "Zambian kwacha", "symbol": "K" }
 			],
-			"languages": "English,Shona,Northern Ndebele",
+			"languages": [
+				{
+					"iso639_1": "en",
+					"iso639_2": "eng",
+					"name": "English",
+					"nativeName": "English"
+				},
+				{
+					"iso639_1": "sn",
+					"iso639_2": "sna",
+					"name": "Shona",
+					"nativeName": "chiShona"
+				},
+				{
+					"iso639_1": "nd",
+					"iso639_2": "nde",
+					"name": "Northern Ndebele",
+					"nativeName": "isiNdebele"
+				}
+			],
 			"translations": {
 				"br": "Zimbabwe",
 				"pt": "Zimbabué",
@@ -12951,7 +15666,8 @@
 				}
 			],
 			"cioc": "ZIM",
-			"independent": true
+			"independent": true,
+			"isFavorite": false
 		}
 	],
 	"regions": [
