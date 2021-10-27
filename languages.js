@@ -21,33 +21,8 @@ module.exports = [
 			svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg',
 			png: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png',
 		},
-		currencies: [
-			{
-				code: 'AFN',
-				name: 'Afghan afghani',
-				symbol: '؋',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ps',
-				iso639_2: 'pus',
-				name: 'Pashto',
-				nativeName: 'پښتو',
-			},
-			{
-				iso639_1: 'uz',
-				iso639_2: 'uzb',
-				name: 'Uzbek',
-				nativeName: 'Oʻzbek',
-			},
-			{
-				iso639_1: 'tk',
-				iso639_2: 'tuk',
-				name: 'Turkmen',
-				nativeName: 'Türkmen',
-			},
-		],
+		currencies: [{ code: 'AFN', name: 'Afghan afghani', symbol: '؋' }],
+		languages: 'Pashto,Uzbek,Turkmen',
 		translations: {
 			br: 'Afeganistão',
 			pt: 'Afeganistão',
@@ -92,21 +67,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ax.svg',
 			png: 'https://flagcdn.com/w320/ax.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sv',
-				iso639_2: 'swe',
-				name: 'Swedish',
-				nativeName: 'svenska',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Swedish',
 		translations: {
 			br: 'Ilhas de Aland',
 			pt: 'Ilhas de Aland',
@@ -121,12 +83,7 @@ module.exports = [
 			hu: 'Åland-szigetek',
 		},
 		flag: 'https://flagcdn.com/ax.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		independent: false,
 	},
 	{
@@ -152,21 +109,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/al.svg',
 			png: 'https://flagcdn.com/w320/al.png',
 		},
-		currencies: [
-			{
-				code: 'ALL',
-				name: 'Albanian lek',
-				symbol: 'L',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sq',
-				iso639_2: 'sqi',
-				name: 'Albanian',
-				nativeName: 'Shqip',
-			},
-		],
+		currencies: [{ code: 'ALL', name: 'Albanian lek', symbol: 'L' }],
+		languages: 'Albanian',
 		translations: {
 			br: 'Albânia',
 			pt: 'Albânia',
@@ -182,10 +126,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/al.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'ALB',
 		independent: true,
@@ -213,21 +154,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/dz.svg',
 			png: 'https://flagcdn.com/w320/dz.png',
 		},
-		currencies: [
-			{
-				code: 'DZD',
-				name: 'Algerian dinar',
-				symbol: 'د.ج',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'DZD', name: 'Algerian dinar', symbol: 'د.ج' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Argélia',
 			pt: 'Argélia',
@@ -288,27 +216,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/as.svg',
 			png: 'https://flagcdn.com/w320/as.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States Dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'sm',
-				iso639_2: 'smo',
-				name: 'Samoan',
-				nativeName: "gagana fa'a Samoa",
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States Dollar', symbol: '$' }],
+		languages: 'English,Samoan',
 		translations: {
 			br: 'Samoa Americana',
 			pt: 'Samoa Americana',
@@ -348,21 +257,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ad.svg',
 			png: 'https://flagcdn.com/w320/ad.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ca',
-				iso639_2: 'cat',
-				name: 'Catalan',
-				nativeName: 'català',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Catalan',
 		translations: {
 			br: 'Andorra',
 			pt: 'Andorra',
@@ -403,21 +299,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ao.svg',
 			png: 'https://flagcdn.com/w320/ao.png',
 		},
-		currencies: [
-			{
-				code: 'AOA',
-				name: 'Angolan kwanza',
-				symbol: 'Kz',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'AOA', name: 'Angolan kwanza', symbol: 'Kz' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Angola',
 			pt: 'Angola',
@@ -469,21 +352,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ai.svg',
 			png: 'https://flagcdn.com/w320/ai.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Anguila',
 			pt: 'Anguila',
@@ -528,20 +398,7 @@ module.exports = [
 			svg: 'https://flagcdn.com/aq.svg',
 			png: 'https://flagcdn.com/w320/aq.png',
 		},
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		languages: 'English,Russian',
 		translations: {
 			br: 'Antártida',
 			pt: 'Antárctida',
@@ -579,21 +436,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ag.svg',
 			png: 'https://flagcdn.com/w320/ag.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Antígua e Barbuda',
 			pt: 'Antígua e Barbuda',
@@ -645,27 +489,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ar.svg',
 			png: 'https://flagcdn.com/w320/ar.png',
 		},
-		currencies: [
-			{
-				code: 'ARS',
-				name: 'Argentine peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-			{
-				iso639_1: 'gn',
-				iso639_2: 'grn',
-				name: 'Guaraní',
-				nativeName: "Avañe'ẽ",
-			},
-		],
+		currencies: [{ code: 'ARS', name: 'Argentine peso', symbol: '$' }],
+		languages: 'Spanish,Guaraní',
 		translations: {
 			br: 'Argentina',
 			pt: 'Argentina',
@@ -724,21 +549,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/am.svg',
 			png: 'https://flagcdn.com/w320/am.png',
 		},
-		currencies: [
-			{
-				code: 'AMD',
-				name: 'Armenian dram',
-				symbol: '֏',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'hy',
-				iso639_2: 'hye',
-				name: 'Armenian',
-				nativeName: 'Հայերեն',
-			},
-		],
+		currencies: [{ code: 'AMD', name: 'Armenian dram', symbol: '֏' }],
+		languages: 'Armenian',
 		translations: {
 			br: 'Armênia',
 			pt: 'Arménia',
@@ -784,27 +596,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/aw.svg',
 			png: 'https://flagcdn.com/w320/aw.png',
 		},
-		currencies: [
-			{
-				code: 'AWG',
-				name: 'Aruban florin',
-				symbol: 'ƒ',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-			{
-				iso639_1: 'pa',
-				iso639_2: 'pan',
-				name: '(Eastern) Punjabi',
-				nativeName: 'ਪੰਜਾਬੀ',
-			},
-		],
+		currencies: [{ code: 'AWG', name: 'Aruban florin', symbol: 'ƒ' }],
+		languages: 'Dutch,(Eastern) Punjabi',
 		translations: {
 			br: 'Aruba',
 			pt: 'Aruba',
@@ -853,21 +646,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/au.svg',
 			png: 'https://flagcdn.com/w320/au.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Austrália',
 			pt: 'Austrália',
@@ -908,21 +688,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/at.svg',
 			png: 'https://flagcdn.com/w320/at.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'German',
 		translations: {
 			br: 'Áustria',
 			pt: 'Áustria',
@@ -937,12 +704,7 @@ module.exports = [
 			hu: 'Ausztria',
 		},
 		flag: 'https://flagcdn.com/at.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'AUT',
 		independent: true,
 	},
@@ -969,21 +731,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/az.svg',
 			png: 'https://flagcdn.com/w320/az.png',
 		},
-		currencies: [
-			{
-				code: 'AZN',
-				name: 'Azerbaijani manat',
-				symbol: '₼',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'az',
-				iso639_2: 'aze',
-				name: 'Azerbaijani',
-				nativeName: 'azərbaycan dili',
-			},
-		],
+		currencies: [{ code: 'AZN', name: 'Azerbaijani manat', symbol: '₼' }],
+		languages: 'Azerbaijani',
 		translations: {
 			br: 'Azerbaijão',
 			pt: 'Azerbaijão',
@@ -1022,21 +771,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bs.svg',
 			png: 'https://flagcdn.com/w320/bs.png',
 		},
-		currencies: [
-			{
-				code: 'BSD',
-				name: 'Bahamian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'BSD', name: 'Bahamian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Bahamas',
 			pt: 'Baamas',
@@ -1086,21 +822,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bh.svg',
 			png: 'https://flagcdn.com/w320/bh.png',
 		},
-		currencies: [
-			{
-				code: 'BHD',
-				name: 'Bahraini dinar',
-				symbol: '.د.ب',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'BHD', name: 'Bahraini dinar', symbol: '.د.ب' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Bahrein',
 			pt: 'Barém',
@@ -1156,21 +879,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bd.svg',
 			png: 'https://flagcdn.com/w320/bd.png',
 		},
-		currencies: [
-			{
-				code: 'BDT',
-				name: 'Bangladeshi taka',
-				symbol: '৳',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'bn',
-				iso639_2: 'ben',
-				name: 'Bengali',
-				nativeName: 'বাংলা',
-			},
-		],
+		currencies: [{ code: 'BDT', name: 'Bangladeshi taka', symbol: '৳' }],
+		languages: 'Bengali',
 		translations: {
 			br: 'Bangladesh',
 			pt: 'Bangladeche',
@@ -1215,21 +925,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bb.svg',
 			png: 'https://flagcdn.com/w320/bb.png',
 		},
-		currencies: [
-			{
-				code: 'BBD',
-				name: 'Barbadian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'BBD', name: 'Barbadian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Barbados',
 			pt: 'Barbados',
@@ -1290,31 +987,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/by.png',
 		},
 		currencies: [
-			{
-				code: 'BYN',
-				name: 'New Belarusian ruble',
-				symbol: 'Br',
-			},
-			{
-				code: 'BYR',
-				name: 'Old Belarusian ruble',
-				symbol: 'Br',
-			},
+			{ code: 'BYN', name: 'New Belarusian ruble', symbol: 'Br' },
+			{ code: 'BYR', name: 'Old Belarusian ruble', symbol: 'Br' },
 		],
-		languages: [
-			{
-				iso639_1: 'be',
-				iso639_2: 'bel',
-				name: 'Belarusian',
-				nativeName: 'беларуская мова',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		languages: 'Belarusian,Russian',
 		translations: {
 			br: 'Bielorrússia',
 			pt: 'Bielorrússia',
@@ -1372,33 +1048,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/be.svg',
 			png: 'https://flagcdn.com/w320/be.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Dutch,French,German',
 		translations: {
 			br: 'Bélgica',
 			pt: 'Bélgica',
@@ -1413,12 +1064,7 @@ module.exports = [
 			hu: 'Belgium',
 		},
 		flag: 'https://flagcdn.com/be.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'BEL',
 		independent: true,
 	},
@@ -1445,27 +1091,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bz.svg',
 			png: 'https://flagcdn.com/w320/bz.png',
 		},
-		currencies: [
-			{
-				code: 'BZD',
-				name: 'Belize dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'BZD', name: 'Belize dollar', symbol: '$' }],
+		languages: 'English,Spanish',
 		translations: {
 			br: 'Belize',
 			pt: 'Belize',
@@ -1523,21 +1150,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bj.svg',
 			png: 'https://flagcdn.com/w320/bj.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Benin',
 			pt: 'Benim',
@@ -1594,21 +1208,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bm.svg',
 			png: 'https://flagcdn.com/w320/bm.png',
 		},
-		currencies: [
-			{
-				code: 'BMD',
-				name: 'Bermudian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'BMD', name: 'Bermudian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Bermudas',
 			pt: 'Bermudas',
@@ -1650,25 +1251,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/bt.png',
 		},
 		currencies: [
-			{
-				code: 'BTN',
-				name: 'Bhutanese ngultrum',
-				symbol: 'Nu.',
-			},
-			{
-				code: 'INR',
-				name: 'Indian rupee',
-				symbol: '₹',
-			},
+			{ code: 'BTN', name: 'Bhutanese ngultrum', symbol: 'Nu.' },
+			{ code: 'INR', name: 'Indian rupee', symbol: '₹' },
 		],
-		languages: [
-			{
-				iso639_1: 'dz',
-				iso639_2: 'dzo',
-				name: 'Dzongkha',
-				nativeName: 'རྫོང་ཁ',
-			},
-		],
+		languages: 'Dzongkha',
 		translations: {
 			br: 'Butão',
 			pt: 'Butão',
@@ -1724,33 +1310,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bo.svg',
 			png: 'https://flagcdn.com/w320/bo.png',
 		},
-		currencies: [
-			{
-				code: 'BOB',
-				name: 'Bolivian boliviano',
-				symbol: 'Bs.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-			{
-				iso639_1: 'ay',
-				iso639_2: 'aym',
-				name: 'Aymara',
-				nativeName: 'aymar aru',
-			},
-			{
-				iso639_1: 'qu',
-				iso639_2: 'que',
-				name: 'Quechua',
-				nativeName: 'Runa Simi',
-			},
-		],
+		currencies: [{ code: 'BOB', name: 'Bolivian boliviano', symbol: 'Bs.' }],
+		languages: 'Spanish,Aymara,Quechua',
 		translations: {
 			br: 'Bolívia',
 			pt: 'Bolívia',
@@ -1802,21 +1363,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bq.svg',
 			png: 'https://flagcdn.com/w320/bq.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'Dutch',
 		translations: {
 			br: 'Bonaire',
 			pt: 'Bonaire',
@@ -1863,26 +1411,7 @@ module.exports = [
 				symbol: 'KM',
 			},
 		],
-		languages: [
-			{
-				iso639_1: 'bs',
-				iso639_2: 'bos',
-				name: 'Bosnian',
-				nativeName: 'bosanski jezik',
-			},
-			{
-				iso639_1: 'hr',
-				iso639_2: 'hrv',
-				name: 'Croatian',
-				nativeName: 'hrvatski jezik',
-			},
-			{
-				iso639_1: 'sr',
-				iso639_2: 'srp',
-				name: 'Serbian',
-				nativeName: 'српски језик',
-			},
-		],
+		languages: 'Bosnian,Croatian,Serbian',
 		translations: {
 			br: 'Bósnia e Herzegovina',
 			pt: 'Bósnia e Herzegovina',
@@ -1898,10 +1427,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/ba.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'BIH',
 		independent: true,
@@ -1929,27 +1455,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bw.svg',
 			png: 'https://flagcdn.com/w320/bw.png',
 		},
-		currencies: [
-			{
-				code: 'BWP',
-				name: 'Botswana pula',
-				symbol: 'P',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'tn',
-				iso639_2: 'tsn',
-				name: 'Tswana',
-				nativeName: 'Setswana',
-			},
-		],
+		currencies: [{ code: 'BWP', name: 'Botswana pula', symbol: 'P' }],
+		languages: 'English,Tswana',
 		translations: {
 			br: 'Botsuana',
 			pt: 'Botsuana',
@@ -2000,33 +1507,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bv.svg',
 			png: 'https://flagcdn.com/w320/bv.png',
 		},
-		currencies: [
-			{
-				code: 'NOK',
-				name: 'Norwegian krone',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'no',
-				iso639_2: 'nor',
-				name: 'Norwegian',
-				nativeName: 'Norsk',
-			},
-			{
-				iso639_1: 'nb',
-				iso639_2: 'nob',
-				name: 'Norwegian Bokmål',
-				nativeName: 'Norsk bokmål',
-			},
-			{
-				iso639_1: 'nn',
-				iso639_2: 'nno',
-				name: 'Norwegian Nynorsk',
-				nativeName: 'Norsk nynorsk',
-			},
-		],
+		currencies: [{ code: 'NOK', name: 'Norwegian krone', symbol: 'kr' }],
+		languages: 'Norwegian,Norwegian Bokmål,Norwegian Nynorsk',
 		translations: {
 			br: 'Ilha Bouvet',
 			pt: 'Ilha Bouvet',
@@ -2083,21 +1565,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/br.svg',
 			png: 'https://flagcdn.com/w320/br.png',
 		},
-		currencies: [
-			{
-				code: 'BRL',
-				name: 'Brazilian real',
-				symbol: 'R$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'BRL', name: 'Brazilian real', symbol: 'R$' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Brasil',
 			pt: 'Brasil',
@@ -2149,21 +1618,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/io.svg',
 			png: 'https://flagcdn.com/w320/io.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Território Britânico do Oceano íÍdico',
 			pt: 'Território Britânico do Oceano Índico',
@@ -2211,21 +1667,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/um.svg',
 			png: 'https://flagcdn.com/w320/um.png',
 		},
-		currencies: [
-			{
-				code: 'GBP',
-				name: 'British pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GBP', name: 'British pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Menores Distantes dos Estados Unidos',
 			pt: 'Ilhas Menores Distantes dos Estados Unidos',
@@ -2263,21 +1706,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/vg.svg',
 			png: 'https://flagcdn.com/w320/vg.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Virgens Britânicas',
 			pt: 'Ilhas Virgens Britânicas',
@@ -2321,21 +1751,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/vi.svg',
 			png: 'https://flagcdn.com/w320/vi.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Virgens Americanas',
 			pt: 'Ilhas Virgens Americanas',
@@ -2376,25 +1793,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/bn.png',
 		},
 		currencies: [
-			{
-				code: 'BND',
-				name: 'Brunei dollar',
-				symbol: '$',
-			},
-			{
-				code: 'SGD',
-				name: 'Singapore dollar',
-				symbol: '$',
-			},
+			{ code: 'BND', name: 'Brunei dollar', symbol: '$' },
+			{ code: 'SGD', name: 'Singapore dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'ms',
-				iso639_2: 'msa',
-				name: 'Malay',
-				nativeName: 'bahasa Melayu',
-			},
-		],
+		languages: 'Malay',
 		translations: {
 			br: 'Brunei',
 			pt: 'Brunei',
@@ -2410,10 +1812,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/bn.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'BRU',
 		independent: true,
@@ -2441,21 +1840,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bg.svg',
 			png: 'https://flagcdn.com/w320/bg.png',
 		},
-		currencies: [
-			{
-				code: 'BGN',
-				name: 'Bulgarian lev',
-				symbol: 'лв',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'bg',
-				iso639_2: 'bul',
-				name: 'Bulgarian',
-				nativeName: 'български език',
-			},
-		],
+		currencies: [{ code: 'BGN', name: 'Bulgarian lev', symbol: 'лв' }],
+		languages: 'Bulgarian',
 		translations: {
 			br: 'Bulgária',
 			pt: 'Bulgária',
@@ -2470,12 +1856,7 @@ module.exports = [
 			hu: 'Bulgária',
 		},
 		flag: 'https://flagcdn.com/bg.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'BUL',
 		independent: true,
 	},
@@ -2502,27 +1883,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bf.svg',
 			png: 'https://flagcdn.com/w320/bf.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ff',
-				iso639_2: 'ful',
-				name: 'Fula',
-				nativeName: 'Fulfulde',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French,Fula',
 		translations: {
 			br: 'Burkina Faso',
 			pt: 'Burquina Faso',
@@ -2581,27 +1943,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bi.svg',
 			png: 'https://flagcdn.com/w320/bi.png',
 		},
-		currencies: [
-			{
-				code: 'BIF',
-				name: 'Burundian franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'rn',
-				iso639_2: 'run',
-				name: 'Kirundi',
-				nativeName: 'Ikirundi',
-			},
-		],
+		currencies: [{ code: 'BIF', name: 'Burundian franc', symbol: 'Fr' }],
+		languages: 'French,Kirundi',
 		translations: {
 			br: 'Burundi',
 			pt: 'Burúndi',
@@ -2655,25 +1998,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/kh.png',
 		},
 		currencies: [
-			{
-				code: 'KHR',
-				name: 'Cambodian riel',
-				symbol: '៛',
-			},
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
+			{ code: 'KHR', name: 'Cambodian riel', symbol: '៛' },
+			{ code: 'USD', name: 'United States dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'km',
-				iso639_2: 'khm',
-				name: 'Khmer',
-				nativeName: 'ខ្មែរ',
-			},
-		],
+		languages: 'Khmer',
 		translations: {
 			br: 'Camboja',
 			pt: 'Camboja',
@@ -2689,10 +2017,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/kh.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'CAM',
 		independent: true,
@@ -2721,26 +2046,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/cm.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		languages: 'English,French',
 		translations: {
 			br: 'Camarões',
 			pt: 'Camarões',
@@ -2801,27 +2109,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ca.svg',
 			png: 'https://flagcdn.com/w320/ca.png',
 		},
-		currencies: [
-			{
-				code: 'CAD',
-				name: 'Canadian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'CAD', name: 'Canadian dollar', symbol: '$' }],
+		languages: 'English,French',
 		translations: {
 			br: 'Canadá',
 			pt: 'Canadá',
@@ -2871,21 +2160,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cv.svg',
 			png: 'https://flagcdn.com/w320/cv.png',
 		},
-		currencies: [
-			{
-				code: 'CVE',
-				name: 'Cape Verdean escudo',
-				symbol: 'Esc',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'CVE', name: 'Cape Verdean escudo', symbol: 'Esc' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Cabo Verde',
 			pt: 'Cabo Verde',
@@ -2937,21 +2213,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ky.svg',
 			png: 'https://flagcdn.com/w320/ky.png',
 		},
-		currencies: [
-			{
-				code: 'KYD',
-				name: 'Cayman Islands dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'KYD', name: 'Cayman Islands dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Cayman',
 			pt: 'Ilhas Caimão',
@@ -2997,26 +2260,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/cf.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'sg',
-				iso639_2: 'sag',
-				name: 'Sango',
-				nativeName: 'yângâ tî sängö',
-			},
-		],
+		languages: 'French,Sango',
 		translations: {
 			br: 'República Centro-Africana',
 			pt: 'República Centro-Africana',
@@ -3071,26 +2317,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/td.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		languages: 'French,Arabic',
 		translations: {
 			br: 'Chade',
 			pt: 'Chade',
@@ -3144,21 +2373,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cl.svg',
 			png: 'https://flagcdn.com/w320/cl.png',
 		},
-		currencies: [
-			{
-				code: 'CLP',
-				name: 'Chilean peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'CLP', name: 'Chilean peso', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Chile',
 			pt: 'Chile',
@@ -3242,21 +2458,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cn.svg',
 			png: 'https://flagcdn.com/w320/cn.png',
 		},
-		currencies: [
-			{
-				code: 'CNY',
-				name: 'Chinese yuan',
-				symbol: '¥',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'zh',
-				iso639_2: 'zho',
-				name: 'Chinese',
-				nativeName: '中文 (Zhōngwén)',
-			},
-		],
+		currencies: [{ code: 'CNY', name: 'Chinese yuan', symbol: '¥' }],
+		languages: 'Chinese',
 		translations: {
 			br: 'China',
 			pt: 'China',
@@ -3295,21 +2498,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cx.svg',
 			png: 'https://flagcdn.com/w320/cx.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilha Christmas',
 			pt: 'Ilha do Natal',
@@ -3351,21 +2541,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cc.svg',
 			png: 'https://flagcdn.com/w320/cc.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Cocos',
 			pt: 'Ilhas dos Cocos',
@@ -3405,21 +2582,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/co.svg',
 			png: 'https://flagcdn.com/w320/co.png',
 		},
-		currencies: [
-			{
-				code: 'COP',
-				name: 'Colombian peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'COP', name: 'Colombian peso', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Colômbia',
 			pt: 'Colômbia',
@@ -3483,27 +2647,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/km.svg',
 			png: 'https://flagcdn.com/w320/km.png',
 		},
-		currencies: [
-			{
-				code: 'KMF',
-				name: 'Comorian franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'KMF', name: 'Comorian franc', symbol: 'Fr' }],
+		languages: 'Arabic,French',
 		translations: {
 			br: 'Comores',
 			pt: 'Comores',
@@ -3567,26 +2712,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/cg.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ln',
-				iso639_2: 'lin',
-				name: 'Lingala',
-				nativeName: 'Lingála',
-			},
-		],
+		languages: 'French,Lingala',
 		translations: {
 			br: 'Congo',
 			pt: 'Congo',
@@ -3640,45 +2768,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cd.svg',
 			png: 'https://flagcdn.com/w320/cd.png',
 		},
-		currencies: [
-			{
-				code: 'CDF',
-				name: 'Congolese franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ln',
-				iso639_2: 'lin',
-				name: 'Lingala',
-				nativeName: 'Lingála',
-			},
-			{
-				iso639_1: 'kg',
-				iso639_2: 'kon',
-				name: 'Kongo',
-				nativeName: 'Kikongo',
-			},
-			{
-				iso639_1: 'sw',
-				iso639_2: 'swa',
-				name: 'Swahili',
-				nativeName: 'Kiswahili',
-			},
-			{
-				iso639_1: 'lu',
-				iso639_2: 'lub',
-				name: 'Luba-Katanga',
-				nativeName: 'Tshiluba',
-			},
-		],
+		currencies: [{ code: 'CDF', name: 'Congolese franc', symbol: 'Fr' }],
+		languages: 'French,Lingala,Kongo,Swahili,Luba-Katanga',
 		translations: {
 			br: 'RD Congo',
 			pt: 'RD Congo',
@@ -3731,30 +2822,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/ck.png',
 		},
 		currencies: [
-			{
-				code: 'NZD',
-				name: 'New Zealand dollar',
-				symbol: '$',
-			},
-			{
-				code: 'CKD',
-				name: 'Cook Islands dollar',
-				symbol: '$',
-			},
+			{ code: 'NZD', name: 'New Zealand dollar', symbol: '$' },
+			{ code: 'CKD', name: 'Cook Islands dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_2: 'rar',
-				name: 'Cook Islands Māori',
-				nativeName: 'Māori',
-			},
-		],
+		languages: 'English,Cook Islands Māori',
 		translations: {
 			br: 'Ilhas Cook',
 			pt: 'Ilhas Cook',
@@ -3795,21 +2866,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cr.svg',
 			png: 'https://flagcdn.com/w320/cr.png',
 		},
-		currencies: [
-			{
-				code: 'CRC',
-				name: 'Costa Rican colón',
-				symbol: '₡',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'CRC', name: 'Costa Rican colón', symbol: '₡' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Costa Rica',
 			pt: 'Costa Rica',
@@ -3863,21 +2921,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/hr.svg',
 			png: 'https://flagcdn.com/w320/hr.png',
 		},
-		currencies: [
-			{
-				code: 'HRK',
-				name: 'Croatian kuna',
-				symbol: 'kn',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'hr',
-				iso639_2: 'hrv',
-				name: 'Croatian',
-				nativeName: 'hrvatski jezik',
-			},
-		],
+		currencies: [{ code: 'HRK', name: 'Croatian kuna', symbol: 'kn' }],
+		languages: 'Croatian',
 		translations: {
 			br: 'Croácia',
 			pt: 'Croácia',
@@ -3892,12 +2937,7 @@ module.exports = [
 			hu: 'Horvátország',
 		},
 		flag: 'https://flagcdn.com/hr.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'CRO',
 		independent: true,
 	},
@@ -3923,25 +2963,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/cu.png',
 		},
 		currencies: [
-			{
-				code: 'CUC',
-				name: 'Cuban convertible peso',
-				symbol: '$',
-			},
-			{
-				code: 'CUP',
-				name: 'Cuban peso',
-				symbol: '$',
-			},
+			{ code: 'CUC', name: 'Cuban convertible peso', symbol: '$' },
+			{ code: 'CUP', name: 'Cuban peso', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		languages: 'Spanish',
 		translations: {
 			br: 'Cuba',
 			pt: 'Cuba',
@@ -3994,26 +3019,7 @@ module.exports = [
 				symbol: 'ƒ',
 			},
 		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-			{
-				iso639_1: 'pa',
-				iso639_2: 'pan',
-				name: '(Eastern) Punjabi',
-				nativeName: 'ਪੰਜਾਬੀ',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'Dutch,(Eastern) Punjabi,English',
 		translations: {
 			br: 'Curaçao',
 			pt: 'Curaçao',
@@ -4060,33 +3066,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cy.svg',
 			png: 'https://flagcdn.com/w320/cy.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'el',
-				iso639_2: 'ell',
-				name: 'Greek (modern)',
-				nativeName: 'ελληνικά',
-			},
-			{
-				iso639_1: 'tr',
-				iso639_2: 'tur',
-				name: 'Turkish',
-				nativeName: 'Türkçe',
-			},
-			{
-				iso639_1: 'hy',
-				iso639_2: 'hye',
-				name: 'Armenian',
-				nativeName: 'Հայերեն',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Greek (modern),Turkish,Armenian',
 		translations: {
 			br: 'Chipre',
 			pt: 'Chipre',
@@ -4101,12 +3082,7 @@ module.exports = [
 			hu: 'Ciprus',
 		},
 		flag: 'https://flagcdn.com/cy.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'CYP',
 		independent: true,
 	},
@@ -4132,27 +3108,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/cz.svg',
 			png: 'https://flagcdn.com/w320/cz.png',
 		},
-		currencies: [
-			{
-				code: 'CZK',
-				name: 'Czech koruna',
-				symbol: 'Kč',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'cs',
-				iso639_2: 'ces',
-				name: 'Czech',
-				nativeName: 'čeština',
-			},
-			{
-				iso639_1: 'sk',
-				iso639_2: 'slk',
-				name: 'Slovak',
-				nativeName: 'slovenčina',
-			},
-		],
+		currencies: [{ code: 'CZK', name: 'Czech koruna', symbol: 'Kč' }],
+		languages: 'Czech,Slovak',
 		translations: {
 			br: 'República Tcheca',
 			pt: 'República Checa',
@@ -4167,12 +3124,7 @@ module.exports = [
 			hu: 'Csehország',
 		},
 		flag: 'https://flagcdn.com/cz.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'CZE',
 		independent: true,
 	},
@@ -4199,21 +3151,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/dk.svg',
 			png: 'https://flagcdn.com/w320/dk.png',
 		},
-		currencies: [
-			{
-				code: 'DKK',
-				name: 'Danish krone',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'da',
-				iso639_2: 'dan',
-				name: 'Danish',
-				nativeName: 'dansk',
-			},
-		],
+		currencies: [{ code: 'DKK', name: 'Danish krone', symbol: 'kr' }],
+		languages: 'Danish',
 		translations: {
 			br: 'Dinamarca',
 			pt: 'Dinamarca',
@@ -4228,12 +3167,7 @@ module.exports = [
 			hu: 'Dánia',
 		},
 		flag: 'https://flagcdn.com/dk.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'DEN',
 		independent: true,
 	},
@@ -4268,27 +3202,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/dj.svg',
 			png: 'https://flagcdn.com/w320/dj.png',
 		},
-		currencies: [
-			{
-				code: 'DJF',
-				name: 'Djiboutian franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'DJF', name: 'Djiboutian franc', symbol: 'Fr' }],
+		languages: 'French,Arabic',
 		translations: {
 			br: 'Djibuti',
 			pt: 'Djibuti',
@@ -4354,21 +3269,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/dm.svg',
 			png: 'https://flagcdn.com/w320/dm.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Dominica',
 			pt: 'Dominica',
@@ -4409,21 +3311,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/do.svg',
 			png: 'https://flagcdn.com/w320/do.png',
 		},
-		currencies: [
-			{
-				code: 'DOP',
-				name: 'Dominican peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'DOP', name: 'Dominican peso', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'República Dominicana',
 			pt: 'República Dominicana',
@@ -4481,21 +3370,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ec.svg',
 			png: 'https://flagcdn.com/w320/ec.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Equador',
 			pt: 'Equador',
@@ -4549,21 +3425,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/eg.svg',
 			png: 'https://flagcdn.com/w320/eg.png',
 		},
-		currencies: [
-			{
-				code: 'EGP',
-				name: 'Egyptian pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'EGP', name: 'Egyptian pound', symbol: '£' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Egito',
 			pt: 'Egipto',
@@ -4626,21 +3489,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sv.svg',
 			png: 'https://flagcdn.com/w320/sv.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'El Salvador',
 			pt: 'El Salvador',
@@ -4695,37 +3545,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/gq.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-			{
-				iso639_2: 'fan',
-				name: 'Fang',
-				nativeName: 'Fang',
-			},
-		],
+		languages: 'Spanish,French,Portuguese,Fang',
 		translations: {
 			br: 'Guiné Equatorial',
 			pt: 'Guiné Equatorial',
@@ -4786,64 +3608,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/er.svg',
 			png: 'https://flagcdn.com/w320/er.png',
 		},
-		currencies: [
-			{
-				code: 'ERN',
-				name: 'Eritrean nakfa',
-				symbol: 'Nfk',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ti',
-				iso639_2: 'tir',
-				name: 'Tigrinya',
-				nativeName: 'ትግርኛ',
-			},
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_2: 'tig',
-				name: 'Tigre',
-				nativeName: 'ትግረ',
-			},
-			{
-				iso639_2: 'kun',
-				name: 'Kunama',
-				nativeName: 'Kunama',
-			},
-			{
-				iso639_2: 'ssy',
-				name: 'Saho',
-				nativeName: 'Saho',
-			},
-			{
-				iso639_2: 'byn',
-				name: 'Bilen',
-				nativeName: 'ብሊና',
-			},
-			{
-				iso639_2: 'nrb',
-				name: 'Nara',
-				nativeName: 'Nara',
-			},
-			{
-				iso639_1: 'aa',
-				iso639_2: 'aar',
-				name: 'Afar',
-				nativeName: 'Afar',
-			},
-		],
+		currencies: [{ code: 'ERN', name: 'Eritrean nakfa', symbol: 'Nfk' }],
+		languages: 'Tigrinya,Arabic,English,Tigre,Kunama,Saho,Bilen,Nara,Afar',
 		translations: {
 			br: 'Eritreia',
 			pt: 'Eritreia',
@@ -4897,21 +3663,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ee.svg',
 			png: 'https://flagcdn.com/w320/ee.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'et',
-				iso639_2: 'est',
-				name: 'Estonian',
-				nativeName: 'eesti',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Estonian',
 		translations: {
 			br: 'Estônia',
 			pt: 'Estónia',
@@ -4926,12 +3679,7 @@ module.exports = [
 			hu: 'Észtország',
 		},
 		flag: 'https://flagcdn.com/ee.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'EST',
 		independent: true,
 	},
@@ -4963,21 +3711,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/et.svg',
 			png: 'https://flagcdn.com/w320/et.png',
 		},
-		currencies: [
-			{
-				code: 'ETB',
-				name: 'Ethiopian birr',
-				symbol: 'Br',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'am',
-				iso639_2: 'amh',
-				name: 'Amharic',
-				nativeName: 'አማርኛ',
-			},
-		],
+		currencies: [{ code: 'ETB', name: 'Ethiopian birr', symbol: 'Br' }],
+		languages: 'Amharic',
 		translations: {
 			br: 'Etiópia',
 			pt: 'Etiópia',
@@ -5029,21 +3764,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/fk.svg',
 			png: 'https://flagcdn.com/w320/fk.png',
 		},
-		currencies: [
-			{
-				code: 'FKP',
-				name: 'Falkland Islands pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'FKP', name: 'Falkland Islands pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Malvinas',
 			pt: 'Ilhas Falkland',
@@ -5095,25 +3817,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/fo.png',
 		},
 		currencies: [
-			{
-				code: 'DKK',
-				name: 'Danish krone',
-				symbol: 'kr',
-			},
-			{
-				code: 'FOK',
-				name: 'Faroese króna',
-				symbol: 'kr',
-			},
+			{ code: 'DKK', name: 'Danish krone', symbol: 'kr' },
+			{ code: 'FOK', name: 'Faroese króna', symbol: 'kr' },
 		],
-		languages: [
-			{
-				iso639_1: 'fo',
-				iso639_2: 'fao',
-				name: 'Faroese',
-				nativeName: 'føroyskt',
-			},
-		],
+		languages: 'Faroese',
 		translations: {
 			br: 'Ilhas Faroé',
 			pt: 'Ilhas Faroé',
@@ -5158,37 +3865,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/fj.svg',
 			png: 'https://flagcdn.com/w320/fj.png',
 		},
-		currencies: [
-			{
-				code: 'FJD',
-				name: 'Fijian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fj',
-				iso639_2: 'fij',
-				name: 'Fijian',
-				nativeName: 'vosa Vakaviti',
-			},
-			{
-				iso639_2: 'hif',
-				name: 'Fiji Hindi',
-				nativeName: 'फ़िजी बात',
-			},
-			{
-				iso639_2: 'rtm',
-				name: 'Rotuman',
-				nativeName: 'Fäeag Rotuma',
-			},
-		],
+		currencies: [{ code: 'FJD', name: 'Fijian dollar', symbol: '$' }],
+		languages: 'English,Fijian,Fiji Hindi,Rotuman',
 		translations: {
 			br: 'Fiji',
 			pt: 'Fiji',
@@ -5235,27 +3913,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/fi.svg',
 			png: 'https://flagcdn.com/w320/fi.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fi',
-				iso639_2: 'fin',
-				name: 'Finnish',
-				nativeName: 'suomi',
-			},
-			{
-				iso639_1: 'sv',
-				iso639_2: 'swe',
-				name: 'Swedish',
-				nativeName: 'svenska',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Finnish,Swedish',
 		translations: {
 			br: 'Finlândia',
 			pt: 'Finlândia',
@@ -5270,12 +3929,7 @@ module.exports = [
 			hu: 'Finnország',
 		},
 		flag: 'https://flagcdn.com/fi.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'FIN',
 		independent: true,
 	},
@@ -5317,21 +3971,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/fr.svg',
 			png: 'https://flagcdn.com/w320/fr.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'França',
 			pt: 'França',
@@ -5346,12 +3987,7 @@ module.exports = [
 			hu: 'Franciaország',
 		},
 		flag: 'https://flagcdn.com/fr.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'FRA',
 		independent: true,
 	},
@@ -5376,21 +4012,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gf.svg',
 			png: 'https://flagcdn.com/w320/gf.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Guiana Francesa',
 			pt: 'Guiana Francesa',
@@ -5417,10 +4040,7 @@ module.exports = [
 					'South American Union',
 				],
 			},
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
+			{ acronym: 'EU', name: 'European Union' },
 		],
 		independent: false,
 	},
@@ -5450,21 +4070,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pf.svg',
 			png: 'https://flagcdn.com/w320/pf.png',
 		},
-		currencies: [
-			{
-				code: 'XPF',
-				name: 'CFP franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XPF', name: 'CFP franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Polinésia Francesa',
 			pt: 'Polinésia Francesa',
@@ -5502,21 +4109,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tf.svg',
 			png: 'https://flagcdn.com/w320/tf.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Terras Austrais e Antárticas Francesas',
 			pt: 'Terras Austrais e Antárticas Francesas',
@@ -5570,20 +4164,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/ga.png',
 		},
 		currencies: [
-			{
-				code: 'XAF',
-				name: 'Central African CFA franc',
-				symbol: 'Fr',
-			},
+			{ code: 'XAF', name: 'Central African CFA franc', symbol: 'Fr' },
 		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		languages: 'French',
 		translations: {
 			br: 'Gabão',
 			pt: 'Gabão',
@@ -5637,21 +4220,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gm.svg',
 			png: 'https://flagcdn.com/w320/gm.png',
 		},
-		currencies: [
-			{
-				code: 'GMD',
-				name: 'Gambian dalasi',
-				symbol: 'D',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GMD', name: 'Gambian dalasi', symbol: 'D' }],
+		languages: 'English',
 		translations: {
 			br: 'Gâmbia',
 			pt: 'Gâmbia',
@@ -5705,21 +4275,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ge.svg',
 			png: 'https://flagcdn.com/w320/ge.png',
 		},
-		currencies: [
-			{
-				code: 'GEL',
-				name: 'Georgian Lari',
-				symbol: 'ლ',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ka',
-				iso639_2: 'kat',
-				name: 'Georgian',
-				nativeName: 'ქართული',
-			},
-		],
+		currencies: [{ code: 'GEL', name: 'Georgian Lari', symbol: 'ლ' }],
+		languages: 'Georgian',
 		translations: {
 			br: 'Geórgia',
 			pt: 'Geórgia',
@@ -5764,21 +4321,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/de.svg',
 			png: 'https://flagcdn.com/w320/de.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'German',
 		translations: {
 			br: 'Alemanha',
 			pt: 'Alemanha',
@@ -5793,12 +4337,7 @@ module.exports = [
 			hu: 'Grúzia',
 		},
 		flag: 'https://flagcdn.com/de.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'GER',
 		independent: true,
 	},
@@ -5825,21 +4364,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gh.svg',
 			png: 'https://flagcdn.com/w320/gh.png',
 		},
-		currencies: [
-			{
-				code: 'GHS',
-				name: 'Ghanaian cedi',
-				symbol: '₵',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GHS', name: 'Ghanaian cedi', symbol: '₵' }],
+		languages: 'English',
 		translations: {
 			br: 'Gana',
 			pt: 'Gana',
@@ -5892,21 +4418,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gi.svg',
 			png: 'https://flagcdn.com/w320/gi.png',
 		},
-		currencies: [
-			{
-				code: 'GIP',
-				name: 'Gibraltar pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GIP', name: 'Gibraltar pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Gibraltar',
 			pt: 'Gibraltar',
@@ -5921,12 +4434,7 @@ module.exports = [
 			hu: 'Gibraltár',
 		},
 		flag: 'https://flagcdn.com/gi.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		independent: false,
 	},
 	{
@@ -5952,21 +4460,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gr.svg',
 			png: 'https://flagcdn.com/w320/gr.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'el',
-				iso639_2: 'ell',
-				name: 'Greek (modern)',
-				nativeName: 'ελληνικά',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Greek (modern)',
 		translations: {
 			br: 'Grécia',
 			pt: 'Grécia',
@@ -5981,12 +4476,7 @@ module.exports = [
 			hu: 'Görögország',
 		},
 		flag: 'https://flagcdn.com/gr.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'GRE',
 		independent: true,
 	},
@@ -6011,21 +4501,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gl.svg',
 			png: 'https://flagcdn.com/w320/gl.png',
 		},
-		currencies: [
-			{
-				code: 'DKK',
-				name: 'Danish krone',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'kl',
-				iso639_2: 'kal',
-				name: 'Kalaallisut',
-				nativeName: 'kalaallisut',
-			},
-		],
+		currencies: [{ code: 'DKK', name: 'Danish krone', symbol: 'kr' }],
+		languages: 'Kalaallisut',
 		translations: {
 			br: 'Groelândia',
 			pt: 'Gronelândia',
@@ -6063,21 +4540,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gd.svg',
 			png: 'https://flagcdn.com/w320/gd.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Granada',
 			pt: 'Granada',
@@ -6126,21 +4590,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gp.svg',
 			png: 'https://flagcdn.com/w320/gp.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Guadalupe',
 			pt: 'Guadalupe',
@@ -6178,33 +4629,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gu.svg',
 			png: 'https://flagcdn.com/w320/gu.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ch',
-				iso639_2: 'cha',
-				name: 'Chamorro',
-				nativeName: 'Chamoru',
-			},
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English,Chamorro,Spanish',
 		translations: {
 			br: 'Guam',
 			pt: 'Guame',
@@ -6245,21 +4671,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gt.svg',
 			png: 'https://flagcdn.com/w320/gt.png',
 		},
-		currencies: [
-			{
-				code: 'GTQ',
-				name: 'Guatemalan quetzal',
-				symbol: 'Q',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'GTQ', name: 'Guatemalan quetzal', symbol: 'Q' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Guatemala',
 			pt: 'Guatemala',
@@ -6307,31 +4720,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/gg.png',
 		},
 		currencies: [
-			{
-				code: 'GBP',
-				name: 'British pound',
-				symbol: '£',
-			},
-			{
-				code: 'GGP',
-				name: 'Guernsey pound',
-				symbol: '£',
-			},
+			{ code: 'GBP', name: 'British pound', symbol: '£' },
+			{ code: 'GGP', name: 'Guernsey pound', symbol: '£' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		languages: 'English,French',
 		translations: {
 			br: 'Guernsey',
 			pt: 'Guernsey',
@@ -6371,27 +4763,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gn.svg',
 			png: 'https://flagcdn.com/w320/gn.png',
 		},
-		currencies: [
-			{
-				code: 'GNF',
-				name: 'Guinean franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ff',
-				iso639_2: 'ful',
-				name: 'Fula',
-				nativeName: 'Fulfulde',
-			},
-		],
+		currencies: [{ code: 'GNF', name: 'Guinean franc', symbol: 'Fr' }],
+		languages: 'French,Fula',
 		translations: {
 			br: 'Guiné',
 			pt: 'Guiné',
@@ -6449,21 +4822,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gw.svg',
 			png: 'https://flagcdn.com/w320/gw.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Guiné-Bissau',
 			pt: 'Guiné-Bissau',
@@ -6517,21 +4877,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gy.svg',
 			png: 'https://flagcdn.com/w320/gy.png',
 		},
-		currencies: [
-			{
-				code: 'GYD',
-				name: 'Guyanese dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GYD', name: 'Guyanese dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Guiana',
 			pt: 'Guiana',
@@ -6599,27 +4946,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ht.svg',
 			png: 'https://flagcdn.com/w320/ht.png',
 		},
-		currencies: [
-			{
-				code: 'HTG',
-				name: 'Haitian gourde',
-				symbol: 'G',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'ht',
-				iso639_2: 'hat',
-				name: 'Haitian',
-				nativeName: 'Kreyòl ayisyen',
-			},
-		],
+		currencies: [{ code: 'HTG', name: 'Haitian gourde', symbol: 'G' }],
+		languages: 'French,Haitian',
 		translations: {
 			br: 'Haiti',
 			pt: 'Haiti',
@@ -6668,21 +4996,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/hm.svg',
 			png: 'https://flagcdn.com/w320/hm.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilha Heard e Ilhas McDonald',
 			pt: 'Ilha Heard e Ilhas McDonald',
@@ -6721,39 +5036,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/va.svg',
 			png: 'https://flagcdn.com/w320/va.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'la',
-				iso639_2: 'lat',
-				name: 'Latin',
-				nativeName: 'latine',
-			},
-			{
-				iso639_1: 'it',
-				iso639_2: 'ita',
-				name: 'Italian',
-				nativeName: 'Italiano',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'Français',
-			},
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Latin,Italian,French,German',
 		translations: {
 			br: 'Vaticano',
 			pt: 'Vaticano',
@@ -6793,21 +5077,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/hn.svg',
 			png: 'https://flagcdn.com/w320/hn.png',
 		},
-		currencies: [
-			{
-				code: 'HNL',
-				name: 'Honduran lempira',
-				symbol: 'L',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'HNL', name: 'Honduran lempira', symbol: 'L' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Honduras',
 			pt: 'Honduras',
@@ -6856,21 +5127,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/hu.svg',
 			png: 'https://flagcdn.com/w320/hu.png',
 		},
-		currencies: [
-			{
-				code: 'HUF',
-				name: 'Hungarian forint',
-				symbol: 'Ft',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'hu',
-				iso639_2: 'hun',
-				name: 'Hungarian',
-				nativeName: 'magyar',
-			},
-		],
+		currencies: [{ code: 'HUF', name: 'Hungarian forint', symbol: 'Ft' }],
+		languages: 'Hungarian',
 		translations: {
 			br: 'Hungria',
 			pt: 'Hungria',
@@ -6885,12 +5143,7 @@ module.exports = [
 			hu: 'Magyarország',
 		},
 		flag: 'https://flagcdn.com/hu.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'HUN',
 		independent: true,
 	},
@@ -6916,27 +5169,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/hk.svg',
 			png: 'https://flagcdn.com/w320/hk.png',
 		},
-		currencies: [
-			{
-				code: 'HKD',
-				name: 'Hong Kong dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'zh',
-				iso639_2: 'zho',
-				name: 'Chinese',
-				nativeName: '中文 (Zhōngwén)',
-			},
-		],
+		currencies: [{ code: 'HKD', name: 'Hong Kong dollar', symbol: '$' }],
+		languages: 'English,Chinese',
 		translations: {
 			br: 'Hong Kong',
 			pt: 'Hong Kong',
@@ -6976,21 +5210,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/is.svg',
 			png: 'https://flagcdn.com/w320/is.png',
 		},
-		currencies: [
-			{
-				code: 'ISK',
-				name: 'Icelandic króna',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'is',
-				iso639_2: 'isl',
-				name: 'Icelandic',
-				nativeName: 'Íslenska',
-			},
-		],
+		currencies: [{ code: 'ISK', name: 'Icelandic króna', symbol: 'kr' }],
+		languages: 'Icelandic',
 		translations: {
 			br: 'Islândia',
 			pt: 'Islândia',
@@ -7006,10 +5227,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/is.svg',
 		regionalBlocs: [
-			{
-				acronym: 'EFTA',
-				name: 'European Free Trade Association',
-			},
+			{ acronym: 'EFTA', name: 'European Free Trade Association' },
 		],
 		cioc: 'ISL',
 		independent: true,
@@ -7037,27 +5255,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/in.svg',
 			png: 'https://flagcdn.com/w320/in.png',
 		},
-		currencies: [
-			{
-				code: 'INR',
-				name: 'Indian rupee',
-				symbol: '₹',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'hi',
-				iso639_2: 'hin',
-				name: 'Hindi',
-				nativeName: 'हिन्दी',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'INR', name: 'Indian rupee', symbol: '₹' }],
+		languages: 'Hindi,English',
 		translations: {
 			br: 'Índia',
 			pt: 'Índia',
@@ -7104,21 +5303,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/id.svg',
 			png: 'https://flagcdn.com/w320/id.png',
 		},
-		currencies: [
-			{
-				code: 'IDR',
-				name: 'Indonesian rupiah',
-				symbol: 'Rp',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'id',
-				iso639_2: 'ind',
-				name: 'Indonesian',
-				nativeName: 'Bahasa Indonesia',
-			},
-		],
+		currencies: [{ code: 'IDR', name: 'Indonesian rupiah', symbol: 'Rp' }],
+		languages: 'Indonesian',
 		translations: {
 			br: 'Indonésia',
 			pt: 'Indonésia',
@@ -7134,10 +5320,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/id.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'INA',
 		independent: true,
@@ -7170,21 +5353,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ci.svg',
 			png: 'https://flagcdn.com/w320/ci.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Costa do Marfim',
 			pt: 'Costa do Marfim',
@@ -7242,21 +5412,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ir.svg',
 			png: 'https://flagcdn.com/w320/ir.png',
 		},
-		currencies: [
-			{
-				code: 'IRR',
-				name: 'Iranian rial',
-				symbol: '﷼',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fa',
-				iso639_2: 'fas',
-				name: 'Persian (Farsi)',
-				nativeName: 'فارسی',
-			},
-		],
+		currencies: [{ code: 'IRR', name: 'Iranian rial', symbol: '﷼' }],
+		languages: 'Persian (Farsi)',
 		translations: {
 			br: 'Irã',
 			pt: 'Irão',
@@ -7297,27 +5454,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/iq.svg',
 			png: 'https://flagcdn.com/w320/iq.png',
 		},
-		currencies: [
-			{
-				code: 'IQD',
-				name: 'Iraqi dinar',
-				symbol: 'ع.د',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-			{
-				iso639_1: 'ku',
-				iso639_2: 'kur',
-				name: 'Kurdish',
-				nativeName: 'Kurdî',
-			},
-		],
+		currencies: [{ code: 'IQD', name: 'Iraqi dinar', symbol: 'ع.د' }],
+		languages: 'Arabic,Kurdish',
 		translations: {
 			br: 'Iraque',
 			pt: 'Iraque',
@@ -7369,27 +5507,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ie.svg',
 			png: 'https://flagcdn.com/w320/ie.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ga',
-				iso639_2: 'gle',
-				name: 'Irish',
-				nativeName: 'Gaeilge',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Irish,English',
 		translations: {
 			br: 'Irlanda',
 			pt: 'Irlanda',
@@ -7404,12 +5523,7 @@ module.exports = [
 			hu: 'Írország',
 		},
 		flag: 'https://flagcdn.com/ie.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'IRL',
 		independent: true,
 	},
@@ -7435,31 +5549,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/im.png',
 		},
 		currencies: [
-			{
-				code: 'GBP',
-				name: 'British pound',
-				symbol: '£',
-			},
-			{
-				code: 'IMP[G]',
-				name: 'Manx pound',
-				symbol: '£',
-			},
+			{ code: 'GBP', name: 'British pound', symbol: '£' },
+			{ code: 'IMP[G]', name: 'Manx pound', symbol: '£' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'gv',
-				iso639_2: 'glv',
-				name: 'Manx',
-				nativeName: 'Gaelg',
-			},
-		],
+		languages: 'English,Manx',
 		translations: {
 			br: 'Ilha de Man',
 			pt: 'Ilha de Man',
@@ -7474,12 +5567,7 @@ module.exports = [
 			hu: 'Man',
 		},
 		flag: 'https://flagcdn.com/im.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		independent: false,
 	},
 	{
@@ -7505,27 +5593,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/il.svg',
 			png: 'https://flagcdn.com/w320/il.png',
 		},
-		currencies: [
-			{
-				code: 'ILS',
-				name: 'Israeli new shekel',
-				symbol: '₪',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'he',
-				iso639_2: 'heb',
-				name: 'Hebrew (modern)',
-				nativeName: 'עברית',
-			},
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'ILS', name: 'Israeli new shekel', symbol: '₪' }],
+		languages: 'Hebrew (modern),Arabic',
 		translations: {
 			br: 'Israel',
 			pt: 'Israel',
@@ -7566,21 +5635,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/it.svg',
 			png: 'https://flagcdn.com/w320/it.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'it',
-				iso639_2: 'ita',
-				name: 'Italian',
-				nativeName: 'Italiano',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Italian',
 		translations: {
 			br: 'Itália',
 			pt: 'Itália',
@@ -7595,12 +5651,7 @@ module.exports = [
 			hu: 'Olaszország',
 		},
 		flag: 'https://flagcdn.com/it.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'ITA',
 		independent: true,
 	},
@@ -7626,21 +5677,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/jm.svg',
 			png: 'https://flagcdn.com/w320/jm.png',
 		},
-		currencies: [
-			{
-				code: 'JMD',
-				name: 'Jamaican dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'JMD', name: 'Jamaican dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Jamaica',
 			pt: 'Jamaica',
@@ -7691,21 +5729,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/jp.svg',
 			png: 'https://flagcdn.com/w320/jp.png',
 		},
-		currencies: [
-			{
-				code: 'JPY',
-				name: 'Japanese yen',
-				symbol: '¥',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ja',
-				iso639_2: 'jpn',
-				name: 'Japanese',
-				nativeName: '日本語 (にほんご)',
-			},
-		],
+		currencies: [{ code: 'JPY', name: 'Japanese yen', symbol: '¥' }],
+		languages: 'Japanese',
 		translations: {
 			br: 'Japão',
 			pt: 'Japão',
@@ -7750,31 +5775,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/je.png',
 		},
 		currencies: [
-			{
-				code: 'GBP',
-				name: 'British pound',
-				symbol: '£',
-			},
-			{
-				code: 'JEP[G]',
-				name: 'Jersey pound',
-				symbol: '£',
-			},
+			{ code: 'GBP', name: 'British pound', symbol: '£' },
+			{ code: 'JEP[G]', name: 'Jersey pound', symbol: '£' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		languages: 'English,French',
 		translations: {
 			br: 'Jersey',
 			pt: 'Jersey',
@@ -7818,21 +5822,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/jo.svg',
 			png: 'https://flagcdn.com/w320/jo.png',
 		},
-		currencies: [
-			{
-				code: 'JOD',
-				name: 'Jordanian dinar',
-				symbol: 'د.ا',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'JOD', name: 'Jordanian dinar', symbol: 'د.ا' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Jordânia',
 			pt: 'Jordânia',
@@ -7893,27 +5884,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kz.svg',
 			png: 'https://flagcdn.com/w320/kz.png',
 		},
-		currencies: [
-			{
-				code: 'KZT',
-				name: 'Kazakhstani tenge',
-				symbol: '₸',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'kk',
-				iso639_2: 'kaz',
-				name: 'Kazakh',
-				nativeName: 'қазақ тілі',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'KZT', name: 'Kazakhstani tenge', symbol: '₸' }],
+		languages: 'Kazakh,Russian',
 		translations: {
 			br: 'Cazaquistão',
 			pt: 'Cazaquistão',
@@ -7961,27 +5933,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ke.svg',
 			png: 'https://flagcdn.com/w320/ke.png',
 		},
-		currencies: [
-			{
-				code: 'KES',
-				name: 'Kenyan shilling',
-				symbol: 'Sh',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'sw',
-				iso639_2: 'swa',
-				name: 'Swahili',
-				nativeName: 'Kiswahili',
-			},
-		],
+		currencies: [{ code: 'KES', name: 'Kenyan shilling', symbol: 'Sh' }],
+		languages: 'English,Swahili',
 		translations: {
 			br: 'Quênia',
 			pt: 'Quénia',
@@ -8035,25 +5988,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/ki.png',
 		},
 		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-			{
-				code: 'KID',
-				name: 'Kiribati dollar',
-				symbol: '$',
-			},
+			{ code: 'AUD', name: 'Australian dollar', symbol: '$' },
+			{ code: 'KID', name: 'Kiribati dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'English',
 		translations: {
 			br: 'Kiribati',
 			pt: 'Quiribáti',
@@ -8093,21 +6031,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kw.svg',
 			png: 'https://flagcdn.com/w320/kw.png',
 		},
-		currencies: [
-			{
-				code: 'KWD',
-				name: 'Kuwaiti dinar',
-				symbol: 'د.ك',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'KWD', name: 'Kuwaiti dinar', symbol: 'د.ك' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Kuwait',
 			pt: 'Kuwait',
@@ -8165,27 +6090,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kg.svg',
 			png: 'https://flagcdn.com/w320/kg.png',
 		},
-		currencies: [
-			{
-				code: 'KGS',
-				name: 'Kyrgyzstani som',
-				symbol: 'с',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ky',
-				iso639_2: 'kir',
-				name: 'Kyrgyz',
-				nativeName: 'Кыргызча',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'KGS', name: 'Kyrgyzstani som', symbol: 'с' }],
+		languages: 'Kyrgyz,Russian',
 		translations: {
 			br: 'Quirguistão',
 			pt: 'Quirguizistão',
@@ -8239,21 +6145,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/la.svg',
 			png: 'https://flagcdn.com/w320/la.png',
 		},
-		currencies: [
-			{
-				code: 'LAK',
-				name: 'Lao kip',
-				symbol: '₭',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'lo',
-				iso639_2: 'lao',
-				name: 'Lao',
-				nativeName: 'ພາສາລາວ',
-			},
-		],
+		currencies: [{ code: 'LAK', name: 'Lao kip', symbol: '₭' }],
+		languages: 'Lao',
 		translations: {
 			br: 'Laos',
 			pt: 'Laos',
@@ -8269,10 +6162,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/la.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'LAO',
 		independent: true,
@@ -8300,21 +6190,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lv.svg',
 			png: 'https://flagcdn.com/w320/lv.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'lv',
-				iso639_2: 'lav',
-				name: 'Latvian',
-				nativeName: 'latviešu valoda',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Latvian',
 		translations: {
 			br: 'Letônia',
 			pt: 'Letónia',
@@ -8329,12 +6206,7 @@ module.exports = [
 			hu: 'Lettország',
 		},
 		flag: 'https://flagcdn.com/lv.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'LAT',
 		independent: true,
 	},
@@ -8361,27 +6233,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lb.svg',
 			png: 'https://flagcdn.com/w320/lb.png',
 		},
-		currencies: [
-			{
-				code: 'LBP',
-				name: 'Lebanese pound',
-				symbol: 'ل.ل',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'LBP', name: 'Lebanese pound', symbol: 'ل.ل' }],
+		languages: 'Arabic,French',
 		translations: {
 			br: 'Líbano',
 			pt: 'Líbano',
@@ -8434,31 +6287,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/ls.png',
 		},
 		currencies: [
-			{
-				code: 'LSL',
-				name: 'Lesotho loti',
-				symbol: 'L',
-			},
-			{
-				code: 'ZAR',
-				name: 'South African rand',
-				symbol: 'R',
-			},
+			{ code: 'LSL', name: 'Lesotho loti', symbol: 'L' },
+			{ code: 'ZAR', name: 'South African rand', symbol: 'R' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'st',
-				iso639_2: 'sot',
-				name: 'Southern Sotho',
-				nativeName: 'Sesotho',
-			},
-		],
+		languages: 'English,Southern Sotho',
 		translations: {
 			br: 'Lesoto',
 			pt: 'Lesoto',
@@ -8512,21 +6344,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lr.svg',
 			png: 'https://flagcdn.com/w320/lr.png',
 		},
-		currencies: [
-			{
-				code: 'LRD',
-				name: 'Liberian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'LRD', name: 'Liberian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Libéria',
 			pt: 'Libéria',
@@ -8579,21 +6398,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ly.svg',
 			png: 'https://flagcdn.com/w320/ly.png',
 		},
-		currencies: [
-			{
-				code: 'LYD',
-				name: 'Libyan dinar',
-				symbol: 'ل.د',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'LYD', name: 'Libyan dinar', symbol: 'ل.د' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Líbia',
 			pt: 'Líbia',
@@ -8659,21 +6465,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/li.svg',
 			png: 'https://flagcdn.com/w320/li.png',
 		},
-		currencies: [
-			{
-				code: 'CHF',
-				name: 'Swiss franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-		],
+		currencies: [{ code: 'CHF', name: 'Swiss franc', symbol: 'Fr' }],
+		languages: 'German',
 		translations: {
 			br: 'Liechtenstein',
 			pt: 'Listenstaine',
@@ -8689,10 +6482,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/li.svg',
 		regionalBlocs: [
-			{
-				acronym: 'EFTA',
-				name: 'European Free Trade Association',
-			},
+			{ acronym: 'EFTA', name: 'European Free Trade Association' },
 		],
 		cioc: 'LIE',
 		independent: true,
@@ -8720,21 +6510,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lt.svg',
 			png: 'https://flagcdn.com/w320/lt.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'lt',
-				iso639_2: 'lit',
-				name: 'Lithuanian',
-				nativeName: 'lietuvių kalba',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Lithuanian',
 		translations: {
 			br: 'Lituânia',
 			pt: 'Lituânia',
@@ -8749,12 +6526,7 @@ module.exports = [
 			hu: 'Litvánia',
 		},
 		flag: 'https://flagcdn.com/lt.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'LTU',
 		independent: true,
 	},
@@ -8787,33 +6559,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lu.svg',
 			png: 'https://flagcdn.com/w320/lu.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-			{
-				iso639_1: 'lb',
-				iso639_2: 'ltz',
-				name: 'Luxembourgish',
-				nativeName: 'Lëtzebuergesch',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French,German,Luxembourgish',
 		translations: {
 			br: 'Luxemburgo',
 			pt: 'Luxemburgo',
@@ -8828,12 +6575,7 @@ module.exports = [
 			hu: 'Luxemburg',
 		},
 		flag: 'https://flagcdn.com/lu.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'LUX',
 		independent: true,
 	},
@@ -8864,27 +6606,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mo.svg',
 			png: 'https://flagcdn.com/w320/mo.png',
 		},
-		currencies: [
-			{
-				code: 'MOP',
-				name: 'Macanese pataca',
-				symbol: 'P',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'zh',
-				iso639_2: 'zho',
-				name: 'Chinese',
-				nativeName: '中文 (Zhōngwén)',
-			},
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'MOP', name: 'Macanese pataca', symbol: 'P' }],
+		languages: 'Chinese,Portuguese',
 		translations: {
 			br: 'Macau',
 			pt: 'Macau',
@@ -8924,21 +6647,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mk.svg',
 			png: 'https://flagcdn.com/w320/mk.png',
 		},
-		currencies: [
-			{
-				code: 'MKD',
-				name: 'Macedonian denar',
-				symbol: 'ден',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'mk',
-				iso639_2: 'mkd',
-				name: 'Macedonian',
-				nativeName: 'македонски јазик',
-			},
-		],
+		currencies: [{ code: 'MKD', name: 'Macedonian denar', symbol: 'ден' }],
+		languages: 'Macedonian',
 		translations: {
 			br: 'Macedônia',
 			pt: 'Macedónia',
@@ -8953,10 +6663,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/mk.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'MKD',
 		independent: true,
@@ -8988,27 +6695,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mg.svg',
 			png: 'https://flagcdn.com/w320/mg.png',
 		},
-		currencies: [
-			{
-				code: 'MGA',
-				name: 'Malagasy ariary',
-				symbol: 'Ar',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'mg',
-				iso639_2: 'mlg',
-				name: 'Malagasy',
-				nativeName: 'fiteny malagasy',
-			},
-		],
+		currencies: [{ code: 'MGA', name: 'Malagasy ariary', symbol: 'Ar' }],
+		languages: 'French,Malagasy',
 		translations: {
 			br: 'Madagascar',
 			pt: 'Madagáscar',
@@ -9062,27 +6750,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mw.svg',
 			png: 'https://flagcdn.com/w320/mw.png',
 		},
-		currencies: [
-			{
-				code: 'MWK',
-				name: 'Malawian kwacha',
-				symbol: 'MK',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ny',
-				iso639_2: 'nya',
-				name: 'Chichewa',
-				nativeName: 'chiCheŵa',
-			},
-		],
+		currencies: [{ code: 'MWK', name: 'Malawian kwacha', symbol: 'MK' }],
+		languages: 'English,Chichewa',
 		translations: {
 			br: 'Malawi',
 			pt: 'Malávi',
@@ -9136,21 +6805,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/my.svg',
 			png: 'https://flagcdn.com/w320/my.png',
 		},
-		currencies: [
-			{
-				code: 'MYR',
-				name: 'Malaysian ringgit',
-				symbol: 'RM',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ms',
-				iso639_2: 'zsm',
-				name: 'Malaysian',
-				nativeName: 'بهاس مليسيا',
-			},
-		],
+		currencies: [{ code: 'MYR', name: 'Malaysian ringgit', symbol: 'RM' }],
+		languages: 'Malaysian',
 		translations: {
 			br: 'Malásia',
 			pt: 'Malásia',
@@ -9166,10 +6822,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/my.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'MAS',
 		independent: true,
@@ -9201,21 +6854,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mv.svg',
 			png: 'https://flagcdn.com/w320/mv.png',
 		},
-		currencies: [
-			{
-				code: 'MVR',
-				name: 'Maldivian rufiyaa',
-				symbol: '.ރ',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'dv',
-				iso639_2: 'div',
-				name: 'Divehi',
-				nativeName: 'ދިވެހި',
-			},
-		],
+		currencies: [{ code: 'MVR', name: 'Maldivian rufiyaa', symbol: '.ރ' }],
+		languages: 'Divehi',
 		translations: {
 			br: 'Maldivas',
 			pt: 'Maldivas',
@@ -9262,21 +6902,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ml.svg',
 			png: 'https://flagcdn.com/w320/ml.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Mali',
 			pt: 'Mali',
@@ -9329,27 +6956,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mt.svg',
 			png: 'https://flagcdn.com/w320/mt.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'mt',
-				iso639_2: 'mlt',
-				name: 'Maltese',
-				nativeName: 'Malti',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Maltese,English',
 		translations: {
 			br: 'Malta',
 			pt: 'Malta',
@@ -9364,12 +6972,7 @@ module.exports = [
 			hu: 'Málta',
 		},
 		flag: 'https://flagcdn.com/mt.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'MLT',
 		independent: true,
 	},
@@ -9398,27 +7001,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mh.svg',
 			png: 'https://flagcdn.com/w320/mh.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'mh',
-				iso639_2: 'mah',
-				name: 'Marshallese',
-				nativeName: 'Kajin M̧ajeļ',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English,Marshallese',
 		translations: {
 			br: 'Ilhas Marshall',
 			pt: 'Ilhas Marshall',
@@ -9456,21 +7040,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mq.svg',
 			png: 'https://flagcdn.com/w320/mq.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Martinica',
 			pt: 'Martinica',
@@ -9514,21 +7085,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mr.svg',
 			png: 'https://flagcdn.com/w320/mr.png',
 		},
-		currencies: [
-			{
-				code: 'MRO',
-				name: 'Mauritanian ouguiya',
-				symbol: 'UM',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'MRO', name: 'Mauritanian ouguiya', symbol: 'UM' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Mauritânia',
 			pt: 'Mauritânia',
@@ -9590,21 +7148,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mu.svg',
 			png: 'https://flagcdn.com/w320/mu.png',
 		},
-		currencies: [
-			{
-				code: 'MUR',
-				name: 'Mauritian rupee',
-				symbol: '₨',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'MUR', name: 'Mauritian rupee', symbol: '₨' }],
+		languages: 'English',
 		translations: {
 			br: 'Maurício',
 			pt: 'Maurícia',
@@ -9655,21 +7200,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/yt.svg',
 			png: 'https://flagcdn.com/w320/yt.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Mayotte',
 			pt: 'Mayotte',
@@ -9727,21 +7259,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mx.svg',
 			png: 'https://flagcdn.com/w320/mx.png',
 		},
-		currencies: [
-			{
-				code: 'MXN',
-				name: 'Mexican peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'MXN', name: 'Mexican peso', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'México',
 			pt: 'México',
@@ -9796,21 +7315,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/fm.svg',
 			png: 'https://flagcdn.com/w320/fm.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Micronésia',
 			pt: 'Micronésia',
@@ -9851,21 +7357,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/md.svg',
 			png: 'https://flagcdn.com/w320/md.png',
 		},
-		currencies: [
-			{
-				code: 'MDL',
-				name: 'Moldovan leu',
-				symbol: 'L',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ro',
-				iso639_2: 'ron',
-				name: 'Romanian',
-				nativeName: 'Română',
-			},
-		],
+		currencies: [{ code: 'MDL', name: 'Moldovan leu', symbol: 'L' }],
+		languages: 'Romanian',
 		translations: {
 			br: 'Moldávia',
 			pt: 'Moldávia',
@@ -9881,10 +7374,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/md.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'MDA',
 		independent: true,
@@ -9911,21 +7401,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mc.svg',
 			png: 'https://flagcdn.com/w320/mc.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Mônaco',
 			pt: 'Mónaco',
@@ -9966,21 +7443,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mn.svg',
 			png: 'https://flagcdn.com/w320/mn.png',
 		},
-		currencies: [
-			{
-				code: 'MNT',
-				name: 'Mongolian tögrög',
-				symbol: '₮',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'mn',
-				iso639_2: 'mon',
-				name: 'Mongolian',
-				nativeName: 'Монгол хэл',
-			},
-		],
+		currencies: [{ code: 'MNT', name: 'Mongolian tögrög', symbol: '₮' }],
+		languages: 'Mongolian',
 		translations: {
 			br: 'Mongólia',
 			pt: 'Mongólia',
@@ -10021,39 +7485,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/me.svg',
 			png: 'https://flagcdn.com/w320/me.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sr',
-				iso639_2: 'srp',
-				name: 'Serbian',
-				nativeName: 'српски језик',
-			},
-			{
-				iso639_1: 'bs',
-				iso639_2: 'bos',
-				name: 'Bosnian',
-				nativeName: 'bosanski jezik',
-			},
-			{
-				iso639_1: 'sq',
-				iso639_2: 'sqi',
-				name: 'Albanian',
-				nativeName: 'Shqip',
-			},
-			{
-				iso639_1: 'hr',
-				iso639_2: 'hrv',
-				name: 'Croatian',
-				nativeName: 'hrvatski jezik',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Serbian,Bosnian,Albanian,Croatian',
 		translations: {
 			br: 'Montenegro',
 			pt: 'Montenegro',
@@ -10069,10 +7502,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/me.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'MNE',
 		independent: true,
@@ -10098,21 +7528,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ms.svg',
 			png: 'https://flagcdn.com/w320/ms.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Montserrat',
 			pt: 'Monserrate',
@@ -10163,21 +7580,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ma.svg',
 			png: 'https://flagcdn.com/w320/ma.png',
 		},
-		currencies: [
-			{
-				code: 'MAD',
-				name: 'Moroccan dirham',
-				symbol: 'د.م.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'MAD', name: 'Moroccan dirham', symbol: 'د.م.' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Marrocos',
 			pt: 'Marrocos',
@@ -10240,21 +7644,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mz.svg',
 			png: 'https://flagcdn.com/w320/mz.png',
 		},
-		currencies: [
-			{
-				code: 'MZN',
-				name: 'Mozambican metical',
-				symbol: 'MT',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'MZN', name: 'Mozambican metical', symbol: 'MT' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Moçambique',
 			pt: 'Moçambique',
@@ -10313,21 +7704,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mm.svg',
 			png: 'https://flagcdn.com/w320/mm.png',
 		},
-		currencies: [
-			{
-				code: 'MMK',
-				name: 'Burmese kyat',
-				symbol: 'Ks',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'my',
-				iso639_2: 'mya',
-				name: 'Burmese',
-				nativeName: 'ဗမာစာ',
-			},
-		],
+		currencies: [{ code: 'MMK', name: 'Burmese kyat', symbol: 'Ks' }],
+		languages: 'Burmese',
 		translations: {
 			br: 'Myanmar',
 			pt: 'Myanmar',
@@ -10343,10 +7721,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/mm.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'MYA',
 		independent: true,
@@ -10375,31 +7750,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/na.png',
 		},
 		currencies: [
-			{
-				code: 'NAD',
-				name: 'Namibian dollar',
-				symbol: '$',
-			},
-			{
-				code: 'ZAR',
-				name: 'South African rand',
-				symbol: 'R',
-			},
+			{ code: 'NAD', name: 'Namibian dollar', symbol: '$' },
+			{ code: 'ZAR', name: 'South African rand', symbol: 'R' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'af',
-				iso639_2: 'afr',
-				name: 'Afrikaans',
-				nativeName: 'Afrikaans',
-			},
-		],
+		languages: 'English,Afrikaans',
 		translations: {
 			br: 'Namíbia',
 			pt: 'Namíbia',
@@ -10458,27 +7812,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/nr.svg',
 			png: 'https://flagcdn.com/w320/nr.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'na',
-				iso639_2: 'nau',
-				name: 'Nauruan',
-				nativeName: 'Dorerin Naoero',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English,Nauruan',
 		translations: {
 			br: 'Nauru',
 			pt: 'Nauru',
@@ -10523,21 +7858,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/np.svg',
 			png: 'https://flagcdn.com/w320/np.png',
 		},
-		currencies: [
-			{
-				code: 'NPR',
-				name: 'Nepalese rupee',
-				symbol: '₨',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ne',
-				iso639_2: 'nep',
-				name: 'Nepali',
-				nativeName: 'नेपाली',
-			},
-		],
+		currencies: [{ code: 'NPR', name: 'Nepalese rupee', symbol: '₨' }],
+		languages: 'Nepali',
 		translations: {
 			br: 'Nepal',
 			pt: 'Nepal',
@@ -10584,21 +7906,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/nl.svg',
 			png: 'https://flagcdn.com/w320/nl.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Dutch',
 		translations: {
 			br: 'Holanda',
 			pt: 'Países Baixos',
@@ -10613,12 +7922,7 @@ module.exports = [
 			hu: 'Hollandia',
 		},
 		flag: 'https://flagcdn.com/nl.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'NED',
 		independent: true,
 	},
@@ -10643,21 +7947,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/nc.svg',
 			png: 'https://flagcdn.com/w320/nc.png',
 		},
-		currencies: [
-			{
-				code: 'XPF',
-				name: 'CFP franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XPF', name: 'CFP franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Nova Caledônia',
 			pt: 'Nova Caledónia',
@@ -10701,27 +7992,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/nz.svg',
 			png: 'https://flagcdn.com/w320/nz.png',
 		},
-		currencies: [
-			{
-				code: 'NZD',
-				name: 'New Zealand dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'mi',
-				iso639_2: 'mri',
-				name: 'Māori',
-				nativeName: 'te reo Māori',
-			},
-		],
+		currencies: [{ code: 'NZD', name: 'New Zealand dollar', symbol: '$' }],
+		languages: 'English,Māori',
 		translations: {
 			br: 'Nova Zelândia',
 			pt: 'Nova Zelândia',
@@ -10762,21 +8034,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ni.svg',
 			png: 'https://flagcdn.com/w320/ni.png',
 		},
-		currencies: [
-			{
-				code: 'NIO',
-				name: 'Nicaraguan córdoba',
-				symbol: 'C$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'NIO', name: 'Nicaraguan córdoba', symbol: 'C$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Nicarágua',
 			pt: 'Nicarágua',
@@ -10825,21 +8084,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ne.svg',
 			png: 'https://flagcdn.com/w320/ne.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Níger',
 			pt: 'Níger',
@@ -10893,21 +8139,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ng.svg',
 			png: 'https://flagcdn.com/w320/ng.png',
 		},
-		currencies: [
-			{
-				code: 'NGN',
-				name: 'Nigerian naira',
-				symbol: '₦',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'NGN', name: 'Nigerian naira', symbol: '₦' }],
+		languages: 'English',
 		translations: {
 			br: 'Nigéria',
 			pt: 'Nigéria',
@@ -10960,25 +8193,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/nu.png',
 		},
 		currencies: [
-			{
-				code: 'NZD',
-				name: 'New Zealand dollar',
-				symbol: '$',
-			},
-			{
-				code: 'NZD',
-				name: 'Niue dollar',
-				symbol: '$',
-			},
+			{ code: 'NZD', name: 'New Zealand dollar', symbol: '$' },
+			{ code: 'NZD', name: 'Niue dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'English',
 		translations: {
 			br: 'Niue',
 			pt: 'Niue',
@@ -11020,21 +8238,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/nf.svg',
 			png: 'https://flagcdn.com/w320/nf.png',
 		},
-		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'AUD', name: 'Australian dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilha Norfolk',
 			pt: 'Ilha Norfolk',
@@ -11078,21 +8283,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kp.svg',
 			png: 'https://flagcdn.com/w320/kp.png',
 		},
-		currencies: [
-			{
-				code: 'KPW',
-				name: 'North Korean won',
-				symbol: '₩',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ko',
-				iso639_2: 'kor',
-				name: 'Korean',
-				nativeName: '한국어',
-			},
-		],
+		currencies: [{ code: 'KPW', name: 'North Korean won', symbol: '₩' }],
+		languages: 'Korean',
 		translations: {
 			br: 'Coreia do Norte',
 			pt: 'Coreia do Norte',
@@ -11135,27 +8327,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mp.svg',
 			png: 'https://flagcdn.com/w320/mp.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ch',
-				iso639_2: 'cha',
-				name: 'Chamorro',
-				nativeName: 'Chamoru',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English,Chamorro',
 		translations: {
 			br: 'Ilhas Marianas',
 			pt: 'Ilhas Marianas',
@@ -11202,33 +8375,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/no.svg',
 			png: 'https://flagcdn.com/w320/no.png',
 		},
-		currencies: [
-			{
-				code: 'NOK',
-				name: 'Norwegian krone',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'no',
-				iso639_2: 'nor',
-				name: 'Norwegian',
-				nativeName: 'Norsk',
-			},
-			{
-				iso639_1: 'nb',
-				iso639_2: 'nob',
-				name: 'Norwegian Bokmål',
-				nativeName: 'Norsk bokmål',
-			},
-			{
-				iso639_1: 'nn',
-				iso639_2: 'nno',
-				name: 'Norwegian Nynorsk',
-				nativeName: 'Norsk nynorsk',
-			},
-		],
+		currencies: [{ code: 'NOK', name: 'Norwegian krone', symbol: 'kr' }],
+		languages: 'Norwegian,Norwegian Bokmål,Norwegian Nynorsk',
 		translations: {
 			br: 'Noruega',
 			pt: 'Noruega',
@@ -11244,10 +8392,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/no.svg',
 		regionalBlocs: [
-			{
-				acronym: 'EFTA',
-				name: 'European Free Trade Association',
-			},
+			{ acronym: 'EFTA', name: 'European Free Trade Association' },
 		],
 		cioc: 'NOR',
 		independent: true,
@@ -11274,21 +8419,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/om.svg',
 			png: 'https://flagcdn.com/w320/om.png',
 		},
-		currencies: [
-			{
-				code: 'OMR',
-				name: 'Omani rial',
-				symbol: 'ر.ع.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'OMR', name: 'Omani rial', symbol: 'ر.ع.' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Omã',
 			pt: 'Omã',
@@ -11345,27 +8477,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pk.svg',
 			png: 'https://flagcdn.com/w320/pk.png',
 		},
-		currencies: [
-			{
-				code: 'PKR',
-				name: 'Pakistani rupee',
-				symbol: '₨',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ur',
-				iso639_2: 'urd',
-				name: 'Urdu',
-				nativeName: 'اردو',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'PKR', name: 'Pakistani rupee', symbol: '₨' }],
+		languages: 'Urdu,English',
 		translations: {
 			br: 'Paquistão',
 			pt: 'Paquistão',
@@ -11410,21 +8523,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pw.svg',
 			png: 'https://flagcdn.com/w320/pw.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Palau',
 			pt: 'Palau',
@@ -11465,30 +8565,11 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/ps.png',
 		},
 		currencies: [
-			{
-				code: 'EGP',
-				name: 'Egyptian pound',
-				symbol: 'E£',
-			},
-			{
-				code: 'ILS',
-				name: 'Israeli new shekel',
-				symbol: '₪',
-			},
-			{
-				code: 'JOD',
-				name: 'Jordanian dinar',
-				symbol: 'د.أ',
-			},
+			{ code: 'EGP', name: 'Egyptian pound', symbol: 'E£' },
+			{ code: 'ILS', name: 'Israeli new shekel', symbol: '₪' },
+			{ code: 'JOD', name: 'Jordanian dinar', symbol: 'د.أ' },
 		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		languages: 'Arabic',
 		translations: {
 			br: 'Palestina',
 			pt: 'Palestina',
@@ -11541,25 +8622,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/pa.png',
 		},
 		currencies: [
-			{
-				code: 'PAB',
-				name: 'Panamanian balboa',
-				symbol: 'B/.',
-			},
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
+			{ code: 'PAB', name: 'Panamanian balboa', symbol: 'B/.' },
+			{ code: 'USD', name: 'United States dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		languages: 'Spanish',
 		translations: {
 			br: 'Panamá',
 			pt: 'Panamá',
@@ -11612,21 +8678,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pg.svg',
 			png: 'https://flagcdn.com/w320/pg.png',
 		},
-		currencies: [
-			{
-				code: 'PGK',
-				name: 'Papua New Guinean kina',
-				symbol: 'K',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'PGK', name: 'Papua New Guinean kina', symbol: 'K' }],
+		languages: 'English',
 		translations: {
 			br: 'Papua Nova Guiné',
 			pt: 'Papua Nova Guiné',
@@ -11672,27 +8725,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/py.svg',
 			png: 'https://flagcdn.com/w320/py.png',
 		},
-		currencies: [
-			{
-				code: 'PYG',
-				name: 'Paraguayan guaraní',
-				symbol: '₲',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-			{
-				iso639_1: 'gn',
-				iso639_2: 'grn',
-				name: 'Guaraní',
-				nativeName: "Avañe'ẽ",
-			},
-		],
+		currencies: [{ code: 'PYG', name: 'Paraguayan guaraní', symbol: '₲' }],
+		languages: 'Spanish,Guaraní',
 		translations: {
 			br: 'Paraguai',
 			pt: 'Paraguai',
@@ -11746,21 +8780,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pe.svg',
 			png: 'https://flagcdn.com/w320/pe.png',
 		},
-		currencies: [
-			{
-				code: 'PEN',
-				name: 'Peruvian sol',
-				symbol: 'S/.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'PEN', name: 'Peruvian sol', symbol: 'S/.' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Peru',
 			pt: 'Peru',
@@ -11822,21 +8843,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ph.svg',
 			png: 'https://flagcdn.com/w320/ph.png',
 		},
-		currencies: [
-			{
-				code: 'PHP',
-				name: 'Philippine peso',
-				symbol: '₱',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'PHP', name: 'Philippine peso', symbol: '₱' }],
+		languages: 'English',
 		translations: {
 			br: 'Filipinas',
 			pt: 'Filipinas',
@@ -11852,10 +8860,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/ph.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'PHI',
 		independent: true,
@@ -11882,25 +8887,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/pn.png',
 		},
 		currencies: [
-			{
-				code: 'NZD',
-				name: 'New Zealand dollar',
-				symbol: '$',
-			},
-			{
-				code: 'PND',
-				name: 'Pitcairn Islands dollar',
-				symbol: '$',
-			},
+			{ code: 'NZD', name: 'New Zealand dollar', symbol: '$' },
+			{ code: 'PND', name: 'Pitcairn Islands dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Pitcairn',
 			pt: 'Ilhas Picárnia',
@@ -11940,21 +8930,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pl.svg',
 			png: 'https://flagcdn.com/w320/pl.png',
 		},
-		currencies: [
-			{
-				code: 'PLN',
-				name: 'Polish złoty',
-				symbol: 'zł',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pl',
-				iso639_2: 'pol',
-				name: 'Polish',
-				nativeName: 'język polski',
-			},
-		],
+		currencies: [{ code: 'PLN', name: 'Polish złoty', symbol: 'zł' }],
+		languages: 'Polish',
 		translations: {
 			br: 'Polônia',
 			pt: 'Polónia',
@@ -11969,12 +8946,7 @@ module.exports = [
 			hu: 'Lengyelország',
 		},
 		flag: 'https://flagcdn.com/pl.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'POL',
 		independent: true,
 	},
@@ -12006,21 +8978,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pt.svg',
 			png: 'https://flagcdn.com/w320/pt.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Portugal',
 			pt: 'Portugal',
@@ -12035,12 +8994,7 @@ module.exports = [
 			hu: 'Portugália',
 		},
 		flag: 'https://flagcdn.com/pt.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'POR',
 		independent: true,
 	},
@@ -12069,27 +9023,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pr.svg',
 			png: 'https://flagcdn.com/w320/pr.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'Spanish,English',
 		translations: {
 			br: 'Porto Rico',
 			pt: 'Porto Rico',
@@ -12129,21 +9064,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/qa.svg',
 			png: 'https://flagcdn.com/w320/qa.png',
 		},
-		currencies: [
-			{
-				code: 'QAR',
-				name: 'Qatari riyal',
-				symbol: 'ر.ق',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'QAR', name: 'Qatari riyal', symbol: 'ر.ق' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Catar',
 			pt: 'Catar',
@@ -12195,27 +9117,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/xk.svg',
 			png: 'https://flagcdn.com/w320/xk.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sq',
-				iso639_2: 'sqi',
-				name: 'Albanian',
-				nativeName: 'Shqip',
-			},
-			{
-				iso639_1: 'sr',
-				iso639_2: 'srp',
-				name: 'Serbian',
-				nativeName: 'српски језик',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Albanian,Serbian',
 		translations: {
 			br: 'Kosovo',
 			pt: 'Kosovo',
@@ -12231,10 +9134,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/xk.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		independent: true,
 	},
@@ -12258,21 +9158,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/re.svg',
 			png: 'https://flagcdn.com/w320/re.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Reunião',
 			pt: 'Reunião',
@@ -12325,21 +9212,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ro.svg',
 			png: 'https://flagcdn.com/w320/ro.png',
 		},
-		currencies: [
-			{
-				code: 'RON',
-				name: 'Romanian leu',
-				symbol: 'lei',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ro',
-				iso639_2: 'ron',
-				name: 'Romanian',
-				nativeName: 'Română',
-			},
-		],
+		currencies: [{ code: 'RON', name: 'Romanian leu', symbol: 'lei' }],
+		languages: 'Romanian',
 		translations: {
 			br: 'Romênia',
 			pt: 'Roménia',
@@ -12354,12 +9228,7 @@ module.exports = [
 			hu: 'Románia',
 		},
 		flag: 'https://flagcdn.com/ro.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'ROU',
 		independent: true,
 	},
@@ -12417,21 +9286,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ru.svg',
 			png: 'https://flagcdn.com/w320/ru.png',
 		},
-		currencies: [
-			{
-				code: 'RUB',
-				name: 'Russian ruble',
-				symbol: '₽',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'RUB', name: 'Russian ruble', symbol: '₽' }],
+		languages: 'Russian',
 		translations: {
 			br: 'Rússia',
 			pt: 'Rússia',
@@ -12484,33 +9340,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/rw.svg',
 			png: 'https://flagcdn.com/w320/rw.png',
 		},
-		currencies: [
-			{
-				code: 'RWF',
-				name: 'Rwandan franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'rw',
-				iso639_2: 'kin',
-				name: 'Kinyarwanda',
-				nativeName: 'Ikinyarwanda',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'RWF', name: 'Rwandan franc', symbol: 'Fr' }],
+		languages: 'Kinyarwanda,English,French',
 		translations: {
 			br: 'Ruanda',
 			pt: 'Ruanda',
@@ -12567,21 +9398,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/bl.svg',
 			png: 'https://flagcdn.com/w320/bl.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'São Bartolomeu',
 			pt: 'São Bartolomeu',
@@ -12618,21 +9436,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sh.svg',
 			png: 'https://flagcdn.com/w320/sh.png',
 		},
-		currencies: [
-			{
-				code: 'SHP',
-				name: 'Saint Helena pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SHP', name: 'Saint Helena pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Santa Helena',
 			pt: 'Santa Helena',
@@ -12683,21 +9488,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kn.svg',
 			png: 'https://flagcdn.com/w320/kn.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'São Cristóvão e Neves',
 			pt: 'São Cristóvão e Neves',
@@ -12748,21 +9540,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lc.svg',
 			png: 'https://flagcdn.com/w320/lc.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Santa Lúcia',
 			pt: 'Santa Lúcia',
@@ -12817,33 +9596,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/mf.svg',
 			png: 'https://flagcdn.com/w320/mf.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'English,French,Dutch',
 		translations: {
 			br: 'Saint Martin',
 			pt: 'Ilha São Martinho',
@@ -12884,21 +9638,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/pm.svg',
 			png: 'https://flagcdn.com/w320/pm.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'French',
 		translations: {
 			br: 'Saint-Pierre e Miquelon',
 			pt: 'São Pedro e Miquelon',
@@ -12936,21 +9677,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/vc.svg',
 			png: 'https://flagcdn.com/w320/vc.png',
 		},
-		currencies: [
-			{
-				code: 'XCD',
-				name: 'East Caribbean dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'XCD', name: 'East Caribbean dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'São Vicente e Granadinas',
 			pt: 'São Vicente e Granadinas',
@@ -13005,27 +9733,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ws.svg',
 			png: 'https://flagcdn.com/w320/ws.png',
 		},
-		currencies: [
-			{
-				code: 'WST',
-				name: 'Samoan tālā',
-				symbol: 'T',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sm',
-				iso639_2: 'smo',
-				name: 'Samoan',
-				nativeName: "gagana fa'a Samoa",
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'WST', name: 'Samoan tālā', symbol: 'T' }],
+		languages: 'Samoan,English',
 		translations: {
 			br: 'Samoa',
 			pt: 'Samoa',
@@ -13065,21 +9774,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sm.svg',
 			png: 'https://flagcdn.com/w320/sm.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'it',
-				iso639_2: 'ita',
-				name: 'Italian',
-				nativeName: 'Italiano',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Italian',
 		translations: {
 			br: 'San Marino',
 			pt: 'São Marinho',
@@ -13124,20 +9820,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/st.png',
 		},
 		currencies: [
-			{
-				code: 'STD',
-				name: 'São Tomé and Príncipe dobra',
-				symbol: 'Db',
-			},
+			{ code: 'STD', name: 'São Tomé and Príncipe dobra', symbol: 'Db' },
 		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		languages: 'Portuguese',
 		translations: {
 			br: 'São Tomé e Príncipe',
 			pt: 'São Tomé e Príncipe',
@@ -13194,21 +9879,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sa.svg',
 			png: 'https://flagcdn.com/w320/sa.png',
 		},
-		currencies: [
-			{
-				code: 'SAR',
-				name: 'Saudi riyal',
-				symbol: 'ر.س',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'SAR', name: 'Saudi riyal', symbol: 'ر.س' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Arábia Saudita',
 			pt: 'Arábia Saudita',
@@ -13260,21 +9932,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sn.svg',
 			png: 'https://flagcdn.com/w320/sn.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Senegal',
 			pt: 'Senegal',
@@ -13334,21 +9993,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/rs.svg',
 			png: 'https://flagcdn.com/w320/rs.png',
 		},
-		currencies: [
-			{
-				code: 'RSD',
-				name: 'Serbian dinar',
-				symbol: 'дин.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sr',
-				iso639_2: 'srp',
-				name: 'Serbian',
-				nativeName: 'српски језик',
-			},
-		],
+		currencies: [{ code: 'RSD', name: 'Serbian dinar', symbol: 'дин.' }],
+		languages: 'Serbian',
 		translations: {
 			br: 'Sérvia',
 			pt: 'Sérvia',
@@ -13364,10 +10010,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/rs.svg',
 		regionalBlocs: [
-			{
-				acronym: 'CEFTA',
-				name: 'Central European Free Trade Agreement',
-			},
+			{ acronym: 'CEFTA', name: 'Central European Free Trade Agreement' },
 		],
 		cioc: 'SRB',
 		independent: true,
@@ -13399,27 +10042,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sc.svg',
 			png: 'https://flagcdn.com/w320/sc.png',
 		},
-		currencies: [
-			{
-				code: 'SCR',
-				name: 'Seychellois rupee',
-				symbol: '₨',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SCR', name: 'Seychellois rupee', symbol: '₨' }],
+		languages: 'French,English',
 		translations: {
 			br: 'Seicheles',
 			pt: 'Seicheles',
@@ -13473,21 +10097,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sl.svg',
 			png: 'https://flagcdn.com/w320/sl.png',
 		},
-		currencies: [
-			{
-				code: 'SLL',
-				name: 'Sierra Leonean leone',
-				symbol: 'Le',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SLL', name: 'Sierra Leonean leone', symbol: 'Le' }],
+		languages: 'English',
 		translations: {
 			br: 'Serra Leoa',
 			pt: 'Serra Leoa',
@@ -13540,43 +10151,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/sg.png',
 		},
 		currencies: [
-			{
-				code: 'BND',
-				name: 'Brunei dollar',
-				symbol: '$',
-			},
-			{
-				code: 'SGD',
-				name: 'Singapore dollar',
-				symbol: '$',
-			},
+			{ code: 'BND', name: 'Brunei dollar', symbol: '$' },
+			{ code: 'SGD', name: 'Singapore dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ms',
-				iso639_2: 'msa',
-				name: 'Malay',
-				nativeName: 'bahasa Melayu',
-			},
-			{
-				iso639_1: 'ta',
-				iso639_2: 'tam',
-				name: 'Tamil',
-				nativeName: 'தமிழ்',
-			},
-			{
-				iso639_1: 'zh',
-				iso639_2: 'zho',
-				name: 'Chinese',
-				nativeName: '中文 (Zhōngwén)',
-			},
-		],
+		languages: 'English,Malay,Tamil,Chinese',
 		translations: {
 			br: 'Singapura',
 			pt: 'Singapura',
@@ -13592,10 +10170,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/sg.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'SIN',
 		independent: true,
@@ -13629,20 +10204,7 @@ module.exports = [
 				symbol: 'ƒ',
 			},
 		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'Dutch,English',
 		translations: {
 			br: 'Sint Maarten',
 			pt: 'São Martinho',
@@ -13682,21 +10244,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sk.svg',
 			png: 'https://flagcdn.com/w320/sk.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sk',
-				iso639_2: 'slk',
-				name: 'Slovak',
-				nativeName: 'slovenčina',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Slovak',
 		translations: {
 			br: 'Eslováquia',
 			pt: 'Eslováquia',
@@ -13711,12 +10260,7 @@ module.exports = [
 			hu: 'Szlovákia',
 		},
 		flag: 'https://flagcdn.com/sk.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'SVK',
 		independent: true,
 	},
@@ -13743,21 +10287,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/si.svg',
 			png: 'https://flagcdn.com/w320/si.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sl',
-				iso639_2: 'slv',
-				name: 'Slovene',
-				nativeName: 'slovenski jezik',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Slovene',
 		translations: {
 			br: 'Eslovênia',
 			pt: 'Eslovénia',
@@ -13772,12 +10303,7 @@ module.exports = [
 			hu: 'Szlovénia',
 		},
 		flag: 'https://flagcdn.com/si.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'SLO',
 		independent: true,
 	},
@@ -13803,21 +10329,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sb.svg',
 			png: 'https://flagcdn.com/w320/sb.png',
 		},
-		currencies: [
-			{
-				code: 'SBD',
-				name: 'Solomon Islands dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SBD', name: 'Solomon Islands dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Salomão',
 			pt: 'Ilhas Salomão',
@@ -13864,27 +10377,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/so.svg',
 			png: 'https://flagcdn.com/w320/so.png',
 		},
-		currencies: [
-			{
-				code: 'SOS',
-				name: 'Somali shilling',
-				symbol: 'Sh',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'so',
-				iso639_2: 'som',
-				name: 'Somali',
-				nativeName: 'Soomaaliga',
-			},
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'SOS', name: 'Somali shilling', symbol: 'Sh' }],
+		languages: 'Somali,Arabic',
 		translations: {
 			br: 'Somália',
 			pt: 'Somália',
@@ -13947,75 +10441,9 @@ module.exports = [
 			svg: 'https://flagcdn.com/za.svg',
 			png: 'https://flagcdn.com/w320/za.png',
 		},
-		currencies: [
-			{
-				code: 'ZAR',
-				name: 'South African rand',
-				symbol: 'R',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'af',
-				iso639_2: 'afr',
-				name: 'Afrikaans',
-				nativeName: 'Afrikaans',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'nr',
-				iso639_2: 'nbl',
-				name: 'Southern Ndebele',
-				nativeName: 'isiNdebele',
-			},
-			{
-				iso639_1: 'st',
-				iso639_2: 'sot',
-				name: 'Southern Sotho',
-				nativeName: 'Sesotho',
-			},
-			{
-				iso639_1: 'ss',
-				iso639_2: 'ssw',
-				name: 'Swati',
-				nativeName: 'SiSwati',
-			},
-			{
-				iso639_1: 'tn',
-				iso639_2: 'tsn',
-				name: 'Tswana',
-				nativeName: 'Setswana',
-			},
-			{
-				iso639_1: 'ts',
-				iso639_2: 'tso',
-				name: 'Tsonga',
-				nativeName: 'Xitsonga',
-			},
-			{
-				iso639_1: 've',
-				iso639_2: 'ven',
-				name: 'Venda',
-				nativeName: 'Tshivenḓa',
-			},
-			{
-				iso639_1: 'xh',
-				iso639_2: 'xho',
-				name: 'Xhosa',
-				nativeName: 'isiXhosa',
-			},
-			{
-				iso639_1: 'zu',
-				iso639_2: 'zul',
-				name: 'Zulu',
-				nativeName: 'isiZulu',
-			},
-		],
+		currencies: [{ code: 'ZAR', name: 'South African rand', symbol: 'R' }],
+		languages:
+			'Afrikaans,English,Southern Ndebele,Southern Sotho,Swati,Tswana,Tsonga,Venda,Xhosa,Zulu',
 		translations: {
 			br: 'República Sul-Africana',
 			pt: 'República Sul-Africana',
@@ -14066,21 +10494,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gs.svg',
 			png: 'https://flagcdn.com/w320/gs.png',
 		},
-		currencies: [
-			{
-				code: 'FKP',
-				name: 'Falkland Islands Pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'FKP', name: 'Falkland Islands Pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Geórgias do Sul e Sandwich do Sul',
 			pt: 'Ilhas Geórgia do Sul e Sanduíche do Sul',
@@ -14133,21 +10548,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/kr.svg',
 			png: 'https://flagcdn.com/w320/kr.png',
 		},
-		currencies: [
-			{
-				code: 'KRW',
-				name: 'South Korean won',
-				symbol: '₩',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ko',
-				iso639_2: 'kor',
-				name: 'Korean',
-				nativeName: '한국어',
-			},
-		],
+		currencies: [{ code: 'KRW', name: 'South Korean won', symbol: '₩' }],
+		languages: 'Korean',
 		translations: {
 			br: 'Coreia do Sul',
 			pt: 'Coreia do Sul',
@@ -14188,21 +10590,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/es.svg',
 			png: 'https://flagcdn.com/w320/es.png',
 		},
-		currencies: [
-			{
-				code: 'EUR',
-				name: 'Euro',
-				symbol: '€',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'EUR', name: 'Euro', symbol: '€' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Espanha',
 			pt: 'Espanha',
@@ -14217,12 +10606,7 @@ module.exports = [
 			hu: 'Spanyolország',
 		},
 		flag: 'https://flagcdn.com/es.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'ESP',
 		independent: true,
 	},
@@ -14253,27 +10637,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/lk.svg',
 			png: 'https://flagcdn.com/w320/lk.png',
 		},
-		currencies: [
-			{
-				code: 'LKR',
-				name: 'Sri Lankan rupee',
-				symbol: 'Rs',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'si',
-				iso639_2: 'sin',
-				name: 'Sinhalese',
-				nativeName: 'සිංහල',
-			},
-			{
-				iso639_1: 'ta',
-				iso639_2: 'tam',
-				name: 'Tamil',
-				nativeName: 'தமிழ்',
-			},
-		],
+		currencies: [{ code: 'LKR', name: 'Sri Lankan rupee', symbol: 'Rs' }],
+		languages: 'Sinhalese,Tamil',
 		translations: {
 			br: 'Sri Lanka',
 			pt: 'Sri Lanka',
@@ -14320,27 +10685,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sd.svg',
 			png: 'https://flagcdn.com/w320/sd.png',
 		},
-		currencies: [
-			{
-				code: 'SDG',
-				name: 'Sudanese pound',
-				symbol: 'ج.س.',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SDG', name: 'Sudanese pound', symbol: 'ج.س.' }],
+		languages: 'Arabic,English',
 		translations: {
 			br: 'Sudão',
 			pt: 'Sudão',
@@ -14403,21 +10749,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ss.svg',
 			png: 'https://flagcdn.com/w320/ss.png',
 		},
-		currencies: [
-			{
-				code: 'SSP',
-				name: 'South Sudanese pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'SSP', name: 'South Sudanese pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Sudão do Sul',
 			pt: 'Sudão do Sul',
@@ -14477,21 +10810,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sr.svg',
 			png: 'https://flagcdn.com/w320/sr.png',
 		},
-		currencies: [
-			{
-				code: 'SRD',
-				name: 'Surinamese dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'nl',
-				iso639_2: 'nld',
-				name: 'Dutch',
-				nativeName: 'Nederlands',
-			},
-		],
+		currencies: [{ code: 'SRD', name: 'Surinamese dollar', symbol: '$' }],
+		languages: 'Dutch',
 		translations: {
 			br: 'Suriname',
 			pt: 'Suriname',
@@ -14551,21 +10871,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sj.svg',
 			png: 'https://flagcdn.com/w320/sj.png',
 		},
-		currencies: [
-			{
-				code: 'NOK',
-				name: 'Norwegian krone',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'no',
-				iso639_2: 'nor',
-				name: 'Norwegian',
-				nativeName: 'Norsk',
-			},
-		],
+		currencies: [{ code: 'NOK', name: 'Norwegian krone', symbol: 'kr' }],
+		languages: 'Norwegian',
 		translations: {
 			br: 'Svalbard',
 			pt: 'Svalbard',
@@ -14612,27 +10919,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sz.svg',
 			png: 'https://flagcdn.com/w320/sz.png',
 		},
-		currencies: [
-			{
-				code: 'SZL',
-				name: 'Swazi lilangeni',
-				symbol: 'L',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'ss',
-				iso639_2: 'ssw',
-				name: 'Swati',
-				nativeName: 'SiSwati',
-			},
-		],
+		currencies: [{ code: 'SZL', name: 'Swazi lilangeni', symbol: 'L' }],
+		languages: 'English,Swati',
 		translations: {
 			br: 'Suazilândia',
 			pt: 'Suazilândia',
@@ -14686,21 +10974,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/se.svg',
 			png: 'https://flagcdn.com/w320/se.png',
 		},
-		currencies: [
-			{
-				code: 'SEK',
-				name: 'Swedish krona',
-				symbol: 'kr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sv',
-				iso639_2: 'swe',
-				name: 'Swedish',
-				nativeName: 'svenska',
-			},
-		],
+		currencies: [{ code: 'SEK', name: 'Swedish krona', symbol: 'kr' }],
+		languages: 'Swedish',
 		translations: {
 			br: 'Suécia',
 			pt: 'Suécia',
@@ -14715,12 +10990,7 @@ module.exports = [
 			hu: 'Svídország',
 		},
 		flag: 'https://flagcdn.com/se.svg',
-		regionalBlocs: [
-			{
-				acronym: 'EU',
-				name: 'European Union',
-			},
-		],
+		regionalBlocs: [{ acronym: 'EU', name: 'European Union' }],
 		cioc: 'SWE',
 		independent: true,
 	},
@@ -14754,37 +11024,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ch.svg',
 			png: 'https://flagcdn.com/w320/ch.png',
 		},
-		currencies: [
-			{
-				code: 'CHF',
-				name: 'Swiss franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'de',
-				iso639_2: 'deu',
-				name: 'German',
-				nativeName: 'Deutsch',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-			{
-				iso639_1: 'it',
-				iso639_2: 'ita',
-				name: 'Italian',
-				nativeName: 'Italiano',
-			},
-			{
-				iso639_2: 'roh',
-				name: 'Romansh',
-			},
-		],
+		currencies: [{ code: 'CHF', name: 'Swiss franc', symbol: 'Fr' }],
+		languages: 'German,French,Italian,Romansh',
 		translations: {
 			br: 'Suíça',
 			pt: 'Suíça',
@@ -14800,10 +11041,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/ch.svg',
 		regionalBlocs: [
-			{
-				acronym: 'EFTA',
-				name: 'European Free Trade Association',
-			},
+			{ acronym: 'EFTA', name: 'European Free Trade Association' },
 		],
 		cioc: 'SUI',
 		independent: true,
@@ -14835,21 +11073,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/sy.svg',
 			png: 'https://flagcdn.com/w320/sy.png',
 		},
-		currencies: [
-			{
-				code: 'SYP',
-				name: 'Syrian pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'SYP', name: 'Syrian pound', symbol: '£' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Síria',
 			pt: 'Síria',
@@ -14905,21 +11130,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tw.svg',
 			png: 'https://flagcdn.com/w320/tw.png',
 		},
-		currencies: [
-			{
-				code: 'TWD',
-				name: 'New Taiwan dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'zh',
-				iso639_2: 'zho',
-				name: 'Chinese',
-				nativeName: '中文 (Zhōngwén)',
-			},
-		],
+		currencies: [{ code: 'TWD', name: 'New Taiwan dollar', symbol: '$' }],
+		languages: 'Chinese',
 		translations: {
 			br: 'Taiwan',
 			pt: 'Taiwan',
@@ -14966,27 +11178,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tj.svg',
 			png: 'https://flagcdn.com/w320/tj.png',
 		},
-		currencies: [
-			{
-				code: 'TJS',
-				name: 'Tajikistani somoni',
-				symbol: 'ЅМ',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'tg',
-				iso639_2: 'tgk',
-				name: 'Tajik',
-				nativeName: 'тоҷикӣ',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'TJS', name: 'Tajikistani somoni', symbol: 'ЅМ' }],
+		languages: 'Tajik,Russian',
 		translations: {
 			br: 'Tajiquistão',
 			pt: 'Tajiquistão',
@@ -15031,27 +11224,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tz.svg',
 			png: 'https://flagcdn.com/w320/tz.png',
 		},
-		currencies: [
-			{
-				code: 'TZS',
-				name: 'Tanzanian shilling',
-				symbol: 'Sh',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'sw',
-				iso639_2: 'swa',
-				name: 'Swahili',
-				nativeName: 'Kiswahili',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'TZS', name: 'Tanzanian shilling', symbol: 'Sh' }],
+		languages: 'Swahili,English',
 		translations: {
 			br: 'Tanzânia',
 			pt: 'Tanzânia',
@@ -15112,21 +11286,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/th.svg',
 			png: 'https://flagcdn.com/w320/th.png',
 		},
-		currencies: [
-			{
-				code: 'THB',
-				name: 'Thai baht',
-				symbol: '฿',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'th',
-				iso639_2: 'tha',
-				name: 'Thai',
-				nativeName: 'ไทย',
-			},
-		],
+		currencies: [{ code: 'THB', name: 'Thai baht', symbol: '฿' }],
+		languages: 'Thai',
 		translations: {
 			br: 'Tailândia',
 			pt: 'Tailândia',
@@ -15142,10 +11303,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/th.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'THA',
 		independent: true,
@@ -15179,21 +11337,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tl.svg',
 			png: 'https://flagcdn.com/w320/tl.png',
 		},
-		currencies: [
-			{
-				code: 'THB',
-				name: 'Thai baht',
-				symbol: '฿',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'pt',
-				iso639_2: 'por',
-				name: 'Portuguese',
-				nativeName: 'Português',
-			},
-		],
+		currencies: [{ code: 'THB', name: 'Thai baht', symbol: '฿' }],
+		languages: 'Portuguese',
 		translations: {
 			br: 'Timor Leste',
 			pt: 'Timor Leste',
@@ -15239,21 +11384,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tg.svg',
 			png: 'https://flagcdn.com/w320/tg.png',
 		},
-		currencies: [
-			{
-				code: 'XOF',
-				name: 'West African CFA franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XOF', name: 'West African CFA franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Togo',
 			pt: 'Togo',
@@ -15305,21 +11437,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tk.svg',
 			png: 'https://flagcdn.com/w320/tk.png',
 		},
-		currencies: [
-			{
-				code: 'NZD',
-				name: 'New Zealand dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'NZD', name: 'New Zealand dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Tokelau',
 			pt: 'Toquelau',
@@ -15358,27 +11477,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/to.svg',
 			png: 'https://flagcdn.com/w320/to.png',
 		},
-		currencies: [
-			{
-				code: 'TOP',
-				name: 'Tongan paʻanga',
-				symbol: 'T$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'to',
-				iso639_2: 'ton',
-				name: 'Tonga (Tonga Islands)',
-				nativeName: 'faka Tonga',
-			},
-		],
+		currencies: [{ code: 'TOP', name: 'Tongan paʻanga', symbol: 'T$' }],
+		languages: 'English,Tonga (Tonga Islands)',
 		translations: {
 			br: 'Tonga',
 			pt: 'Tonga',
@@ -15419,20 +11519,9 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/tt.png',
 		},
 		currencies: [
-			{
-				code: 'TTD',
-				name: 'Trinidad and Tobago dollar',
-				symbol: '$',
-			},
+			{ code: 'TTD', name: 'Trinidad and Tobago dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'English',
 		translations: {
 			br: 'Trinidad e Tobago',
 			pt: 'Trindade e Tobago',
@@ -15484,21 +11573,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tn.svg',
 			png: 'https://flagcdn.com/w320/tn.png',
 		},
-		currencies: [
-			{
-				code: 'TND',
-				name: 'Tunisian dinar',
-				symbol: 'د.ت',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'TND', name: 'Tunisian dinar', symbol: 'د.ت' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Tunísia',
 			pt: 'Tunísia',
@@ -15566,21 +11642,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tr.svg',
 			png: 'https://flagcdn.com/w320/tr.png',
 		},
-		currencies: [
-			{
-				code: 'TRY',
-				name: 'Turkish lira',
-				symbol: '֏',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'tr',
-				iso639_2: 'tur',
-				name: 'Turkish',
-				nativeName: 'Türkçe',
-			},
-		],
+		currencies: [{ code: 'TRY', name: 'Turkish lira', symbol: '֏' }],
+		languages: 'Turkish',
 		translations: {
 			br: 'Turquia',
 			pt: 'Turquia',
@@ -15621,27 +11684,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tm.svg',
 			png: 'https://flagcdn.com/w320/tm.png',
 		},
-		currencies: [
-			{
-				code: 'TMT',
-				name: 'Turkmenistan manat',
-				symbol: 'm',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'tk',
-				iso639_2: 'tuk',
-				name: 'Turkmen',
-				nativeName: 'Türkmen',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'TMT', name: 'Turkmenistan manat', symbol: 'm' }],
+		languages: 'Turkmen,Russian',
 		translations: {
 			br: 'Turcomenistão',
 			pt: 'Turquemenistão',
@@ -15680,21 +11724,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/tc.svg',
 			png: 'https://flagcdn.com/w320/tc.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Ilhas Turcas e Caicos',
 			pt: 'Ilhas Turcas e Caicos',
@@ -15734,25 +11765,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/tv.png',
 		},
 		currencies: [
-			{
-				code: 'AUD',
-				name: 'Australian dollar',
-				symbol: '$',
-			},
-			{
-				code: 'TVD[G]',
-				name: 'Tuvaluan dollar',
-				symbol: '$',
-			},
+			{ code: 'AUD', name: 'Australian dollar', symbol: '$' },
+			{ code: 'TVD[G]', name: 'Tuvaluan dollar', symbol: '$' },
 		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		languages: 'English',
 		translations: {
 			br: 'Tuvalu',
 			pt: 'Tuvalu',
@@ -15793,27 +11809,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ug.svg',
 			png: 'https://flagcdn.com/w320/ug.png',
 		},
-		currencies: [
-			{
-				code: 'UGX',
-				name: 'Ugandan shilling',
-				symbol: 'Sh',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'sw',
-				iso639_2: 'swa',
-				name: 'Swahili',
-				nativeName: 'Kiswahili',
-			},
-		],
+		currencies: [{ code: 'UGX', name: 'Ugandan shilling', symbol: 'Sh' }],
+		languages: 'English,Swahili',
 		translations: {
 			br: 'Uganda',
 			pt: 'Uganda',
@@ -15867,21 +11864,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ua.svg',
 			png: 'https://flagcdn.com/w320/ua.png',
 		},
-		currencies: [
-			{
-				code: 'UAH',
-				name: 'Ukrainian hryvnia',
-				symbol: '₴',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'uk',
-				iso639_2: 'ukr',
-				name: 'Ukrainian',
-				nativeName: 'Українська',
-			},
-		],
+		currencies: [{ code: 'UAH', name: 'Ukrainian hryvnia', symbol: '₴' }],
+		languages: 'Ukrainian',
 		translations: {
 			br: 'Ucrânia',
 			pt: 'Ucrânia',
@@ -15929,14 +11913,7 @@ module.exports = [
 				symbol: 'د.إ',
 			},
 		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		languages: 'Arabic',
 		translations: {
 			br: 'Emirados árabes Unidos',
 			pt: 'Emirados árabes Unidos',
@@ -15998,21 +11975,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/gb.svg',
 			png: 'https://flagcdn.com/w320/gb.png',
 		},
-		currencies: [
-			{
-				code: 'GBP',
-				name: 'British pound',
-				symbol: '£',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'GBP', name: 'British pound', symbol: '£' }],
+		languages: 'English',
 		translations: {
 			br: 'Reino Unido',
 			pt: 'Reino Unido',
@@ -16065,21 +12029,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/us.svg',
 			png: 'https://flagcdn.com/w320/us.png',
 		},
-		currencies: [
-			{
-				code: 'USD',
-				name: 'United States dollar',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'USD', name: 'United States dollar', symbol: '$' }],
+		languages: 'English',
 		translations: {
 			br: 'Estados Unidos',
 			pt: 'Estados Unidos',
@@ -16134,21 +12085,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/uy.svg',
 			png: 'https://flagcdn.com/w320/uy.png',
 		},
-		currencies: [
-			{
-				code: 'UYU',
-				name: 'Uruguayan peso',
-				symbol: '$',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'UYU', name: 'Uruguayan peso', symbol: '$' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Uruguai',
 			pt: 'Uruguai',
@@ -16207,27 +12145,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/uz.svg',
 			png: 'https://flagcdn.com/w320/uz.png',
 		},
-		currencies: [
-			{
-				code: 'UZS',
-				name: "Uzbekistani so'm",
-				symbol: "so'm",
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'uz',
-				iso639_2: 'uzb',
-				name: 'Uzbek',
-				nativeName: 'Oʻzbek',
-			},
-			{
-				iso639_1: 'ru',
-				iso639_2: 'rus',
-				name: 'Russian',
-				nativeName: 'Русский',
-			},
-		],
+		currencies: [{ code: 'UZS', name: "Uzbekistani so'm", symbol: "so'm" }],
+		languages: 'Uzbek,Russian',
 		translations: {
 			br: 'Uzbequistão',
 			pt: 'Usbequistão',
@@ -16272,33 +12191,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/vu.svg',
 			png: 'https://flagcdn.com/w320/vu.png',
 		},
-		currencies: [
-			{
-				code: 'VUV',
-				name: 'Vanuatu vatu',
-				symbol: 'Vt',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'bi',
-				iso639_2: 'bis',
-				name: 'Bislama',
-				nativeName: 'Bislama',
-			},
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'VUV', name: 'Vanuatu vatu', symbol: 'Vt' }],
+		languages: 'Bislama,English,French',
 		translations: {
 			br: 'Vanuatu',
 			pt: 'Vanuatu',
@@ -16343,21 +12237,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ve.svg',
 			png: 'https://flagcdn.com/w320/ve.png',
 		},
-		currencies: [
-			{
-				code: 'VEF',
-				name: 'Venezuelan bolívar',
-				symbol: 'Bs S',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		currencies: [{ code: 'VEF', name: 'Venezuelan bolívar', symbol: 'Bs S' }],
+		languages: 'Spanish',
 		translations: {
 			br: 'Venezuela',
 			pt: 'Venezuela',
@@ -16415,21 +12296,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/vn.svg',
 			png: 'https://flagcdn.com/w320/vn.png',
 		},
-		currencies: [
-			{
-				code: 'VND',
-				name: 'Vietnamese đồng',
-				symbol: '₫',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'vi',
-				iso639_2: 'vie',
-				name: 'Vietnamese',
-				nativeName: 'Tiếng Việt',
-			},
-		],
+		currencies: [{ code: 'VND', name: 'Vietnamese đồng', symbol: '₫' }],
+		languages: 'Vietnamese',
 		translations: {
 			br: 'Vietnã',
 			pt: 'Vietname',
@@ -16445,10 +12313,7 @@ module.exports = [
 		},
 		flag: 'https://flagcdn.com/vn.svg',
 		regionalBlocs: [
-			{
-				acronym: 'ASEAN',
-				name: 'Association of Southeast Asian Nations',
-			},
+			{ acronym: 'ASEAN', name: 'Association of Southeast Asian Nations' },
 		],
 		cioc: 'VIE',
 		independent: true,
@@ -16478,21 +12343,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/wf.svg',
 			png: 'https://flagcdn.com/w320/wf.png',
 		},
-		currencies: [
-			{
-				code: 'XPF',
-				name: 'CFP franc',
-				symbol: 'Fr',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'fr',
-				iso639_2: 'fra',
-				name: 'French',
-				nativeName: 'français',
-			},
-		],
+		currencies: [{ code: 'XPF', name: 'CFP franc', symbol: 'Fr' }],
+		languages: 'French',
 		translations: {
 			br: 'Wallis e Futuna',
 			pt: 'Wallis e Futuna',
@@ -16532,25 +12384,10 @@ module.exports = [
 			png: 'https://flagcdn.com/w320/eh.png',
 		},
 		currencies: [
-			{
-				code: 'MAD',
-				name: 'Moroccan dirham',
-				symbol: 'د.م.',
-			},
-			{
-				code: 'DZD',
-				name: 'Algerian dinar',
-				symbol: 'د.ج',
-			},
+			{ code: 'MAD', name: 'Moroccan dirham', symbol: 'د.م.' },
+			{ code: 'DZD', name: 'Algerian dinar', symbol: 'د.ج' },
 		],
-		languages: [
-			{
-				iso639_1: 'es',
-				iso639_2: 'spa',
-				name: 'Spanish',
-				nativeName: 'Español',
-			},
-		],
+		languages: 'Spanish',
 		translations: {
 			br: 'Saara Ocidental',
 			pt: 'Saara Ocidental',
@@ -16603,21 +12440,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/ye.svg',
 			png: 'https://flagcdn.com/w320/ye.png',
 		},
-		currencies: [
-			{
-				code: 'YER',
-				name: 'Yemeni rial',
-				symbol: '﷼',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'ar',
-				iso639_2: 'ara',
-				name: 'Arabic',
-				nativeName: 'العربية',
-			},
-		],
+		currencies: [{ code: 'YER', name: 'Yemeni rial', symbol: '﷼' }],
+		languages: 'Arabic',
 		translations: {
 			br: 'Iêmen',
 			pt: 'Iémen',
@@ -16669,21 +12493,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/zm.svg',
 			png: 'https://flagcdn.com/w320/zm.png',
 		},
-		currencies: [
-			{
-				code: 'ZMW',
-				name: 'Zambian kwacha',
-				symbol: 'ZK',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-		],
+		currencies: [{ code: 'ZMW', name: 'Zambian kwacha', symbol: 'ZK' }],
+		languages: 'English',
 		translations: {
 			br: 'Zâmbia',
 			pt: 'Zâmbia',
@@ -16737,33 +12548,8 @@ module.exports = [
 			svg: 'https://flagcdn.com/zw.svg',
 			png: 'https://flagcdn.com/w320/zw.png',
 		},
-		currencies: [
-			{
-				code: 'ZMW',
-				name: 'Zambian kwacha',
-				symbol: 'K',
-			},
-		],
-		languages: [
-			{
-				iso639_1: 'en',
-				iso639_2: 'eng',
-				name: 'English',
-				nativeName: 'English',
-			},
-			{
-				iso639_1: 'sn',
-				iso639_2: 'sna',
-				name: 'Shona',
-				nativeName: 'chiShona',
-			},
-			{
-				iso639_1: 'nd',
-				iso639_2: 'nde',
-				name: 'Northern Ndebele',
-				nativeName: 'isiNdebele',
-			},
-		],
+		currencies: [{ code: 'ZMW', name: 'Zambian kwacha', symbol: 'K' }],
+		languages: 'English,Shona,Northern Ndebele',
 		translations: {
 			br: 'Zimbabwe',
 			pt: 'Zimbabué',
