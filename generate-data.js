@@ -1,5 +1,17 @@
-// const fs = require('fs');
-// const data = require('./data');
+const fs = require('fs');
+// const languages = require('./languages.js');
+const data = require('./languages.js');
+
+(() => {
+	const res = data.map((country) => {
+		country.languages = country.languages
+			.map((language) => language.name)
+			.toString();
+		return country;
+	});
+	const json1 = JSON.stringify(res);
+	fs.writeFile('./countries.json', json1, () => {});
+})();
 
 // const convertObjToArr = (obj) => {
 // 	const keys = Object.keys(obj);
@@ -17,11 +29,3 @@
 
 // 	return result;
 // };
-
-// (() => {
-// 	let obj = {};
-// 	data.map((item) => (obj[item.region] = ''));
-// 	const keys = Object.keys(obj);
-// 	console.log(keys);
-// 	// fs.writeFile('./regions.json', json);
-// })();
