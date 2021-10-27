@@ -4,9 +4,7 @@ const data = require('./languages.js');
 
 (() => {
 	const res = data.map((country) => {
-		country.languages = country.languages
-			.map((language) => language.name)
-			.toString();
+		country['isFavorite'] = false;
 		return country;
 	});
 	const json1 = JSON.stringify(res);
